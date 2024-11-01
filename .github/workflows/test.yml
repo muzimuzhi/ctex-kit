@@ -93,6 +93,7 @@ env:
     eso-pic
     etexcmds
     everyhook
+    firstaid
     fontaxes
     footmisc
     geometry
@@ -144,6 +145,16 @@ env:
     zhmetrics
     zhmetrics-uptex
     zhnumber
+  TL_LATEX_DEV_PACKAGE: |
+    l3backend-dev
+    l3kernel-dev
+    latex-amsmath-dev
+    latex-base-dev
+    latex-bin-dev
+    latex-firstaid-dev
+    latex-graphics-dev
+    latex-tools-dev
+    xelatex-dev
   NOTO_SANS_URL: https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/03_NotoSansCJK-OTC.zip
   NOTO_SERIF_URL: https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/04_NotoSerifCJKOTC.zip
 
@@ -187,6 +198,7 @@ jobs:
         packages: |
           ${{ env.TL_PACKAGES }}
           ${{ env.TL_EXTRA_PACKAGES }}
+          ${{ env.TL_LATEX_DEV_PACKAGE }}
           ${{ matrix.tl-pkgs }}
         update-all-packages: true
 
