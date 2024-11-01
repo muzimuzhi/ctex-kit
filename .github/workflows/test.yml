@@ -169,7 +169,7 @@ jobs:
           # for `unzip` shipped with texlive
           tl-pkgs: wintools.windows
 
-    name: on ${{ matrix.runs-on }}
+    name: Test suite (${{ matrix.runs-on }})
 
     runs-on: ${{ matrix.runs-on }}
 
@@ -205,16 +205,33 @@ jobs:
         l3build check -c test/config-contrib -q -H
 
     - name: Get short commit SHA
-      # if-expression starting with "!" must be escaped,
-      # since "!" is reserved notation in YAML
-      if: ${{ !cancelled() && steps.test.outcome == 'failure' }}
       run: |
         echo "SHA_SHORT=$(git rev-parse --short=8 HEAD)" >> $GITHUB_ENV
 
     - name: Upload test diffs
+      # if-expression starting with "!" must be escaped,
+      # since "!" is reserved notation in YAML
       if: ${{ !cancelled() && steps.test.outcome == 'failure' }}
       uses: actions/upload-artifact@v4
       with:
         name: ctex-kit-diff-${{ env.SHA_SHORT }}
+        path: |
+          ${{ matrix.diffs }}
+
+    - name: Test ctex (latex-dev)
+      # if: ${{ github.event_name == 'schedule' }}
+      id: test-dev
+      working-directory: ./ctex
+      run: |
+        rm -rf build
+        l3build check --dev -q -H
+        l3build check --dev -c test/config-cmap -q -H
+        l3build check --dev -c test/config-contrib -q -H
+
+    - name: Upload test diffs (latex-dev)
+      if: ${{ !cancelled() && steps.test-dev.outcome == 'failure' }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: ctex-kit-dev-diff-${{ env.SHA_SHORT }}
         path: |
           ${{ matrix.diffs }}
