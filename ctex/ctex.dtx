@@ -9342,6 +9342,9 @@ Copyright and Licence
   {
     \seq_map_inline:Nn \c_@@_headings_seq
       { \ctex_fix_varioref_label:n { ##1 } }
+    % workaround for https://github.com/latex3/hyperref/issues/361
+    \hook_gput_code:nnn {package/cleveref/before} {ctex}
+      { \clist_put_right:cn {opt@hyperref.sty}{implicit=false} }
     \ctex_at_end_package:nn { cleveref } { \ctex_cleveref_hook: }
   }
 %    \end{macrocode}
@@ -9381,10 +9384,17 @@ Copyright and Licence
           { \@@_cleveref_hook_aux:N \H@refstepcounter }
       }
       {
-        \@@_cleveref_hook_aux:N \refstepcounter@noarg
         \@@_cleveref_hook_aux:N \refstepcounter@optarg
       }
+    \@@_cleveref_hook_aux:N \refstepcounter@noarg
     \@@_cleveref_hook_aux:N \appendix
+    % temp patch for cleveref firstaid
+    % see https://github.com/latex3/latex2e/issues/1544
+    \hook_gput_code:nnn { begindocument/end } { ctex }
+      {
+        \cs_if_exist:NT \firstaid@cref@updatelabeldata
+          { \__ctex_cleveref_hook_aux:N \firstaid@cref@updatelabeldata }
+      }
   }
 \cs_new_protected:Npn \@@_cleveref_hook_aux:N #1
   {
