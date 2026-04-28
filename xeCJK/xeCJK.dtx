@@ -11066,13 +11066,22 @@ Copyright and Licence
 % \tn{lstinline} 参数中的字符设置为活动字符。我们可以通过 \cs{tl_set_rescan:Nnn}
 % 来完成这里的 \tn{catcode} 转换，避免将 \tn{charcode} 超过 $255$ 的字符都设置为
 % 活动字符。
+%
+% 当 \tn{lstinline} 出现在宏参数中时，\TeX{} 参数传递将 |#| 双写为 |##|
+% （catcode 6 parameter token）。\cs{tl_set_rescan:Nnn} 底层的 \cs{scantokens}
+% 在字符串化阶段会再次将 catcode~6 的 |#| 双写，导致输出中 |#| 数量翻倍。
+% 修复方法是在 rescan 前用 \cs{regex_replace_all:nnN} 将 catcode~6 的 |#|
+% 替换为 active |#|（catcode 13），这是 \pkg{listings} 期望的字符类型。
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_listings_rescan:Nn #1#2
   {
     \@@_listings_set_escape:
     \tl_set:Nn \l_@@_tmp_tl {#2}
     \@@_listings_escape_backslash:
-    \tl_set_rescan:Nno #1 { } { \l_@@_tmp_tl }
+    \regex_replace_all:nnN { \cP . } { \cA \x{23} } \l_@@_tmp_tl
+    \tl_set_rescan:Nno #1
+      { \char_set_catcode_active:n { 35 } }
+      { \l_@@_tmp_tl }
   }
 \cs_new_protected:Npn \@@_listings_inside_convert:nw #1 ~ \@empty
   {
