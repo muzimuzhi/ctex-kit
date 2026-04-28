@@ -152,6 +152,17 @@ GitHub Actions 工作流位于 `.github/workflows/test.yml`。当前稳定事实
 
 见 `.github/workflows/test.yml`。
 
+### `.github/tl_packages` 维护约束
+
+`.github/tl_packages` 是 CI 中 TeX Live 依赖的显式白名单。新增或扩展回归测试时，如果测试输入引入了新的 LaTeX 宏包依赖，必须同步更新这个文件；否则本地环境可能因为已有完整 TeX Live 而通过，但 GitHub Actions 会在精简安装环境里因缺包失败。
+
+PR #799 暴露了一个稳定信号：`xeCJK/testfiles/listings-hash01.lvt` 新增 `\usepackage{listings}` 后，如果 `.github/tl_packages` 中未加入 `listings`，则 CI 会在 `-H`（halt-on-error）模式下于缺包处立即终止。此时生成的测试日志可能是空的 `.xetex.log`，后续表现为 `.tlg` 基线比对失败，但真正根因并不是输出差异，而是编译根本没有继续到产生日志内容的阶段。
+
+因此，遇到“CI 中 `.log` 为空 / `.tlg` 比对失败，但本地看起来不像回归输出差异”的现象时，应优先检查两件事：
+
+- 新增测试是否加载了 CI 尚未安装的宏包；
+- `.github/tl_packages` 是否遗漏了相应依赖。
+
 CI 中当前执行的测试步骤是：
 
 - `Test ctex`：在 `./ctex` 运行
