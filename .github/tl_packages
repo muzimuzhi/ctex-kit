@@ -99,6 +99,7 @@ kvdefinekeys
 kvoptions
 kvsetkeys
 letltxmacro
+listings
 makecell
 multitoc
 mathtools
