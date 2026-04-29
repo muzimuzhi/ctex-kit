@@ -122,7 +122,7 @@
 
 新增的卫星包测试矩阵如下：
 
-- `xeCJK`：`testfiledir = "./testfiles"`、`stdengine = "xetex"`、`checkengines = {"xetex"}`，见 `xeCJK/build.lua`。现有回归已覆盖字体命令作用域、第三方包 hook，以及零宽格式字符过滤等 XeTeX 专属行为；例如 `xeCJK/testfiles/zwchars01.lvt` 用 6 个宽度对比用例验证 U+200B/U+200C/U+200D/U+2060/U+FEFF 不会打断字符分类，也不会额外插入 `CJKglue` / `CJKecglue`。
+- `xeCJK`：`testfiledir = "./testfiles"`、`stdengine = "xetex"`、`checkengines = {"xetex"}`，见 `xeCJK/build.lua`。现有回归已覆盖字体命令作用域、第三方包 hook、零宽格式字符过滤，以及 `\lstinline` 在宏参数中的 `#` catcode 保持；例如相关回归会验证 rescan 前把参数传递产生的 catcode 6 `#` 转成 active `#`，避免 Issue #378 中的双写问题，同时保持 listings 原有输出路径。
 - `zhnumber`：`testfiledir = "./testfiles"`、`stdengine = "xetex"`、`checkengines = {"pdftex", "xetex", "luatex"}`，见 `zhnumber/build.lua`。
 - `CJKpunct`：`stdengine = "pdftex"`、`checkengines = {"pdftex"}`，见 `CJKpunct/build.lua`。CJKpunct 仅工作在 pdfTeX (CJK 宏包) 路线下。
 - `zhlineskip`：`stdengine = "pdftex"`、`checkengines = {"pdftex"}`，见 `zhlineskip/build.lua`。zhlineskip 是独立 `.sty`（无 `.dtx` unpack），`unpackfiles = {}`。测试使用 vbox 尺寸捕获策略验证行距行为。
@@ -151,6 +151,17 @@ GitHub Actions 工作流位于 `.github/workflows/test.yml`。当前稳定事实
 - 当前 CI 在同一 job 中依次进入 `ctex/`、`xeCJK/`、`zhnumber/` 运行测试，而不再只停留在 `ctex/`
 
 见 `.github/workflows/test.yml`。
+
+### `.github/tl_packages` 维护约束
+
+`.github/tl_packages` 是 CI 中 TeX Live 依赖的显式白名单。新增或扩展回归测试时，如果测试输入引入了新的 LaTeX 宏包依赖，必须同步更新这个文件；否则本地环境可能因为已有完整 TeX Live 而通过，但 GitHub Actions 会在精简安装环境里因缺包失败。
+
+PR #799 暴露了一个稳定信号：`xeCJK/testfiles/listings-hash01.lvt` 新增 `\usepackage{listings}` 后，如果 `.github/tl_packages` 中未加入 `listings`，则 CI 会在 `-H`（halt-on-error）模式下于缺包处立即终止。此时生成的测试日志可能是空的 `.xetex.log`，后续表现为 `.tlg` 基线比对失败，但真正根因并不是输出差异，而是编译根本没有继续到产生日志内容的阶段。
+
+因此，遇到“CI 中 `.log` 为空 / `.tlg` 比对失败，但本地看起来不像回归输出差异”的现象时，应优先检查两件事：
+
+- 新增测试是否加载了 CI 尚未安装的宏包；
+- `.github/tl_packages` 是否遗漏了相应依赖。
 
 CI 中当前执行的测试步骤是：
 

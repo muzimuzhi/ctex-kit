@@ -113,6 +113,12 @@ Issue #581 暴露了这一点：U+200B ZERO WIDTH SPACE、U+200C ZERO WIDTH NON-
 
 优先去 `xeCJK/xeCJK.dtx` 查找，而不是从 `ctex` 入手。
 
+## listings 补丁子系统
+
+在 `listings` 兼容层中，xeCJK 会覆写 `\lst@InsideConvert@` 与 `\lst@InlineGJ`，关键内部函数是 `\@@_listings_rescan:Nn`、`\@@_listings_inside_convert:nw`、`\@@_listings_inline_group:w`。这一子系统用 `\tl_set_rescan:Nno`（底层即 `\scantokens`）替代 listings 原生基于 `\lccode` + `\lowercase` 的逐字符转换，目的是避免把 charcode > 255 的 CJK 字符临时设为 active。
+
+这条路径的边界在于 rescan 会先字符串化再重新取 token；Issue #378 说明若 `\lstinline` 位于宏参数中，参数传递保留下来的 catcode 6 `#` 会在 rescan 前被错误双写。当前修复是在 `\@@_listings_rescan:Nn` 内先用 `\regex_replace_all { \cP . } { \cA \x{23} }` 把这类 `#` 转成 active `#`，再进入 rescan，从而保持 listings 原有的输出流水线与盒子结构。
+
 ## 第三方包兼容 hook
 
 xeCJK 在 `xeCJK.dtx` 中通过 `\@@_package_hook:nn` 为多个第三方包（如 `pifont`、`listings`、`ulem` 等）注册兼容 hook。这些 hook 在目标包加载后执行，通常重定义目标包的关键命令以避免与 xeCJK 的 interchar token 机制冲突。
