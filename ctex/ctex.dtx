@@ -585,7 +585,7 @@ Copyright and Licence
 % \changes{v2.4.15}{2019/03/23}{同步 \LaTeXiii{} 2019/03/05。}
 % \changes{v2.5.1}{2020/05/02}{\pkg{zhconv} 更名为 \pkg{ctex-zhconv}。}
 %
-% \CheckSum{6711}
+% \CheckSum{6848}
 %
 % \CharacterTable
 %  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
@@ -3375,7 +3375,7 @@ Copyright and Licence
 % \changes{v2.4.10}{2017/07/19}{常数 \cs{c_minus_one} 已过时。}
 % \changes{v2.4.10}{2017/07/22}{使用 \texttt{lazy} 函数对 Boolean 表达式
 % 进行最小化运算（\LaTeXiii{} 2017/07/19）。}
-% \changes{v2.5.11}{2024/04/20}{提升 \LaTeXiii{} 版本至 2022/10/09。}
+% \changes{v2.6.0}{2024/04/20}{提升 \LaTeXiii{} 版本至 2022/10/09。}
 %
 % 检查 \pkg{expl3} 的版本。
 %    \begin{macrocode}
@@ -4317,7 +4317,7 @@ Copyright and Licence
 % \changes{v2.5.10}{2022/06/10}{取消 \LaTeX\ 2022-06-01 对书名号的定义。}
 %
 % \begin{macro}{\ctex_undeclare_unicode_character:n}
-% \changes{v2.5.11}{2024/04/20}{替换废弃命令 \cs{char_to_utfviii_bytes:n}。}
+% \changes{v2.6.0}{2024/04/20}{替换废弃命令 \cs{char_to_utfviii_bytes:n}。}
 % \LaTeX\ 2022-06-01 将通常用作中文书名号的 U+3008 和 U+3009 分别定义为
 % \tn{textlangle} 和 \tn{textrangle}，这个定义会被 \pkg{CJKutf8} 包优先使用。
 % 我们总是使用中文书名号，需要取消 \LaTeX\ 的定义，作用是局部的，不使用 \cs{cs_undefine:N}。
@@ -4463,7 +4463,7 @@ Copyright and Licence
 % \end{macro}
 %
 % \changes{v2.5.10}{2022/07/08}{解决 \pkg{CJK} 包与 \cs{text_uppercase:n} 等转化函数的冲突。}
-% \changes{v2.5.11}{2024/04/20}{修复参数签名，\cs{@@_char_auxi:NNNN} 原误为 \texttt{NNN}。}
+% \changes{v2.6.0}{2024/04/20}{修复参数签名，\cs{@@_char_auxi:NNNN} 原误为 \texttt{NNN}。}
 %
 % \begin{macro}{\CJK@X,\CJK@XX,\CJK@XXX,\CJK@XXXX}
 % 最新 \LaTeX\ 中的 \tn{MakeUppercase} 等大小写转化命令被定义为 \LaTeXiii\ 中对应的
@@ -6517,7 +6517,7 @@ Copyright and Licence
   { \ltjsetparameter { autospacing = false , autoxspacing = false } }
 %    \end{macrocode}
 %
-% \changes{v2.5.12}{2026/04/27}{修复内联 \tn{verb} 前 \opt{xkanjiskip} 丢失的问题
+% \changes{v2.6.0}{2026/04/27}{修复内联 \tn{verb} 前 \opt{xkanjiskip} 丢失的问题
 %   （移植 \pkg{lltjcore} 对 \tn{verb} 和 \tn{do@noligs} 的修复）。}
 %
 % \pkg{LuaTeX-ja} 的 \file{lltjcore.sty} 会将 \LaTeX{} 的 \tn{verb} 中
@@ -10995,7 +10995,7 @@ Copyright and Licence
 % \paragraph{\opt{mac} 相关}
 %
 % \changes{v2.4.14}{2018/05/01}{区分 \opt{macold} 及 \opt{macnew}。}
-% \changes{v2.5.11}{2026/04/29}{\opt{macnew} 增加 macOS~15+ 兼容，字体运行时检测。}
+% \changes{v2.6.0}{2026/04/29}{\opt{macnew} 增加 macOS~15+ 兼容，字体运行时检测。}
 %
 % 按 \href{https://github.com/CTeX-org/ctex-kit/issues/351}{Issue 351}
 % 的讨论，以 El Capitan 为分界，分别设置 |macold|（El Capitan 之前）
