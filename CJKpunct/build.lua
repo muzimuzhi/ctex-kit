@@ -38,3 +38,6 @@ end
 
 
 dofile("../support/build-config.lua")
+
+-- CJKpunct's driver (hypdoc + zhwindowsfonts.tex) is incompatible with dtxchecksum
+checksum = function() end

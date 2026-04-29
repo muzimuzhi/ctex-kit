@@ -123,6 +123,10 @@ jobs:
         sudo mkdir -p /usr/share/fonts/truetype
         unzip -ojd /usr/share/fonts/truetype "*OTC.zip" "*.ttc"
 
+    - name: Download Unihan data (xeCJK)
+      if: steps.parse.outputs.pkg == 'xeCJK'
+      run: curl -fsSL -o support/Unihan.zip "https://www.unicode.org/Public/UNIDATA/Unihan.zip"
+
     - name: Build CTAN zip
       working-directory: ./${{ steps.parse.outputs.dir }}
       run: l3build ctan
