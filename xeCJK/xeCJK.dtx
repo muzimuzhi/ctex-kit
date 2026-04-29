@@ -290,7 +290,7 @@ Copyright and Licence
 % \changes{v3.8.0}{2020/02/09}{清理过时的兼容性补丁代码。}
 % \changes{v3.8.3}{2020/04/07}{删除 \texttt{\_nopar}。}
 %
-% \CheckSum{11153}
+% \CheckSum{11154}
 % \GetFileId{xeCJK.sty}
 %
 % \title{\bfseries\pkg{xeCJK} 宏包}
@@ -9117,6 +9117,8 @@ Copyright and Licence
 % \end{macro}
 %
 % \changes{v3.10.0}{2026/04/27}{重定义 \tn{char}，使其绕过 interchar 机制（\#407）。}
+% \changes{v3.10.0}{2026/04/29}{延迟 \tn{char} 重定义到 \tn{begin\{document\}}，
+%   避免影响在导言区通过 |\let| 保存 \tn{char} 原语的宏包（如 \pkg{xint}）。}
 %
 % \begin{macro}{\xeCJK_default_char:w}
 % \begin{macro}{\@@_default_char_aux:}
@@ -9127,6 +9129,11 @@ Copyright and Licence
 % 导致字形变成中文标点（如间隔号）。这里参照 \pkg{LuaTeX-ja} 的做法，
 % 重定义 \tn{char}，使之临时关闭 |XeTeXinterchartokenstate|，保证输出的字符
 % 来自当前字体。
+%
+% 重定义延迟到 |\AtBeginDocument| 执行，因为 \pkg{xint} 等宏包在加载时通过
+% \verb|\let\xint:\char| 保存 \tn{char} 原语的副本作为内部数据编码工具。
+% 若在导言区就替换 \tn{char}，这些宏包会得到一个宏而非原语，破坏其内部的
+% 完全可展开处理链。
 %    \begin{macrocode}
 \cs_new_protected:Npn \xeCJK_default_char:w
   {
@@ -9145,7 +9152,7 @@ Copyright and Licence
     \c_group_end_token
   }
 \int_new:N \l_@@_default_char_int
-\cs_set_eq:NN \char \xeCJK_default_char:w
+\AtBeginDocument { \cs_set_eq:NN \char \xeCJK_default_char:w }
 %    \end{macrocode}
 % \end{variable}
 % \end{macro}
