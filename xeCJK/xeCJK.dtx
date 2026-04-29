@@ -287,7 +287,7 @@ Copyright and Licence
 % \changes{v3.8.0}{2020/02/09}{清理过时的兼容性补丁代码。}
 % \changes{v3.8.3}{2020/04/07}{删除 \texttt{\_nopar}。}
 %
-% \CheckSum{11051}
+% \CheckSum{11153}
 % \GetFileId{xeCJK.sty}
 %
 % \title{\bfseries\pkg{xeCJK} 宏包}
@@ -2374,7 +2374,7 @@ Copyright and Licence
 % \changes{v3.3.0}{2014/12/26}{不把 NS 类中的一些有禁则的日文归入 \texttt{FullRight} 类。}
 % \changes{v3.6.0}{2018/01/14}
 % {将全角浪线 \texttt{U+FF5E} 等连接号归入 \texttt{FullRight} 类和设为 \texttt{MiddlePunct}。}
-% \changes{v3.9.2}{2026/04/27}
+% \changes{v3.10.0}{2026/04/27}
 % {将全角浪线等连接号从 \texttt{MiddlePunct} 改为 \texttt{LongPunct}，
 %  消除不必要的标点压缩间距。}
 %
@@ -2474,8 +2474,8 @@ Copyright and Licence
 % \changes{v3.8.3}{2020/04/09}{补充 \texttt{U+02EA} 和 \texttt{U+02EB}。}
 % \changes{v3.8.8}{2021/09/15}{同步 Unicode 14.0。}
 % \changes{v3.8.8}{2021/09/16}{补充女书。}
-% \changes{v3.9.2}{2022/09/17}{同步 Unicode 15.0。}
-% \changes{v3.9.2}{2023/12/02}{同步 Unicode 15.1。}
+% \changes{v3.10.0}{2022/09/17}{同步 Unicode 15.0。}
+% \changes{v3.10.0}{2023/12/02}{同步 Unicode 15.1。}
 %
 % \begin{variable}{\c_@@_CJK_chars_clist}
 % CJK 字符类，包括文字和标点符号。
@@ -3452,10 +3452,10 @@ Copyright and Licence
 % \end{macro}
 %
 % \changes{v3.9.1}{2022/08/02}{简化部分内部实现。}
-% \changes{v3.9.2}{2022/08/31}{修复 \opt{xCJKecglue} 错误。}
-% \changes{v3.9.2}{2024/05/03}{修复 \cs{xeCJKnobreak} 错误。}
-% \changes{v3.9.2}{2026/04/27}{修复 \cs{textcolor} 等 whatsit 节点导致 \texttt{CJKecglue} 丢失的问题。}
-% \changes{v3.9.2}{2026/04/27}{修复字体切换组（如 \cs{texttt}、\cs{zihao}）导致 \texttt{CJKecglue} 使用错误字体度量的问题。}
+% \changes{v3.10.0}{2022/08/31}{修复 \opt{xCJKecglue} 错误。}
+% \changes{v3.10.0}{2024/05/03}{修复 \cs{xeCJKnobreak} 错误。}
+% \changes{v3.10.0}{2026/04/27}{修复 \cs{textcolor} 等 whatsit 节点导致 \texttt{CJKecglue} 丢失的问题。}
+% \changes{v3.10.0}{2026/04/27}{修复字体切换组（如 \cs{texttt}、\cs{zihao}）导致 \texttt{CJKecglue} 使用错误字体度量的问题。}
 %
 % \begin{macro}[TF]{
 %   \@@_if_last_none:,
@@ -3508,7 +3508,7 @@ Copyright and Licence
 %
 % \changes{v3.1.0}{2012/11/14}{删除多余的 \texttt{default-itcorr} 结点。}
 % \changes{v3.2.4}{2013/07/03}{尽量移除用作判断标志的 \tn{kern}。}
-% \changes{v3.9.2}{2026/04/03}{改正拼写错误 \cs{@@_glue_node:n}。}
+% \changes{v3.10.0}{2026/04/03}{改正拼写错误 \cs{@@_glue_node:n}。}
 %
 % \begin{macro}[int]{\xeCJK_declare_node:n,\xeCJK_make_node:n}
 % 用于判断插入的各种 |kern| 和 |glue|。
@@ -4081,7 +4081,7 @@ Copyright and Licence
 % \end{macro}
 %
 % \changes{v3.6.0}{2018/01/23}{总允许长标点与其他标点之间折行。}
-% \changes{v3.9.3}{2026/04/27}
+% \changes{v3.10.0}{2026/04/27}
 % {\texttt{NoBreakLongPunct} 在右侧时禁止折行。}
 % \begin{macro}{\xeCJK_punct_kern:NN,\@@_punct_kern:NN}
 % 相邻两个标点之间的间距，总允许长标点与其他标点之间折行，
@@ -4624,7 +4624,7 @@ Copyright and Licence
 % {修正标点同为 \texttt{LongPunct} 与 \texttt{MiddlePunct} 时的实现错误。}
 % \changes{v3.6.0}{2018/01/14}
 % {\texttt{Default} 类与 \texttt{MiddlePunct} 之间不应该有 \tn{CJKglue}。}
-% \changes{v3.9.3}{2026/04/27}
+% \changes{v3.10.0}{2026/04/27}
 % {新增 \texttt{NoBreakLongPunct} 属性，禁止在省略号等长标点前断行。}
 %
 % \begin{macro}
@@ -7411,7 +7411,7 @@ Copyright and Licence
 %
 % \begin{macro}{\setCJKfamilyfont, \newCJKfontfamily, \CJKfontspec}
 % \changes{v3.4.3}{2016/11/18}{允许字体属性可选项在后的新语法。}
-% \changes{v3.9.0}{2026/04/24}{\textbf{Breaking:}
+% \changes{v3.10.0}{2026/04/24}{\textbf{Breaking:}
 %   \tn{newCJKfontfamily} 定义的字体切换命令改为局部定义，
 %   与 \tn{newcommand} 行为一致。在分组内调用时，
 %   命令不再泄漏到分组外（\#751）。}
@@ -8551,7 +8551,7 @@ Copyright and Licence
 % \end{macro}
 %
 % \begin{macro}[int]{\xeCJKsetcharclass}
-% \changes{v3.9.0}{2026/04/24}{\textbf{Deprecated:}
+% \changes{v3.10.0}{2026/04/24}{\textbf{Deprecated:}
 %   \tn{xeCJKsetcharclass} 已弃用，
 %   调用时报错并提示改用 \tn{xeCJKDeclareCharClass}（\#709）。}
 %    \begin{macrocode}
@@ -8740,7 +8740,7 @@ Copyright and Licence
 % \changes{v3.1.2}{2013/01/01}{不将参数完全展开。}
 % \changes{v3.4.6}{2017/02/23}
 %   {将族名参数完全展开，以解决与 \pkg{fontspec} 2017/01/24 v2.5d 的兼容问题。}
-% \changes{v3.9.0}{2026/04/24}{\textbf{Breaking:}
+% \changes{v3.10.0}{2026/04/24}{\textbf{Breaking:}
 %   移除对 \LaTeXe\ 2020/10/01 之前版本的字体钩子兼容代码（\#746）。}
 % 使用 \LaTeXe\ 2020/10/01 提供的 \pkg{NFSS} 钩子，
 % 使主要 |CJK| 字体族能随西文主要字体更新。
@@ -9100,7 +9100,7 @@ Copyright and Licence
   }
 %    \end{macrocode}
 % \pkg{pifont} 宏包的符号 |\ding{183}| 也有冲突。
-% \changes{v3.9.0}{2026/04/24}{在 \tn{Pifont} 中先进入水平模式，
+% \changes{v3.10.0}{2026/04/24}{在 \tn{Pifont} 中先进入水平模式，
 %   防止 \tn{makexeCJKinactive} 在垂直模式下通过分页泄漏到输出例程（\#688）。}
 %    \begin{macrocode}
 \@@_package_hook:nn { pifont }
@@ -9112,7 +9112,7 @@ Copyright and Licence
 % \end{variable}
 % \end{macro}
 %
-% \changes{v3.9.2}{2026/04/27}{重定义 \tn{char}，使其绕过 interchar 机制（\#407）。}
+% \changes{v3.10.0}{2026/04/27}{重定义 \tn{char}，使其绕过 interchar 机制（\#407）。}
 %
 % \begin{macro}{\xeCJK_default_char:w}
 % \begin{macro}{\@@_default_char_aux:}
@@ -9808,7 +9808,7 @@ Copyright and Licence
 %    \end{macrocode}
 % \end{macro}
 %
-% \changes{v3.9.2}{2026/04/28}{在下划线内 CJK 分组切换时保存/恢复字体状态（\#465）。}
+% \changes{v3.10.0}{2026/04/28}{在下划线内 CJK 分组切换时保存/恢复字体状态（\#465）。}
 %
 % \begin{macro}{\@@_ulem_save_font_state:,\@@_ulem_restore_font_state:}
 % \begin{variable}{\g_@@_ulem_saved_series_tl,\g_@@_ulem_saved_shape_tl,
@@ -10538,7 +10538,7 @@ Copyright and Licence
 % \changes{v3.8.3}{2020/04/07}{取消 \pkg{xeCJKfntef} 的初始彩色设置。}
 %
 % \begin{macro}{\CJKunderanysymbol}
-% \changes{v3.9.2}{2026/04/28}{移除 \tn{ignorespaces}，修复命令后空格丢失（\#465）。}
+% \changes{v3.10.0}{2026/04/28}{移除 \tn{ignorespaces}，修复命令后空格丢失（\#465）。}
 %    \begin{macrocode}
 \NewDocumentCommand \CJKunderanysymbol { o m m m }
   {
@@ -10550,7 +10550,7 @@ Copyright and Licence
 % \begin{macro}{\CJKunderdot}
 % \tn{CJKunderdot} 是 \tn{CJKunderanysymbol} 的特殊情况。\pkg{CJKfntef} 原来使用
 % 的是数学符号 \tn{cdot}，这里改成更合适的 |.|。
-% \changes{v3.9.2}{2026/04/28}{移除 \tn{ignorespaces}，修复命令后空格丢失（\#465）。}
+% \changes{v3.10.0}{2026/04/28}{移除 \tn{ignorespaces}，修复命令后空格丢失（\#465）。}
 %    \begin{macrocode}
 \NewDocumentCommand \CJKunderdot { o m }
   {
@@ -12224,7 +12224,7 @@ Copyright and Licence
 %    \end{macrocode}
 %
 % 以下内容选自 \pkg{xunicode}，并做了适当修改。
-% \changes{v3.9.2}{2023/11/22}{修复 \tn{textsbleftarrow} 的定义。}
+% \changes{v3.10.0}{2023/11/22}{修复 \tn{textsbleftarrow} 的定义。}
 %    \begin{macrocode}
 \DeclareUTFComposite\textsuperscript
 \DeclareUTFComposite\textsubscript
@@ -12443,12 +12443,12 @@ Copyright and Licence
 % {增加 \file{xunicode-extra.def} 中，用于加入 \file{puenc.def} 中的符号定义。}
 %
 % 以下定义取自 \pkg{hyperref} 的 \file{puenc.def}。
-% \changes{v3.9.2}{2023/11/10}{修复拼错的命令名，
+% \changes{v3.10.0}{2023/11/10}{修复拼错的命令名，
 %   \tn{cyreref} $\to$ \tn{cyrerev} 和
 %   \tn{textDiamandSolid} $\to$ \tn{textDiamondSolid}。}
-% \changes{v3.9.2}{2023/11/11}{修复 \tn{textnleqslant} 的定义，
+% \changes{v3.10.0}{2023/11/11}{修复 \tn{textnleqslant} 的定义，
 %   修复 \tn{textnbacksim} 和 \tn{textnlessapprox} 定义里的自引。}
-% \changes{v3.9.2}{2023/11/27}{修复组合符号 |U+04AA| 的定义。}
+% \changes{v3.10.0}{2023/11/27}{修复组合符号 |U+04AA| 的定义。}
 %    \begin{macrocode}
 \DeclareUTFEncodedAccent\textinvbreve{"0311}{"0311}
 \DeclareUTFEncodedSymbol\textsubbreve{"032E}{"203F}
