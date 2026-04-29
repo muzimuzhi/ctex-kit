@@ -58,7 +58,11 @@
 
 #### 3. 字体集层
 
-`ctex-fontset-{windows,mac,macnew,ubuntu,fandol,adobe,founder,hanyi}.def` 提供默认字体族映射，负责把“中文主字体/无衬线/等宽”等高层概念落到具体发行版或操作系统字体名。
+`ctex-fontset-{windows,mac,macnew,macold,ubuntu,fandol,adobe,founder,hanyi}.def` 提供默认字体族映射，负责把“中文主字体/无衬线/等宽”等高层概念落到具体发行版或操作系统字体名。
+
+`fontset=mac` 仍是自动入口，而不是独立字体集；它会在运行时于 `macnew` 和 `macold` 之间分流。自 PR #782 起，这个分流不再只依赖 `/System/Library/Fonts/PingFang.ttc` 是否存在，而是保留该路径检测作为快速路径，并在其失效时读取 `/System/Library/CoreServices/SystemVersion.plist` 的主版本号作为后备：版本号 `>= 15` 仍进入 `macnew`，`< 15` 进入 `macold`，检测失败则 warning 后回退 `macold`。
+
+更重要的是，`macnew` 内部还要按引擎二次分支：XeTeX 用 `\fontspec_font_if_exist:nTF` 判断字体名是否可见；LuaTeX 则用 Lua 扫描 `/System/Library/AssetsV2` 下的 `com_apple_MobileAsset_Font*` 目录，定位 downloadable 字体的 `AssetData/` 路径，再配合 `Path=` 与 `FontIndex` 显式加载。也就是说，macOS 15+ 的适配发生在“fontset 层的自动分流 + macnew 内的引擎专属字体探测”两级，而不是通过新增 `mac15plus` 一类公开字体集完成。详见 `llmdoc/reference/ctex-fontset-mac.md`。
 
 #### 4. 方案层
 
