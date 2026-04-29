@@ -1036,6 +1036,9 @@ Copyright and Licence
 %   \item[mac] 使用 macOS 系统下的字体，\emph{不支持 \pdfLaTeX}，根据版本分为
 %     |macnew| 和 |macold| 两种。
 %   \item[macnew] 使用 El Capitan 或之后的多字重华文字体和苹方字体。
+%     从 macOS~15 (Sequoia) 开始，部分字体（苹方、楷体、仿宋、隶书、圆体）转为
+%     \emph{downloadable}，\CTeX{} 会自动检测可用性：可用时使用，不可用时静默跳过
+%     或回退。若需要完整的字体集，请在系统字体册中手动下载相关字体。
 %   \item[macold] 使用 Yosemite 或之前的华文字体。
 %   \item[ubuntu] 使用 Ubuntu 系统下的思源宋体、思源黑体和 \TeX{} 发行版自带的
 %     文鼎楷体，\emph{不支持 \pdfLaTeX}。
@@ -1090,6 +1093,7 @@ Copyright and Licence
 % 在 \opt{macnew} 字库中，还定义了 \tn{pingfang}：
 % \begin{optdesc}
 %   \item[\tn{pingfang}] 苹方黑体，CJK 等价命令 |\CJKfamily{zhpf}|。
+%     在 macOS~15 及之后，苹方字体可能尚未下载，此时该命令不会被定义。
 % \end{optdesc}
 %
 % \section{排版格式设定}
@@ -10975,17 +10979,77 @@ Copyright and Licence
 % \paragraph{\opt{mac} 相关}
 %
 % \changes{v2.4.14}{2018/05/01}{区分 \opt{macold} 及 \opt{macnew}。}
+% \changes{v2.5.11}{2026/04/29}{\opt{macnew} 增加 macOS~15+ 兼容，字体运行时检测。}
 %
 % 按 \href{https://github.com/CTeX-org/ctex-kit/issues/351}{Issue 351}
 % 的讨论，以 El Capitan 为分界，分别设置 |macold|（El Capitan 之前）
 % 和 |macnew|（El Capitan 及之后）。检测方式则以 El Capitan 及之后
-% 的苹方字体为准。
+% 的苹方字体为准。从 macOS~15 (Sequoia) 开始，苹方字体转为
+% \emph{downloadable}，不再位于传统路径，故增加版本号检测作为后备。
 %
 %    \begin{macrocode}
 %<*mac>
+\tl_new:N \g_@@_macos_ver_tl
+\msg_new:nnn { ctex } { macos-version-detect-failed }
+  { Cannot~detect~macOS~version.~Falling~back~to~macold~fontset. }
+\sys_if_engine_luatex:TF
+  {
+    \lua_now:n
+      {
+        local~f~=~io.open("/System/Library/CoreServices/SystemVersion.plist",~"r");~
+        if~f~then~
+          local~content~=~f:read("*a");~
+          f:close();~
+          local~ver~=~content:match("ProductVersion.-<string>(.-)</string>");~
+          if~ver~then~
+            local~dot~=~ver:find(".",~1,~true);~
+            local~major~=~dot~and~ver:sub(1,~dot~-~1)~or~ver;~
+            if~major~then~
+              token.set_macro("g__ctex_macos_ver_tl",~major,~"global");~
+            end;~
+          end;~
+        end
+      }
+  }
+  {
+    \ior_new:N \g_@@_macos_ver_ior
+    \bool_new:N \g_@@_macos_ver_found_bool
+    \file_if_exist:nT { /System/Library/CoreServices/SystemVersion.plist }
+      {
+        \ior_open:Nn \g_@@_macos_ver_ior
+          { /System/Library/CoreServices/SystemVersion.plist }
+        \ior_map_inline:Nn \g_@@_macos_ver_ior
+          {
+            \bool_if:NTF \g_@@_macos_ver_found_bool
+              {
+                \tl_set:Nn \l_tmpa_tl {#1}
+                \regex_replace_once:nnN
+                  { .*? <string> (\d+) .* } { \1 } \l_tmpa_tl
+                \tl_gset:NV \g_@@_macos_ver_tl \l_tmpa_tl
+                \ior_map_break:
+              }
+              {
+                \tl_if_in:nnT {#1} { ProductVersion }
+                  { \bool_gset_true:N \g_@@_macos_ver_found_bool }
+              }
+          }
+        \ior_close:N \g_@@_macos_ver_ior
+      }
+  }
 \file_if_exist:nTF { /System/Library/Fonts/PingFang.ttc }
   { \ctex_file_input:n { ctex-fontset-macnew.def } }
-  { \ctex_file_input:n { ctex-fontset-macold.def } }
+  {
+    \tl_if_empty:NTF \g_@@_macos_ver_tl
+      {
+        \msg_warning:nn { ctex } { macos-version-detect-failed }
+        \ctex_file_input:n { ctex-fontset-macold.def }
+      }
+      {
+        \int_compare:nNnTF { \g_@@_macos_ver_tl } < { 15 }
+          { \ctex_file_input:n { ctex-fontset-macold.def } }
+          { \ctex_file_input:n { ctex-fontset-macnew.def } }
+      }
+  }
 %</mac>
 %    \end{macrocode}
 %
@@ -11075,21 +11139,154 @@ Copyright and Licence
     \setCJKfamilyfont { zhkai  } { STKaiti    }
 %</macold>
 %<*macnew>
-    \setCJKmainfont { Songti~SC~Light }
-      [
-        BoldFont       = Songti~SC~Bold,
-        ItalicFont     = Kaiti~SC,
-        BoldItalicFont = Kaiti~SC~Bold
-      ]
-    \setCJKsansfont { PingFang~SC }
-    \setCJKmonofont { STFangsong  }
-    \setCJKfamilyfont { zhsong } { Songti~SC~Light } [ BoldFont = Songti~SC~Bold ]
-    \setCJKfamilyfont { zhhei  } { Heiti~SC~Light  } [ BoldFont = Heiti~SC~Medium ]
-    \setCJKfamilyfont { zhpf   } { PingFang~SC     }
-    \setCJKfamilyfont { zhfs   } { STFangsong      }
-    \setCJKfamilyfont { zhkai  } { Kaiti~SC        } [ BoldFont = Kaiti~SC~Bold ]
-    \setCJKfamilyfont { zhli   } { Baoli~SC        }
-    \setCJKfamilyfont { zhyou  } { Yuanti~SC~Light } [ BoldFont = Yuanti~SC~Regular ]
+    \sys_if_engine_luatex:TF
+      {
+        \lua_now:n
+          {
+            local~lfs~=~require("lfs");~
+            local~search_bases~=~{
+              "/System/Library/AssetsV2/com_apple_MobileAsset_Font8",
+              "/System/Library/AssetsV2/PreinstalledAssetsV2/"
+                ..~"InstallWithOs/com_apple_MobileAsset_Font7",
+            };~
+            local~function~find_font_dir(filename)~
+              for~_,~base~in~ipairs(search_bases)~do~
+                local~ok,~iter,~obj~=~pcall(lfs.dir,~base);~
+                if~ok~then~
+                  for~entry~in~iter,~obj~do~
+                    if~not~(entry~==~"."~or~entry~==~"..")~then~
+                      local~p~=~base~..~"/"~..~entry
+                        ..~"/AssetData/"~..~filename;~
+                      if~lfs.attributes(p,~"mode")~then~
+                        return~base~..~"/"~..~entry~..~"/AssetData/";~
+                      end;~
+                    end;~
+                  end;~
+                end;~
+              end;~
+              return~nil;~
+            end;~
+            local~fonts~=~{
+              {"PingFang.ttc",~"g__ctex_mac_pingfang_dir_tl"},
+              {"Kaiti.ttc",~~~~"g__ctex_mac_kaiti_dir_tl"},
+              {"STFANGSO.ttf",~"g__ctex_mac_stfangso_dir_tl"},
+              {"Baoli.ttc",~~~~"g__ctex_mac_baoli_dir_tl"},
+              {"Yuanti.ttc",~~~"g__ctex_mac_yuanti_dir_tl"},
+            };~
+            for~_,~f~in~ipairs(fonts)~do~
+              local~dir~=~find_font_dir(f[1]);~
+              token.set_macro(f[2],~dir~or~"",~"global");~
+            end
+          }
+        \tl_if_empty:NTF \g__ctex_mac_kaiti_dir_tl
+          {
+            \setCJKmainfont { Songti~SC~Light }
+              [ BoldFont = Songti~SC~Bold ]
+          }
+          {
+            \setCJKmainfont { Songti~SC~Light }
+              [
+                BoldFont       = Songti~SC~Bold ,
+                ItalicFont     = Kaiti.ttc ,
+                ItalicFeatures = { Path = \g__ctex_mac_kaiti_dir_tl , FontIndex = 0 } ,
+                BoldItalicFont = Kaiti.ttc ,
+                BoldItalicFeatures = { Path = \g__ctex_mac_kaiti_dir_tl , FontIndex = 3 } ,
+              ]
+          }
+        \setCJKfamilyfont { zhsong } { Songti~SC~Light }
+          [ BoldFont = Songti~SC~Bold ]
+        \setCJKfamilyfont { zhhei  } { Heiti~SC~Light  }
+          [ BoldFont = Heiti~SC~Medium ]
+        \tl_if_empty:NTF \g__ctex_mac_pingfang_dir_tl
+          { \setCJKsansfont { Heiti~SC~Light } [ BoldFont = Heiti~SC~Medium ] }
+          {
+            \setCJKsansfont { PingFang.ttc }
+              [
+                Path          = \g__ctex_mac_pingfang_dir_tl ,
+                FontIndex     = 2 ,
+                BoldFont      = PingFang.ttc ,
+                BoldFontIndex = 8 ,
+              ]
+            \setCJKfamilyfont { zhpf } { PingFang.ttc }
+              [ Path = \g__ctex_mac_pingfang_dir_tl , FontIndex = 2 ]
+          }
+        \tl_if_empty:NTF \g__ctex_mac_stfangso_dir_tl
+          { \setCJKmonofont { Heiti~SC~Light } }
+          {
+            \setCJKmonofont { STFANGSO.ttf }
+              [ Path = \g__ctex_mac_stfangso_dir_tl ]
+            \setCJKfamilyfont { zhfs } { STFANGSO.ttf }
+              [ Path = \g__ctex_mac_stfangso_dir_tl ]
+          }
+        \tl_if_empty:NF \g__ctex_mac_kaiti_dir_tl
+          {
+            \setCJKfamilyfont { zhkai } { Kaiti.ttc }
+              [
+                Path          = \g__ctex_mac_kaiti_dir_tl ,
+                FontIndex     = 0 ,
+                BoldFont      = Kaiti.ttc ,
+                BoldFontIndex = 3 ,
+              ]
+          }
+        \tl_if_empty:NF \g__ctex_mac_baoli_dir_tl
+          {
+            \setCJKfamilyfont { zhli } { Baoli.ttc }
+              [ Path = \g__ctex_mac_baoli_dir_tl , FontIndex = 0 ]
+          }
+        \tl_if_empty:NF \g__ctex_mac_yuanti_dir_tl
+          {
+            \setCJKfamilyfont { zhyou } { Yuanti.ttc }
+              [
+                Path          = \g__ctex_mac_yuanti_dir_tl ,
+                FontIndex     = 4 ,
+                BoldFont      = Yuanti.ttc ,
+                BoldFontIndex = 0 ,
+              ]
+          }
+      }
+      {
+        \fontspec_font_if_exist:nTF { Kaiti~SC }
+          {
+            \setCJKmainfont { Songti~SC~Light }
+              [
+                BoldFont       = Songti~SC~Bold ,
+                ItalicFont     = Kaiti~SC ,
+                BoldItalicFont = Kaiti~SC~Bold ,
+              ]
+          }
+          {
+            \setCJKmainfont { Songti~SC~Light }
+              [ BoldFont = Songti~SC~Bold ]
+          }
+        \setCJKfamilyfont { zhsong } { Songti~SC~Light }
+          [ BoldFont = Songti~SC~Bold ]
+        \setCJKfamilyfont { zhhei  } { Heiti~SC~Light  }
+          [ BoldFont = Heiti~SC~Medium ]
+        \fontspec_font_if_exist:nTF { PingFang~SC }
+          {
+            \setCJKsansfont { PingFang~SC }
+            \setCJKfamilyfont { zhpf } { PingFang~SC }
+          }
+          { \setCJKsansfont { Heiti~SC~Light } [ BoldFont = Heiti~SC~Medium ] }
+        \fontspec_font_if_exist:nTF { STFangsong }
+          {
+            \setCJKmonofont { STFangsong }
+            \setCJKfamilyfont { zhfs } { STFangsong }
+          }
+          { \setCJKmonofont { Heiti~SC~Light } }
+        \fontspec_font_if_exist:nT { Kaiti~SC }
+          {
+            \setCJKfamilyfont { zhkai } { Kaiti~SC }
+              [ BoldFont = Kaiti~SC~Bold ]
+          }
+        \fontspec_font_if_exist:nT { Baoli~SC }
+          { \setCJKfamilyfont { zhli } { Baoli~SC } }
+        \fontspec_font_if_exist:nT { Yuanti~SC~Light }
+          {
+            \setCJKfamilyfont { zhyou } { Yuanti~SC~Light }
+              [ BoldFont = Yuanti~SC~Regular ]
+          }
+      }
 %</macnew>
   }
 %</macold|macnew>
