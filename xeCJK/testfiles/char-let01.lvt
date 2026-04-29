@@ -33,12 +33,12 @@
   \fi
 }
 
-% Verify \char is redefined in document body (issue #407 fix)
+% Verify \char is NOT redefined in document body (new approach: #407 + #800)
 \ExplSyntaxOn
-\TEST{char~is~redefined~at~begin~document}{
-  \cs_if_eq:NNTF \char \xeCJK_default_char:w
-    { \TYPE{PASS} }
+\TEST{char~is~still~primitive~in~document~body}{
+  \token_if_macro:NTF \char
     { \TYPE{FAIL:~\token_to_meaning:N \char} }
+    { \TYPE{PASS} }
 }
 \ExplSyntaxOff
 
