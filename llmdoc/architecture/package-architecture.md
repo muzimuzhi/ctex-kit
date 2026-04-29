@@ -100,6 +100,8 @@
 
 xeCJK 的字距控制还依赖 XeTeX 的 interchar 机制：字符先被分入 `Default`、`CJK`、`FullLeft`、`FullRight`、`Boundary` 等预定义类，以及 xeCJK 额外建立的 `HalfLeft`、`HalfRight`、`NormalSpace`、`CM` 等类，再由 `\XeTeXinterchartoks` 在类边界插入 `CJKglue` / `CJKecglue` 与相关分组 token。这里的关键不变量是：只有真正参与版面边界判定的可见字符，才应进入 class 序列；零宽格式字符若被当作普通字符参与分类，就会打断原本连续的 CJK 或 CJK↔Latin 边界，触发错误的 `CJKecglue` 或其他 inter-class toks 插入。
 
+另一个稳定约束是 `\char` 原语的改写时机。xeCJK 为修复 Issue #407 需要让正文中的 `\char` 输出绕过 interchar 干预路径，但这类重定义不能在包加载时立即生效；像 xint 这样的第三方包会在加载期通过 `\let` 保存 `\char`，若它们看到的是 xeCJK 的宏包装层而不是引擎原语，就会把错误的语义永久冻结进自己的内部接口。因此，xeCJK 当前必须把 `\cs_set_eq:NN \char \xeCJK_default_char:w` 延迟到 `\AtBeginDocument`，把“导言区保持 primitive 身份”与“正文期绕过 interchar”分成两个时段处理。凡是未来再调整 `\char` 或类似原语兼容补丁时，都应把“是否会影响加载期 `\let` 保存原语的包”视为架构级约束，而不是实现细节。
+
 从维护视角看，xeCJK 的这套 interchar 逻辑更适合被理解成一个“边界恢复状态机”，而不是若干零散的 glue 宏：
 
 - 第一层是边界判定。xeCJK 会在 `\xeCJK_make_node:n` 时插入内部标记 kern，后续主要通过 `\lastkern` 判断上一边界上保存的标记类型，以决定当前是否需要恢复 `CJKglue` 或 `CJKecglue`。

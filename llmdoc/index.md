@@ -39,4 +39,5 @@
 - `llmdoc/memory/reflections/284-fullwidth-tilde-longpunct.md` — 反思: xeCJK #284 中全角波浪号等连接号的残留问题不在可见空格，而在 MiddlePunct 引入的不必要标点压缩节点；应借助 `\showbox` 对比确认 LongPunct 路径的更干净节点模型。
 - `llmdoc/memory/reflections/378-lstinline-hash-doubling.md` — 反思: xeCJK #378 中 `\lstinline` 宏参数 `#` 双写的根因（rescan 的 stringification 再次双写 cat6 `#`）、catcode 12 vs active 的易错点、`\regex_replace_all` catcode class 匹配技巧。
 - `llmdoc/memory/reflections/407-char-interchar-bypass.md` — 反思: xeCJK #407 中 `\char` 原语被 interchar 拦截的根因、`\char` vs mathcode 语义差异、测试场景设计偏差。
+- `llmdoc/memory/reflections/800-char-let-xint-compat.md` — 反思: xeCJK #800 中 `\char` 重定义必须延迟到 `\AtBeginDocument`，避免破坏 xint 等包在加载期 `\let` 保存原语的假设。
 - `llmdoc/memory/reflections/315-252-476-xecjk-ecglue-fixes.md` — 反思: xeCJK #252/#476 的 ecglue 字体度量问题与 #315 一样属于 interchar 边界恢复链，应在正确 CJK 字体上下文中缓存前侧 ecglue，并提前按 CI 依赖链完整验证基线影响。
