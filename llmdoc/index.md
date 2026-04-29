@@ -17,7 +17,7 @@
 
 ## guides
 
-- 当前暂无指南文档。
+- `llmdoc/guides/release-workflow.md` — release tag 触发条件、构建阶段、release notes 生成、测试门控与 GitHub prerelease 重建流程。
 
 ## memory
 

@@ -141,18 +141,42 @@
 
 ## CI/CD 配置
 
-GitHub Actions 工作流位于 `.github/workflows/test.yml`。当前稳定事实如下：
+GitHub Actions 工作流当前至少包含两条主线：
+
+- `.github/workflows/test.yml`：跨平台测试工作流
+- `.github/workflows/release.yml`：按发布 tag 构建并创建 GitHub prerelease 的自动化工作流
+
+### 测试工作流：`.github/workflows/test.yml`
+
+当前稳定事实如下：
 
 - 触发条件：`pull_request`、`push`、定时 `schedule`、`workflow_dispatch`
 - 操作系统矩阵：`ubuntu-latest`、`macos-latest`、`windows-latest`
 - TeX Live 安装：`TeX-Live/setup-texlive-action@v4`
 - 依赖包清单：`.github/tl_packages`
-- 字体准备：下载 Noto Sans/Serif CJK OTC 并解压到系统字体目录
-- 当前 CI 在同一 job 中依次进入 `ctex/`、`xeCJK/`、`zhnumber/` 运行测试，而不再只停留在 `ctex/`
+- 当前 CI 在同一 job 中依次进入 `ctex/`、`xeCJK/`、`zhnumber/`、`CJKpunct/`、`zhlineskip/` 运行测试，而不再只停留在 `ctex/`
 
 见 `.github/workflows/test.yml`。
 
-### `.github/tl_packages` 维护约束
+#### CI 字体策略
+
+当前 CI 已把“字体可用性”视为稳定基础设施，而不是临时环境细节。工作流中实际依赖的字体层次包括：
+
+- `Source Han Serif` OTC：主 CJK 文档字体，供 xeCJK / 文档 driver 使用。
+- `Noto Sans CJK` / `Noto Serif CJK` OTC：跨平台 CJK 基础字体。
+- `HanaMinB`：作为 `SimSun-ExtB` 缺失时的 Ext-B fallback，覆盖扩展 B 区字符。
+- `Noto Sans Symbols 2`：作为 `Segoe UI Symbol` 缺失时的符号字体 fallback。
+- `FreeSerif`：通过 `apt install fonts-freefont-ttf` 提供，用于 `xunicode-symbols` 文档路径。
+- `FandolSong` / `FandolFang`：由 TeX Live 自带，主要作为无需系统字体下载时的稳定后备。
+
+Linux CI 在手工安装或解压字体后，必须执行 `fc-cache -f` 刷新 fontconfig 缓存；否则即使字体文件已落盘，XeTeX / fontspec 仍可能在同一 job 中看不到新字体。
+
+这套策略对应最近文档驱动兼容性修复的两个关键约束：
+
+- `xeCJK/xeCJK.dtx` driver 不再假定 CI 上一定存在 `SimSun-ExtB`，而是通过 `\IfFontExistsTF` 回退到 `HanaMinB`。
+- `xunicode-symbols.tex` 不再假定 Windows 自带的 `Segoe UI Symbol`，而是条件化回退到 `Noto Sans Symbols 2`。
+
+#### `.github/tl_packages` 维护约束
 
 `.github/tl_packages` 是 CI 中 TeX Live 依赖的显式白名单。新增或扩展回归测试时，如果测试输入引入了新的 LaTeX 宏包依赖，必须同步更新这个文件；否则本地环境可能因为已有完整 TeX Live 而通过，但 GitHub Actions 会在精简安装环境里因缺包失败。
 
@@ -187,6 +211,37 @@ CI 中当前执行的测试步骤是：
 
 另外，`ctex` 测试步骤的 step id 已由 `test` 调整为 `test-ctex`，以便与新增的 `test-xecjk`、`test-zhnumber`、`test-cjkpunct` 一起在后续 artifact 条件表达式中区分引用。
 
+### Release 工作流：`.github/workflows/release.yml`
+
+release 自动化只在以下 tag 推送时触发：
+
+- `ctex-v*`
+- `xeCJK-v*`
+- `CJKpunct-v*`
+
+工作流按 tag 前缀解析目标包，再依次完成：
+
+- 安装 TeX Live
+- 安装 `zhmakeindex`
+- 安装 CJK 字体并在 Linux 上执行 `fc-cache -f`
+- 针对 `xeCJK` 预下载 `support/Unihan.zip`
+- 在目标子目录运行 `l3build ctan`
+- 把 `<module>-ctan.zip` 改名为发布资产 `<module>-v<ver>.zip`
+- 生成 release notes
+- 在真正创建 release 前等待 `test.yml` 对同一 `head_sha` 成功
+- 删除已存在的同名 release 并重建为 `prerelease`
+
+门控机制的关键点是：构建、asset 准备与 notes 生成可以先完成，只有最后 `Create GitHub Release` 之前才轮询 `actions/workflows/test.yml/runs?head_sha=<sha>`，确认测试 CI 通过。这避免了在 release 任务最前面空等测试，同时保持发布出口受测试结果保护。
+
+release notes 的稳定优先级是：
+
+1. 优先从目标 `.dtx` 中提取 `\changes{v<ver>}{...}{...}` 条目；
+2. 若不存在对应 `\changes`，则回退到上一版本 tag 与当前 tag 之间、限定到目标目录的 git log；
+3. 若仍无内容，则写入最小占位说明。
+
+因此，维护发布说明时，首选入口仍是各包 `.dtx` 中的 `\changes` 记录，而不是依赖提交历史临时拼装。
+
+详见 `llmdoc/guides/release-workflow.md`。
 
 ## CTAN 发布流程
 
