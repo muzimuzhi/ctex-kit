@@ -90,6 +90,7 @@ jobs:
         unzip -ojd /usr/share/fonts/truetype "*OTC.zip" "*.ttc"
         unzip -ojd /usr/share/fonts/truetype "NotoSansSymbols2-*.zip" "*.ttf"
         cp HanaMinB.ttf /usr/share/fonts/truetype/
+        fc-cache -f
 
     - name: Download Unihan data (xeCJK)
       if: steps.parse.outputs.pkg == 'xeCJK'
