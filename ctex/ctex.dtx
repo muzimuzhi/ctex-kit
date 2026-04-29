@@ -11139,6 +11139,7 @@ Copyright and Licence
     \setCJKfamilyfont { zhkai  } { STKaiti    }
 %</macold>
 %<*macnew>
+    \bool_new:N \g_@@_mac_pingfang_bool
     \sys_if_engine_luatex:TF
       {
         \lua_now:n
@@ -11209,6 +11210,7 @@ Copyright and Licence
               ]
             \setCJKfamilyfont { zhpf } { PingFang.ttc }
               [ Path = \g__ctex_mac_pingfang_dir_tl , FontIndex = 2 ]
+            \bool_gset_true:N \g_@@_mac_pingfang_bool
           }
         \tl_if_empty:NTF \g__ctex_mac_stfangso_dir_tl
           { \setCJKmonofont { Heiti~SC~Light } }
@@ -11266,6 +11268,7 @@ Copyright and Licence
           {
             \setCJKsansfont { PingFang~SC }
             \setCJKfamilyfont { zhpf } { PingFang~SC }
+            \bool_gset_true:N \g_@@_mac_pingfang_bool
           }
           { \setCJKsansfont { Heiti~SC~Light } [ BoldFont = Heiti~SC~Medium ] }
         \fontspec_font_if_exist:nTF { STFangsong }
@@ -11478,8 +11481,15 @@ Copyright and Licence
     \cs_new_eq:NN \pingfang \heiti
   }
   {
-    \NewDocumentCommand \yahei    { } { \CJKfamily { zhpf } }
-    \NewDocumentCommand \pingfang { } { \CJKfamily { zhpf } }
+    \bool_if:NTF \g_@@_mac_pingfang_bool
+      {
+        \NewDocumentCommand \yahei    { } { \CJKfamily { zhpf } }
+        \NewDocumentCommand \pingfang { } { \CJKfamily { zhpf } }
+      }
+      {
+        \cs_new_eq:NN \yahei    \heiti
+        \cs_new_eq:NN \pingfang \heiti
+      }
   }
 %</macnew>
 %</!mac>
