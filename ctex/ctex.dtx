@@ -11146,11 +11146,21 @@ Copyright and Licence
         \lua_now:n
           {
             local~lfs~=~require("lfs");~
-            local~search_bases~=~{
-              "/System/Library/AssetsV2/com_apple_MobileAsset_Font8",
-              "/System/Library/AssetsV2/PreinstalledAssetsV2/"
-                ..~"InstallWithOs/com_apple_MobileAsset_Font7",
+            local~search_bases~=~{};~
+            local~asset_roots~=~{
+              "/System/Library/AssetsV2",
+              "/System/Library/AssetsV2/PreinstalledAssetsV2/InstallWithOs",
             };~
+            for~_,~root~in~ipairs(asset_roots)~do~
+              local~ok,~iter,~obj~=~pcall(lfs.dir,~root);~
+              if~ok~then~
+                for~d~in~iter,~obj~do~
+                  if~d:find("^com_apple_MobileAsset_Font")~then~
+                    table.insert(search_bases,~root~..~"/"~..~d);~
+                  end;~
+                end;~
+              end;~
+            end;~
             local~function~find_font_dir(filename)~
               for~_,~base~in~ipairs(search_bases)~do~
                 local~ok,~iter,~obj~=~pcall(lfs.dir,~base);~
