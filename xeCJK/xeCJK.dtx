@@ -218,7 +218,9 @@ Copyright and Licence
   { "1100 -> "11FF, "3130 -> "318F, "A960 -> "A97F, "AC00 -> "D7AF }
 \setCJKmainfont[SP, Language=Chinese Simplified]{Source Han Serif SC}
 \IfFontExistsTF{SimSun-ExtB}
-  {\setCJKmainfont[Ext-B]{SimSun-ExtB}}{}
+  {\setCJKmainfont[Ext-B]{SimSun-ExtB}}
+  {\IfFontExistsTF{HanaMinB}
+    {\setCJKmainfont[Ext-B]{HanaMinB}}{}}
 \setCJKmainfont[Hangul, Script=Hangul, Language=Korean]{Source Han Serif K}
 \newlist{psopt}{description}{3}
 \setlist[psopt]{%
@@ -14388,7 +14390,9 @@ int main()
 \setmainfont{FreeSerif}
 \IfFontExistsTF{Segoe UI Symbol}
   {\newfontfamily\falllbackfont{Segoe UI Symbol}}
-  {\let\falllbackfont\relax}
+  {\IfFontExistsTF{Noto Sans Symbols 2}
+    {\newfontfamily\falllbackfont{Noto Sans Symbols 2}}
+    {\let\falllbackfont\relax}}
 
 \makeatletter
 \ExplSyntaxOn

@@ -79,11 +79,17 @@ jobs:
       run: |
         sudo apt-get install -y --no-install-recommends fonts-freefont-ttf
         SRCHAN_SERIF_URL="https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/03_SourceHanSerifOTC.zip"
+        HANAMINB_URL="https://github.com/googlefonts/chinese/raw/gh-pages/fonts/HanaMin/HanaMinB.ttf"
+        NOTO_SYMBOLS2_URL="https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.008/NotoSansSymbols2-v2.008.zip"
         curl -LO ${{ env.NOTO_SANS_URL }}
         curl -LO ${{ env.NOTO_SERIF_URL }}
         curl -LO "$SRCHAN_SERIF_URL"
+        curl -fsSL -o HanaMinB.ttf "$HANAMINB_URL"
+        curl -LO "$NOTO_SYMBOLS2_URL"
         sudo mkdir -p /usr/share/fonts/truetype
         unzip -ojd /usr/share/fonts/truetype "*OTC.zip" "*.ttc"
+        unzip -ojd /usr/share/fonts/truetype "NotoSansSymbols2-*.zip" "*.ttf"
+        cp HanaMinB.ttf /usr/share/fonts/truetype/
 
     - name: Download Unihan data (xeCJK)
       if: steps.parse.outputs.pkg == 'xeCJK'
@@ -222,6 +228,7 @@ jobs:
 
     - name: Create GitHub Release
       run: |
+        gh release delete "${{ steps.parse.outputs.tag }}" --yes 2>/dev/null || true
         gh release create "${{ steps.parse.outputs.tag }}" \
           "${{ env.asset }}" \
           --prerelease \
