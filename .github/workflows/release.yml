@@ -16,48 +16,7 @@ env:
   NOTO_SERIF_URL: https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/04_NotoSerifCJKOTC.zip
 
 jobs:
-  wait-for-tests:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Wait for test CI to pass
-      run: |
-        SHA="${{ github.sha }}"
-        echo "Waiting for 'ctex-kit test' to pass on ${SHA:0:8}..."
-
-        for i in $(seq 1 60); do
-          RESULT=$(gh api \
-            "repos/${{ github.repository }}/actions/workflows/test.yml/runs?head_sha=${SHA}&per_page=1" \
-            --jq 'if (.workflow_runs | length) == 0 then "none"
-                  else .workflow_runs[0] | "\(.status);\(.conclusion)" end') || RESULT=""
-
-          if [ -z "$RESULT" ] || [ "$RESULT" = "none" ]; then
-            echo "  No test run found yet, retrying... (attempt ${i}/60)"
-            sleep 30
-            continue
-          fi
-
-          STATUS="${RESULT%%;*}"
-          CONCLUSION="${RESULT##*;}"
-
-          if [ "$CONCLUSION" = "success" ]; then
-            echo "Test CI passed!"
-            exit 0
-          elif [ "$STATUS" = "completed" ]; then
-            echo "::error::Test CI finished with: ${CONCLUSION}"
-            exit 1
-          fi
-
-          echo "  Test CI status: ${STATUS}, waiting... (attempt ${i}/60)"
-          sleep 30
-        done
-
-        echo "::error::Timeout after 30 minutes waiting for test CI"
-        exit 1
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
   release:
-    needs: wait-for-tests
     runs-on: ubuntu-latest
 
     steps:
@@ -116,10 +75,12 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Install Noto fonts
+    - name: Install CJK fonts
       run: |
+        SRCHAN_SERIF_URL="https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/03_SourceHanSerifOTC.zip"
         curl -LO ${{ env.NOTO_SANS_URL }}
         curl -LO ${{ env.NOTO_SERIF_URL }}
+        curl -LO "$SRCHAN_SERIF_URL"
         sudo mkdir -p /usr/share/fonts/truetype
         unzip -ojd /usr/share/fonts/truetype "*OTC.zip" "*.ttc"
 
@@ -220,6 +181,43 @@ jobs:
 
         echo "--- Release Notes ---"
         cat "${NOTES_FILE}"
+
+    - name: Wait for test CI to pass
+      run: |
+        SHA="${{ github.sha }}"
+        echo "Waiting for 'ctex-kit test' to pass on ${SHA:0:8}..."
+
+        for i in $(seq 1 60); do
+          RESULT=$(gh api \
+            "repos/${{ github.repository }}/actions/workflows/test.yml/runs?head_sha=${SHA}&per_page=1" \
+            --jq 'if (.workflow_runs | length) == 0 then "none"
+                  else .workflow_runs[0] | "\(.status);\(.conclusion)" end') || RESULT=""
+
+          if [ -z "$RESULT" ] || [ "$RESULT" = "none" ]; then
+            echo "  No test run found yet, retrying... (attempt ${i}/60)"
+            sleep 30
+            continue
+          fi
+
+          STATUS="${RESULT%%;*}"
+          CONCLUSION="${RESULT##*;}"
+
+          if [ "$CONCLUSION" = "success" ]; then
+            echo "Test CI passed!"
+            exit 0
+          elif [ "$STATUS" = "completed" ]; then
+            echo "::error::Test CI finished with: ${CONCLUSION}"
+            exit 1
+          fi
+
+          echo "  Test CI status: ${STATUS}, waiting... (attempt ${i}/60)"
+          sleep 30
+        done
+
+        echo "::error::Timeout after 30 minutes waiting for test CI"
+        exit 1
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Create GitHub Release
       run: |

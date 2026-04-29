@@ -217,7 +217,8 @@ Copyright and Licence
 \xeCJKDeclareSubCJKBlock{Hangul}
   { "1100 -> "11FF, "3130 -> "318F, "A960 -> "A97F, "AC00 -> "D7AF }
 \setCJKmainfont[SP, Language=Chinese Simplified]{Source Han Serif SC}
-\setCJKmainfont[Ext-B]{SimSun-ExtB}
+\IfFontExistsTF{SimSun-ExtB}
+  {\setCJKmainfont[Ext-B]{SimSun-ExtB}}{}
 \setCJKmainfont[Hangul, Script=Hangul, Language=Korean]{Source Han Serif K}
 \newlist{psopt}{description}{3}
 \setlist[psopt]{%
