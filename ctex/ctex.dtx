@@ -7025,6 +7025,8 @@ Copyright and Licence
   {
     \cs_set_protected:Npn \CJKglue
       { \skip_horizontal:N \l_@@_ccglue_skip }
+    \cs_if_exist:NT \@@_ccglue:
+      { \cs_set_eq:NN \@@_ccglue: \CJKglue }
   }
 %</pdftex|xetex>
 %<*luatex>
@@ -7056,6 +7058,17 @@ Copyright and Licence
 %</uptex|aptex>
   }
 %<pdftex|xetex>\ctex_at_end:n { \cs_new_eq:NN \@@_ccglue: \CJKglue }
+%<*pdftex|xetex>
+\ctex_at_end:n
+  {
+    \cs_set_protected:Npn \@@_update_stretch_auxii:
+      {
+        \ctex_if_ccglue_touched:TF
+          { \ctex_update_ccwd: }
+          { \@@_update_stretch_auxiii: }
+      }
+  }
+%</pdftex|xetex>
 %    \end{macrocode}
 % \end{macro}
 %
@@ -7463,6 +7476,8 @@ Copyright and Licence
       }
   }
 \cs_new_protected:Npn \@@_update_stretch_auxii:
+  { \@@_update_stretch_auxiii: }
+\cs_new_protected:Npn \@@_update_stretch_auxiii:
   {
     \int_set:Nn \l_@@_tmp_int
       { \tex_dimexpr:D \linewidth - \ccwd - \l_@@_tmp_dim \scan_stop: }

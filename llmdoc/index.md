@@ -27,6 +27,8 @@
 - `llmdoc/memory/decisions/746-remove-legacy-font-hooks.md` — 决策: 移除对 LaTeX < 2020/10/01 的字体钩子兼容代码，响应上游移除 `\@rmfamilyhook`。
 - `llmdoc/memory/decisions/688-pifont-interchartokenstate-leak.md` — 决策: pifont hook 中先进入水平模式防止 interchartokenstate 泄漏到输出例程。
 - `llmdoc/memory/decisions/715-hyperref-driverfallback.md` — 决策: hyperref driverfallback 按加载状态分支处理，避免重复设置警告。
+- `llmdoc/memory/decisions/761-ccglue-override.md` — Issue #761 CJKglue 导言区覆盖问题的修复方案演进与确立的引擎延迟重定义模式。
+- `llmdoc/memory/doc-gaps.md` — 已知文档与实现缺口追踪。
 - `llmdoc/memory/reflections/715-hyperref-driverfallback.md` — 反思: TYPE 展开陷阱、l3build 命令拦截测试技巧。
 - `llmdoc/memory/reflections/671-cjkpunct-rglue-nobreak.md` — 反思: CJKpunct #671 修复中的节点级调试技术与 `\unhbox` 测试模式。
 - `llmdoc/memory/reflections/704-ctxdoc-patch-health-test.md` — 反思: 为 `support/ctxdoc.cls` 建立 patch 健康检查时，确认 l3build `check` 目标需要用 `checksuppfiles` 显式复制 support 文件，且 nonstop 模式下必须使用 `\msg_critical` 才能把 patch 失败升级为真正终止编译的错误。
@@ -37,3 +39,4 @@
 - `llmdoc/memory/reflections/284-fullwidth-tilde-longpunct.md` — 反思: xeCJK #284 中全角波浪号等连接号的残留问题不在可见空格，而在 MiddlePunct 引入的不必要标点压缩节点；应借助 `\showbox` 对比确认 LongPunct 路径的更干净节点模型。
 - `llmdoc/memory/reflections/378-lstinline-hash-doubling.md` — 反思: xeCJK #378 中 `\lstinline` 宏参数 `#` 双写的根因（rescan 的 stringification 再次双写 cat6 `#`）、catcode 12 vs active 的易错点、`\regex_replace_all` catcode class 匹配技巧。
 - `llmdoc/memory/reflections/407-char-interchar-bypass.md` — 反思: xeCJK #407 中 `\char` 原语被 interchar 拦截的根因、`\char` vs mathcode 语义差异、测试场景设计偏差。
+- `llmdoc/memory/reflections/315-252-476-xecjk-ecglue-fixes.md` — 反思: xeCJK #252/#476 的 ecglue 字体度量问题与 #315 一样属于 interchar 边界恢复链，应在正确 CJK 字体上下文中缓存前侧 ecglue，并提前按 CI 依赖链完整验证基线影响。
