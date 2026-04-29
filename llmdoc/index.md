@@ -13,6 +13,7 @@
 
 - `llmdoc/reference/build-and-test.md` — `l3build`、共享构建配置、测试框架、CI/CD、CTAN 发布与版本管理参考。
 - `llmdoc/reference/coding-conventions.md` — expl3 命名、`@@` 私有空间、作用域语义、docstrip 标签、`\CTEX@` 遗留接口与文档排版基础设施。
+- `llmdoc/reference/ctex-fontset-mac.md` — `ctex` 中 `fontset=mac` / `macnew` / `macold` 的选择逻辑、macOS 15+ 检测后备、XeTeX/LuaTeX 字体探测差异与回退语义。
 
 ## guides
 
@@ -22,6 +23,7 @@
 
 - `llmdoc/memory/decisions/725-cleveref-patch-toggle.md` — 决策: 不在 ctex 侧修复 cleveref appendix 语义问题，改为提供 `patch/cleveref` 开关。
 - `llmdoc/memory/decisions/751-newCJKfontfamily-scope.md` — 记录 #751 / PR #773 中 `\newCJKfontfamily` 从全局命令定义改为局部定义的原因、决策与影响范围。
+- `llmdoc/memory/decisions/782-fontset-mac-macos15plus-detection.md` — 决策: 不新增 `mac15plus`，改为在 `fontset=mac` 内增加 macOS 版本检测后备，并按 XeTeX/LuaTeX 分别探测 macOS 15+ downloadable 字体。
 - `llmdoc/memory/decisions/746-remove-legacy-font-hooks.md` — 决策: 移除对 LaTeX < 2020/10/01 的字体钩子兼容代码，响应上游移除 `\@rmfamilyhook`。
 - `llmdoc/memory/decisions/688-pifont-interchartokenstate-leak.md` — 决策: pifont hook 中先进入水平模式防止 interchartokenstate 泄漏到输出例程。
 - `llmdoc/memory/decisions/715-hyperref-driverfallback.md` — 决策: hyperref driverfallback 按加载状态分支处理，避免重复设置警告。
