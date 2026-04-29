@@ -77,6 +77,7 @@ jobs:
 
     - name: Install CJK fonts
       run: |
+        sudo apt-get install -y --no-install-recommends fonts-freefont-ttf
         SRCHAN_SERIF_URL="https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/03_SourceHanSerifOTC.zip"
         curl -LO ${{ env.NOTO_SANS_URL }}
         curl -LO ${{ env.NOTO_SERIF_URL }}

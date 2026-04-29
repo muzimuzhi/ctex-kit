@@ -14386,7 +14386,9 @@ int main()
 \usepackage{zref-base}
 
 \setmainfont{FreeSerif}
-\newfontfamily\falllbackfont{Segoe UI Symbol}
+\IfFontExistsTF{Segoe UI Symbol}
+  {\newfontfamily\falllbackfont{Segoe UI Symbol}}
+  {\let\falllbackfont\relax}
 
 \makeatletter
 \ExplSyntaxOn
