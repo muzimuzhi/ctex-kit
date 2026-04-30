@@ -104,7 +104,8 @@ jobs:
       run: |
         MODULE="${{ steps.parse.outputs.module }}"
         VER="${{ steps.parse.outputs.ver }}"
-        ASSET="${MODULE}-v${VER}.zip"
+        SHORT_SHA=$(git rev-parse --short HEAD)
+        ASSET="${MODULE}-v${VER}-${SHORT_SHA}.zip"
         mv "${{ steps.parse.outputs.dir }}/${MODULE}-ctan.zip" "${ASSET}"
         echo "asset=${ASSET}" >> "$GITHUB_ENV"
 
