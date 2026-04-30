@@ -3270,6 +3270,10 @@ Copyright and Licence
 %    \end{macrocode}
 %
 % \begin{macro}[int]{\xeCJK_Boundary_and_Default:}
+% \changes{v3.10.0}{2026/04/30}{移除通用 whatsit 恢复，避免
+%   \pkg{hyperref} 链接注释等 whatsit 节点导致 \texttt{CJKecglue}
+%   在错误位置插入（\#803）。配合 \cs{set@color} 定点补丁保持
+%   \cs{textcolor} 场景的正确性（\#315）。}
 %    \begin{macrocode}
 \cs_new_protected:Npn \xeCJK_Boundary_and_Default:
   { \xeCJK_check_for_ecglue: }
@@ -3288,7 +3292,7 @@ Copyright and Licence
       {
         \xeCJK_if_last_node:nTF { CJK-space }
           { \xeCJK_remove_node: \skip_horizontal:N \l_@@_ecglue_skip }
-          { \@@_recover_ecglue_whatsit: }
+          { }
       }
   }
 \cs_new_eq:NN \xeCJK_check_for_ecglue: \@@_check_for_ecglue:
@@ -9308,6 +9312,28 @@ Copyright and Licence
         \xeCJK_cs_clear:N \xeCJK_text_composite_patch:
       }
   }
+%    \end{macrocode}
+%
+% \changes{v3.10.0}{2026/04/30}{为 \pkg{color}/\pkg{xcolor} 添加兼容补丁，
+%   在颜色切换 whatsit 后重放 xeCJK 节点标记，修复 \cs{textcolor}
+%   后 \texttt{CJKecglue} 丢失的问题（\#315, \#803）。}
+%
+% \pkg{color}/\pkg{xcolor} 的颜色切换通过 \cs{set@color} 插入 \cs{special}
+% 节点（whatsit），会遮蔽 xeCJK 的标记 kern，导致后续的 \texttt{CJKecglue}
+% 检测失败。此处在 \cs{set@color} 之后重新放置 xeCJK 节点标记。
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_patch_set_color:
+  {
+    \cs_set_eq:NN \@@_orig_set_color: \set@color
+    \cs_gset_protected:Npn \set@color
+      {
+        \@@_orig_set_color:
+        \tl_if_empty:NF \g_@@_last_node_tl
+          { \exp_args:No \xeCJK_make_node:n { \g_@@_last_node_tl } }
+      }
+  }
+\@@_package_hook:nn { color }  { \@@_patch_set_color: }
+\@@_package_hook:nn { xcolor } { \@@_patch_set_color: }
 %    \end{macrocode}
 %
 % \changes{v3.1.0}{2012/11/13}{取消 \tn{cprotect} 的外部宏限制。}
