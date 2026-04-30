@@ -585,7 +585,7 @@ Copyright and Licence
 % \changes{v2.4.15}{2019/03/23}{同步 \LaTeXiii{} 2019/03/05。}
 % \changes{v2.5.1}{2020/05/02}{\pkg{zhconv} 更名为 \pkg{ctex-zhconv}。}
 %
-% \CheckSum{6848}
+% \CheckSum{6871}
 %
 % \CharacterTable
 %  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
@@ -11205,7 +11205,7 @@ Copyright and Licence
               token.set_macro(f[2],~dir~or~"",~"global");~
             end
           }
-        \tl_if_empty:NTF \g__ctex_mac_kaiti_dir_tl
+        \tl_if_empty:NTF \g_@@_mac_kaiti_dir_tl
           {
             \setCJKmainfont { Songti~SC~Light }
               [ BoldFont = Songti~SC~Bold ]
@@ -11215,57 +11215,57 @@ Copyright and Licence
               [
                 BoldFont       = Songti~SC~Bold ,
                 ItalicFont     = Kaiti.ttc ,
-                ItalicFeatures = { Path = \g__ctex_mac_kaiti_dir_tl , FontIndex = 0 } ,
+                ItalicFeatures = { Path = \g_@@_mac_kaiti_dir_tl , FontIndex = 0 } ,
                 BoldItalicFont = Kaiti.ttc ,
-                BoldItalicFeatures = { Path = \g__ctex_mac_kaiti_dir_tl , FontIndex = 3 } ,
+                BoldItalicFeatures = { Path = \g_@@_mac_kaiti_dir_tl , FontIndex = 3 } ,
               ]
           }
         \setCJKfamilyfont { zhsong } { Songti~SC~Light }
           [ BoldFont = Songti~SC~Bold ]
         \setCJKfamilyfont { zhhei  } { Heiti~SC~Light  }
           [ BoldFont = Heiti~SC~Medium ]
-        \tl_if_empty:NTF \g__ctex_mac_pingfang_dir_tl
+        \tl_if_empty:NTF \g_@@_mac_pingfang_dir_tl
           { \setCJKsansfont { Heiti~SC~Light } [ BoldFont = Heiti~SC~Medium ] }
           {
             \setCJKsansfont { PingFang.ttc }
               [
-                Path          = \g__ctex_mac_pingfang_dir_tl ,
+                Path          = \g_@@_mac_pingfang_dir_tl ,
                 FontIndex     = 2 ,
                 BoldFont      = PingFang.ttc ,
                 BoldFontIndex = 8 ,
               ]
             \setCJKfamilyfont { zhpf } { PingFang.ttc }
-              [ Path = \g__ctex_mac_pingfang_dir_tl , FontIndex = 2 ]
+              [ Path = \g_@@_mac_pingfang_dir_tl , FontIndex = 2 ]
             \bool_gset_true:N \g_@@_mac_pingfang_bool
           }
-        \tl_if_empty:NTF \g__ctex_mac_stfangso_dir_tl
+        \tl_if_empty:NTF \g_@@_mac_stfangso_dir_tl
           { \setCJKmonofont { Heiti~SC~Light } }
           {
             \setCJKmonofont { STFANGSO.ttf }
-              [ Path = \g__ctex_mac_stfangso_dir_tl ]
+              [ Path = \g_@@_mac_stfangso_dir_tl ]
             \setCJKfamilyfont { zhfs } { STFANGSO.ttf }
-              [ Path = \g__ctex_mac_stfangso_dir_tl ]
+              [ Path = \g_@@_mac_stfangso_dir_tl ]
           }
-        \tl_if_empty:NF \g__ctex_mac_kaiti_dir_tl
+        \tl_if_empty:NF \g_@@_mac_kaiti_dir_tl
           {
             \setCJKfamilyfont { zhkai } { Kaiti.ttc }
               [
-                Path          = \g__ctex_mac_kaiti_dir_tl ,
+                Path          = \g_@@_mac_kaiti_dir_tl ,
                 FontIndex     = 0 ,
                 BoldFont      = Kaiti.ttc ,
                 BoldFontIndex = 3 ,
               ]
           }
-        \tl_if_empty:NF \g__ctex_mac_baoli_dir_tl
+        \tl_if_empty:NF \g_@@_mac_baoli_dir_tl
           {
             \setCJKfamilyfont { zhli } { Baoli.ttc }
-              [ Path = \g__ctex_mac_baoli_dir_tl , FontIndex = 0 ]
+              [ Path = \g_@@_mac_baoli_dir_tl , FontIndex = 0 ]
           }
-        \tl_if_empty:NF \g__ctex_mac_yuanti_dir_tl
+        \tl_if_empty:NF \g_@@_mac_yuanti_dir_tl
           {
             \setCJKfamilyfont { zhyou } { Yuanti.ttc }
               [
-                Path          = \g__ctex_mac_yuanti_dir_tl ,
+                Path          = \g_@@_mac_yuanti_dir_tl ,
                 FontIndex     = 4 ,
                 BoldFont      = Yuanti.ttc ,
                 BoldFontIndex = 0 ,
@@ -11920,6 +11920,7 @@ Copyright and Licence
 %
 % \changes{v2.5.2}{2020/05/05}{\file{ctexmakespa.tex} 更名为 \file{ctex-spa-make.tex}。}
 % \changes{v2.5.2}{2020/05/05}{\file{ctexspamacro.tex} 更名为 \file{ctex-spa-macro.tex}。}
+% \changes{v2.6.0}{2026/04/30}{修复了 \TeX\ tree 字体无法制作 \file{.spa} 文件的问题。}
 %
 % 我们通过 \XeTeX{} 的 \tn{XeTeXglyphbounds} 取得字体中标点符号的边界信息，为
 % \pkg{CJKpunct} 宏包制作 \file{spa}。
@@ -11973,11 +11974,16 @@ Copyright and Licence
 \cs_new_protected:Npn \@@_write_family:nn #1#2
   {
     \group_begin:
-      \tex_font:D \l_@@_punct_font = "#2" ~ at ~ 100 pt \scan_stop:
+      \@@_if_font_exists:nTF {#2}
+        { \tex_font:D \l_@@_punct_font = "[#2]" ~ at ~ 100 pt \scan_stop: }
+        { \tex_font:D \l_@@_punct_font =  "#2"  ~ at ~ 100 pt \scan_stop: }
       \l_@@_punct_font
       \clist_clear:N \l_@@_punct_bounds_clist
       \seq_map_inline:Nn \c_@@_punct_seq
-        { \exp_args:No \@@_save_bounds:n { \int_use:N \tex_XeTeXcharglyph:D ##1 } }
+        {
+          \exp_args:No \@@_save_bounds:n
+            { \int_use:N \tex_XeTeXcharglyph:D ##1 }
+        }
       \iow_now:Nx \g_@@_spa_iow
         {
           \token_to_str:N \ctexspadef {#1}
@@ -11988,6 +11994,36 @@ Copyright and Licence
         }
     \group_end:
   }
+%    \end{macrocode}
+%
+% \begin{macro}{\@@_if_font_exists:nTF}
+% 检测字体是否为 \TeX\ Tree 字体，\cs{@@_write_family:nn} 会根据结果调用
+% |kpathsea| 查文件或 |fontconfig| 查名称。
+%    \begin{macrocode}
+\prg_new_protected_conditional:Nnn \@@_if_font_exists:n { TF }
+  {
+    \sys_get_shell:nnN { kpsewhich ~ #1.otf } { \endlinechar=-1 }
+      \l_@@_if_font_exists_otf_tl
+    \sys_get_shell:nnN { kpsewhich ~ #1.ttf } { \endlinechar=-1 }
+      \l_@@_if_font_exists_ttf_tl
+    \bool_lazy_and:nnTF
+      { \tl_if_blank_p:V \l_@@_if_font_exists_otf_tl }
+      { \tl_if_blank_p:V \l_@@_if_font_exists_ttf_tl }
+      { \prg_return_false: } { \prg_return_true: }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{variable}
+%   {\l_@@_if_font_exists_otf_tl, \l_@@_if_font_exists_ttf_tl}
+% 用于存储 |shell| 输出的 |kpsewhich| 结果。
+%    \begin{macrocode}
+\tl_new:N \l_@@_if_font_exists_otf_tl
+\tl_new:N \l_@@_if_font_exists_ttf_tl
+%    \end{macrocode}
+% \end{variable}
+%
+%    \begin{macrocode}
 \cs_new_protected:Npn \@@_save_bounds:n #1
   {
     \clist_put_right:Nx \l_@@_punct_bounds_clist
@@ -12028,12 +12064,12 @@ Copyright and Licence
     {adobezhkai}      {AdobeKaitiStd-Regular} ,
     {adobezhfs}       {AdobeFangsongStd-Regular} ,
 %
-    {fandolzhsong}    {FandolSong} ,
+    {fandolzhsong}    {FandolSong-Regular} ,
     {fandolzhsongb}   {FandolSong-Bold} ,
-    {fandolzhhei}     {FandolHei} ,
+    {fandolzhhei}     {FandolHei-Regular} ,
     {fandolzhheib}    {FandolHei-Bold} ,
-    {fandolzhkai}     {FandolKai} ,
-    {fandolzhfs}      {FandolFang} ,
+    {fandolzhkai}     {FandolKai-Regular} ,
+    {fandolzhfs}      {FandolFang-Regular} ,
 %
     {founderzhsong}   {FZShuSong-Z01} ,
     {founderzhsongb}  {FZXiaoBiaoSong-B05} ,
