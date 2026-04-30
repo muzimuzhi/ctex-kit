@@ -79,6 +79,10 @@
 
 调查报告还指出，`xeCJK` 的 example 文档直接封装在 `xeCJK.dtx` 的剥离块里；这类文件既是示例，也是该包当前重要的验证载体。
 
+## XeTeX 字体查找语法
+
+XeTeX/fontspec 中两类常用字体写法对应不同后端：`"FontName"` 走 fontconfig 名称查找，适合系统字体；`"[FontName]"` 走文件/kpathsea 查找，适合 TeX tree 中、可被 `kpsewhich` 找到的字体。使用方括号语法时通常不需要显式写 `.otf` 或 `.ttf` 扩展名，kpathsea 会自行解析。维护字体相关代码时，只要目标字体来自 TeX tree，就应优先用方括号语法；这一区别会同时出现在 `ctex-spa-make.tex` 的字体加载和 `fontset` 层的字体定义里。
+
 ## `\CTEX@` 遗留接口与 expl3 共存
 
 `ctex` 不是“纯 expl3、新写一遍”的项目；它保留了部分 `\CTEX@...` 风格的 LaTeX2e 遗留内部接口，与 `\ctex_...` 新接口并存。调查中给出的代表符号是 `\CTEX@char@n`，见 `ctex/ctex.dtx`。

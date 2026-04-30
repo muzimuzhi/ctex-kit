@@ -41,3 +41,4 @@
 - `llmdoc/memory/reflections/407-char-interchar-bypass.md` — 反思: xeCJK #407 中 `\char` 原语被 interchar 拦截的根因、`\char` vs mathcode 语义差异、测试场景设计偏差。
 - `llmdoc/memory/reflections/800-char-let-xint-compat.md` — 反思: xeCJK #800 中 `\char` 重定义必须延迟到 `\AtBeginDocument`，避免破坏 xint 等包在加载期 `\let` 保存原语的假设。
 - `llmdoc/memory/reflections/315-252-476-xecjk-ecglue-fixes.md` — 反思: xeCJK #252/#476 的 ecglue 字体度量问题与 #315 一样属于 interchar 边界恢复链，应在正确 CJK 字体上下文中缓存前侧 ecglue，并提前按 CI 依赖链完整验证基线影响。
+- `llmdoc/memory/reflections/756-802-spa-unicode17-baseline.md` — 反思: #756 XeTeX 字体查找语法陷阱、#802 Unicode 区块同步流程、xeCJK→ctex 跨包基线联动模式。
