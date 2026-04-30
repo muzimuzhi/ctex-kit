@@ -122,15 +122,18 @@ Issue #581 暴露了这一点：U+200B ZERO WIDTH SPACE、U+200C ZERO WIDTH NON-
 
 Issue #315 则暴露了另一类更隐蔽的边界恢复问题：即使参与排版的字符本身没有分类错误，`\textcolor`、`color`/`xcolor` 以及 PDF 注解等机制仍可能通过 `\special` 在节点链中插入 whatsit 节点（`\lastnodetype = 9`）。xeCJK 旧实现把“上一类边界标记是否存在”主要建模为 `\lastkern` 上的标记 kern；一旦 Boundary→Default 或 Boundary→CJK 过渡之间夹入 whatsit，这条检测链就会被打断，导致本应恢复的 `CJKecglue` / `CJKglue` 丢失。
 
-当前修复在 `xeCJK/xeCJK.dtx` 中增加了一条“whatsit 回退”路径：
+PR #791 对 #315 的修复曾把这条恢复链泛化为“只要上一节点是 whatsit，就根据 `\g_@@_last_node_tl` 恢复 glue”。这条通用 whatsit 恢复链虽然修复了 `\textcolor` 导致的 ecglue 丢失，但后来在 #803 中暴露出边界定义过宽的问题：如果 biblatex 的 `gb7714-2015` 样式把引用括号包进 `\raise\hbox{[}`，而 `hyperref` 又在括号与数字之间插入 PDF 注解 whatsit，那么 xeCJK 会把“hbox 后的任意 whatsit”误判成可恢复的 CJK→Default 边界，错误地在 `[` 与 `1` 之间补入 ecglue，生成可见的 `[ 1]` 类间距。
 
-- 新增全局变量 `\g_@@_last_node_tl`，在 `\xeCJK_make_node:n` 创建内部标记节点时同步保存标记类型。
-- 新增 `\@@_if_last_whatsit:TF`，以 `\lastnodetype = 9` 判断上一节点是否为 whatsit。
-- 新增 `\@@_recover_ecglue_whatsit:` 与 `\@@_recover_glue_whatsit:`，当常规 `\lastkern` 检测失败但上一节点是 whatsit 时，回看 `\g_@@_last_node_tl` 决定是否恢复 `CJKecglue` 或 `CJKglue`。
-- `\@@_check_for_ecglue:` 与 `\xeCJK_check_for_glue:` 在标准检测链末尾追加上述回退逻辑。
-- `\xeCJK_remove_node:` 在消费完内部标记节点后清空保存的节点类型，避免跨边界误判。
+当前 xeCJK 对 whatsit 的稳定约束因此已经收窄为“定点恢复，而不是通用恢复”：
 
-这说明 xeCJK 的 glue 恢复机制不能只理解成“检查上一项是否有特定 kern”，而要理解成“围绕 interchar 边界标记的一个小状态机”：正常路径依赖标记 kern，异常路径需要跨越 whatsit 节点恢复之前保存的边界类型。遇到 xcolor、hyperref 注解或其他 `\special` 参与时出现的 CJK-Latin / CJK-CJK 间距丢失，首查的就不应只是 glue 参数或字符类，而应直接检查 `xeCJK/xeCJK.dtx` 中这条 whatsit 回退链是否被覆盖。
+- `\@@_check_for_ecglue:` 的最后回退分支不再调用 `\@@_recover_ecglue_whatsit:`；也就是说，xeCJK 不再因为“上一节点是任意 whatsit”就恢复前侧 ecglue。
+- `\g_@@_last_node_tl` 仍然保留，用于记录最近一次 `\xeCJK_make_node:n` 创建的 xeCJK 内部标记类型；但这份状态不再被 `\@@_check_for_ecglue:` 当作全局后备。
+- 真正需要跨 whatsit 续接边界语义的场景，目前只对 `color` / `xcolor` 的 `\set@color` 做定点补丁：在颜色切换 whatsit 插入后，如果 `\g_@@_last_node_tl` 非空，就立即重放对应的 xeCJK 标记节点。
+- 这等价于把“跨 whatsit 恢复 glue”改写成“在已知安全的 whatsit 之后补回 xeCJK 自己的标记 kern”，让后续 `\lastkern` 检测继续工作，而不是让恢复函数去猜测任意 whatsit 后面应不应该补 glue。
+
+这一变化把 Issue #315 与 #803 统一到同一条更精确的心智模型里：并不是所有 whatsit 都代表“合法的边界中断”，只有 xeCJK 明确认识、并能在其后立即重建内部标记的 whatsit 才能参与边界恢复。当前已知的安全场景是 `color` / `xcolor` 的 `\set@color`；而 `hyperref` PDF 注解、`\raise\hbox` 包裹内容内部的 whatsit 等场景，都不能再使用通用恢复逻辑。
+
+这也带来一个需要明确写进文档的限制：biblatex `gb7714-2015` 风格用 `\raise\BracketLift\hbox{[}` / `\raise\BracketLift\hbox{]}` 包住括号时，括号字符已经被 hbox 隔离出 xeCJK 的 interchar 序列，xeCJK 本来就无法在盒子外的中文与 `[1]` 之间自动插入 ecglue。#803 的修复只是不再把 glue 错插到盒子内部；它并不会、也不应该尝试跨 hbox 恢复“引用前后应有的中西文间距”。遇到这类 `\parencite` 输出紧贴中文的场景，应把它视为 hbox 包裹字符对 interchar 机制的固有限制，而不是 xeCJK 新引入的缺陷。
 
 Issue #252 / #476 进一步说明，这条状态机不仅要解决“能否恢复”的问题，还要解决“恢复时取哪个 glue 值”的问题。`\CJKecglue` 默认是 `~`，其宽度、stretch、shrink 取决于当前字体的 `\fontdimen`；因此如果在 `\texttt`、`\textbf`、`\textit`、`\zihao` 或其他局部分组里切换了字体，再在边界恢复时直接重新展开 `\CJKecglue`，就会错误地使用组内字体的空格度量，而不是外层 CJK 字体的度量。
 
