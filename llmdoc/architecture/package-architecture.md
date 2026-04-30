@@ -100,7 +100,15 @@
 
 xeCJK 的字距控制还依赖 XeTeX 的 interchar 机制：字符先被分入 `Default`、`CJK`、`FullLeft`、`FullRight`、`Boundary` 等预定义类，以及 xeCJK 额外建立的 `HalfLeft`、`HalfRight`、`NormalSpace`、`CM` 等类，再由 `\XeTeXinterchartoks` 在类边界插入 `CJKglue` / `CJKecglue` 与相关分组 token。这里的关键不变量是：只有真正参与版面边界判定的可见字符，才应进入 class 序列；零宽格式字符若被当作普通字符参与分类，就会打断原本连续的 CJK 或 CJK↔Latin 边界，触发错误的 `CJKecglue` 或其他 inter-class toks 插入。
 
-另一个稳定约束是 `\char` 原语的改写时机。xeCJK 为修复 Issue #407 需要让正文中的 `\char` 输出绕过 interchar 干预路径，但这类重定义不能在包加载时立即生效；像 xint 这样的第三方包会在加载期通过 `\let` 保存 `\char`，若它们看到的是 xeCJK 的宏包装层而不是引擎原语，就会把错误的语义永久冻结进自己的内部接口。因此，xeCJK 当前必须把 `\cs_set_eq:NN \char \xeCJK_default_char:w` 延迟到 `\AtBeginDocument`，把“导言区保持 primitive 身份”与“正文期绕过 interchar”分成两个时段处理。凡是未来再调整 `\char` 或类似原语兼容补丁时，都应把“是否会影响加载期 `\let` 保存原语的包”视为架构级约束，而不是实现细节。
+另一个稳定约束是 `\char` 与 interchar 的边界。XeTeX 的 interchar 机制在 token 层面工作，只会看到“将要输出的字符 token”，无法区分这个字符是来自直接 Unicode 输入，还是来自 `\char` 原语；这与 LuaTeX-ja 可在节点级 callback 中区分输出来源的模型根本不同。因此，xeCJK 不可能像 LuaTeX-ja 那样在完全不碰 `\char` 的前提下自动修复 Issue #407。
+
+xeCJK 当前采取的最终路线是“三层策略”而不是重定义 `\char`：
+
+- 提供显式命令 `\xeCJKchar`，其实现是在输出字符前临时关闭 interchar，再调用底层 `\tex_char:D`；它与 `\char` 用法相同，但语义上是“显式绕过 interchar 的字符输出接口”。
+- 对已知受影响的第三方包做定点自动补丁。当前 `xeCJK/xeCJK.dtx` 已为 `mtpro2` 的 `\overcbrace` / `\undercbrace` 包装入口分组，并在入口处调用 `\makexeCJKinactive`，确保其内部 `\char` 取字形路径不被 interchar 干预。
+- 在文档层明确要求用户对其他类似命令做手动 patch：要么直接把局部 `\char` 调用替换为 `\xeCJKchar`，要么在命令外层用分组加 `\makexeCJKinactive` 包装。
+
+这也解释了为何早先的 `\AtBeginDocument` 方案被撤回：把 `\char` 在正文期延迟重定义虽然能绕开 xint 这类“加载期 `\let` 保存 primitive”的兼容问题，但仍然会改变文档体内 `\char` 的全局身份，不符合 xeCJK 现在确立的低侵入策略。当前架构约束更严格：`\char` 必须始终保持 XeTeX primitive 身份，兼容层只能通过新命令、定点补丁和用户手动包装来表达“这里需要绕过 interchar”。凡是未来再调整 `\char` 或类似原语兼容补丁时，都应把“是否改变 primitive 身份”视为架构级红线，而不是实现细节。
 
 从维护视角看，xeCJK 的这套 interchar 逻辑更适合被理解成一个“边界恢复状态机”，而不是若干零散的 glue 宏：
 

@@ -1587,6 +1587,41 @@ Copyright and Licence
 % \pkg{polyglossia} 和 \pkg{xesearch}）可能会存在大小不一的冲突。
 % \pkg{xeCJK} 虽然为此作了一些处理，但与它们共同使用时应该小心。
 %
+% \subsection{\tn{char} 原语与 interchar 的冲突}
+%
+% \XeTeX 的 interchar 机制工作在 token 层面，无法区分
+% |\char| 原语的输出和直接字符输入。因此当第三方宏包在内部使用 |\char|
+% 从非 CJK 字体取字形时，如果该字符编码恰好属于 \pkg{xeCJK} 的
+% interchar 字符分类，就会被拦截并切换到 CJK 字体，产生错误的字形。
+% 例如 \pkg{mtpro2} 的 |\overcbrace| 通过 |\char183| 取
+% 花括号字形，而 |U+00B7|（MIDDLE DOT）在 \pkg{xeCJK} 中属于
+% |FullRight| 类，导致花括号变成中文间隔号。
+%
+% 为此，\pkg{xeCJK} 提供 \tn{xeCJKchar} 命令，用法与 \tn{char} 完全
+% 相同，但在输出字符前临时关闭 |XeTeXinterchartokenstate|。
+% 用户可以使用 |\xeCJKchar"00B7| 代替 |\char"00B7|
+% 来避免 interchar 拦截。
+%
+% \pkg{xeCJK} 已为以下宏包的命令提供了自动兼容补丁：
+% \begin{itemize}
+%   \item \pkg{mtpro2}：|\overcbrace|、|\undercbrace|
+%   \item \pkg{pifont}：|\Pifont|（|U| 编码字体切换）
+% \end{itemize}
+% 如果遇到其他宏包的类似问题，可以在导言区手动包装有冲突的命令：
+% \begin{frameverb}
+%   % 方法一：直接用 \xeCJKchar 替换 \char
+%   \hbox{\myfont\xeCJKchar183}
+%
+%   % 方法二：包装第三方命令，关闭 interchar
+%   \let\origProblemCmd\problemCmd
+%   \renewcommand\problemCmd[1]{%
+%     \makexeCJKinactive  % 关闭 interchar
+%     \origProblemCmd{#1}}
+% \end{frameverb}
+% |\makexeCJKinactive| 是赋值操作，受 \TeX{} 分组约束——
+% 在 |{...}|、|$...$| 或 |\begingroup...\endgroup|
+% 内使用时，结束后自动恢复。
+%
 %\end{documentation}
 %
 %
@@ -9116,24 +9151,27 @@ Copyright and Licence
 % \end{variable}
 % \end{macro}
 %
-% \changes{v3.10.0}{2026/04/27}{重定义 \tn{char}，使其绕过 interchar 机制（\#407）。}
-% \changes{v3.10.0}{2026/04/29}{延迟 \tn{char} 重定义到 \tn{begin\{document\}}，
-%   避免影响在导言区通过 |\let| 保存 \tn{char} 原语的宏包（如 \pkg{xint}）。}
+% \changes{v3.10.0}{2026/04/27}{新增 \tn{xeCJKchar}，绕过 interchar 机制（\#407）。}
+% \changes{v3.10.0}{2026/04/29}{撤回对 \tn{char} 的重定义，改为提供 \tn{xeCJKchar}
+%   新命令，避免破坏依赖 |\let| 保存 \tn{char} 原语的宏包（\#800）。}
 %
-% \begin{macro}{\xeCJK_default_char:w}
+% \begin{macro}{\xeCJKchar, \xeCJK_default_char:w}
 % \begin{macro}{\@@_default_char_aux:}
 % \begin{variable}{\l_@@_default_char_int}
-% \tn{char} 是 \TeX 原语，用户使用它直接通过字符编码从当前字体取字形，
+% \tn{char} 是 \TeX{} 原语，用户使用它直接通过字符编码从当前字体取字形，
 % 不经过 NFSS 层。一些宏包（如 \pkg{mtpro2}）在数学模式中用 \tn{char} 取
 % 非 CJK 字形时，会被 \pkg{xeCJK} 的 interchar 机制拦截并切换到中文字体，
-% 导致字形变成中文标点（如间隔号）。这里参照 \pkg{LuaTeX-ja} 的做法，
-% 重定义 \tn{char}，使之临时关闭 |XeTeXinterchartokenstate|，保证输出的字符
-% 来自当前字体。
+% 导致字形变成中文标点（如间隔号，\#407）。
 %
-% 重定义延迟到 |\AtBeginDocument| 执行，因为 \pkg{xint} 等宏包在加载时通过
-% \verb|\let\xint:\char| 保存 \tn{char} 原语的副本作为内部数据编码工具。
-% 若在导言区就替换 \tn{char}，这些宏包会得到一个宏而非原语，破坏其内部的
-% 完全可展开处理链。
+% 参照 \LuaTeX-ja 提供 |\ltjalchar|/|\ltjjachar| 新命令的思路，
+% \pkg{xeCJK} 提供 \tn{xeCJKchar} 命令，在输出字符前临时关闭
+% |XeTeXinterchartokenstate|，保证输出的字符来自当前字体而不被 interchar
+% 拦截。与 \LuaTeX-ja 不同的是，XeTeX 的 interchar 机制工作在 token 层面，
+% 没有节点级回调，因此无法自动区分 \tn{char} 和直接字符输入。
+% \tn{xeCJKchar} 供用户和第三方宏包显式使用，\tn{char} 本身不做任何修改。
+%
+% 用法与 \tn{char} 完全相同：|\xeCJKchar"00B7| 或 |\xeCJKchar183|。
+% 用户指南和手动补丁方法参见"已知问题和兼容性"一节。
 %    \begin{macrocode}
 \cs_new_protected:Npn \xeCJK_default_char:w
   {
@@ -9152,11 +9190,37 @@ Copyright and Licence
     \c_group_end_token
   }
 \int_new:N \l_@@_default_char_int
-\AtBeginDocument { \cs_set_eq:NN \char \xeCJK_default_char:w }
+\cs_new_eq:NN \xeCJKchar \xeCJK_default_char:w
 %    \end{macrocode}
 % \end{variable}
 % \end{macro}
 % \end{macro}
+%
+% \changes{v3.10.0}{2026/04/29}{为 \pkg{mtpro2} 提供兼容补丁，
+%   使大花括号内部的 \tn{char} 不被 interchar 拦截（\#407）。}
+%
+% \pkg{mtpro2} 的 \cs{overcbrace} 和 \cs{undercbrace} 通过
+% |\char| 访问 |mt2exe| 等字体的特殊位置，其中部分位置
+% （如 183\,=\,|U+00B7|）与 \pkg{xeCJK} 的 interchar 字符分类冲突。
+% 由于这两个命令只用在数学模式中，参数不含 CJK 字符，可以在入口处
+% 直接关闭 |XeTeXinterchartokenstate|，由数学模式的分组自动恢复。
+%    \begin{macrocode}
+\@@_package_hook:nn { mtpro2 }
+  {
+    \cs_set_eq:NN \@@_mtpro_overcbrace:w \overcbrace
+    \cs_gset_protected:Npn \overcbrace #1
+      {
+        \makexeCJKinactive
+        \@@_mtpro_overcbrace:w {#1}
+      }
+    \cs_set_eq:NN \@@_mtpro_undercbrace:w \undercbrace
+    \cs_gset_protected:Npn \undercbrace #1
+      {
+        \makexeCJKinactive
+        \@@_mtpro_undercbrace:w {#1}
+      }
+  }
+%    \end{macrocode}
 %
 % \changes{v3.8.3}{2020/04/09}{兼容 \pkg{unicode-math} 和 \opt{CJKmath} 选项。}
 %
