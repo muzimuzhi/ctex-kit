@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK,xeCJKfntef}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\showboxdepth=5
+\showboxbreadth=100
+
+\begin{document}
+
+\START
+
+\OMIT
+\setbox0=\hbox{\CJKunderdblline{虚室生白}}
+\setbox2=\hbox{\CJKunderwave{虚室生白}}
+\setbox4=\hbox{\CJKsout{虚室生白}}
+\setbox6=\hbox{\CJKxout{虚室生白}}
+\TIMO
+
+\TEST{CJKunderdblline~box}{
+  \showbox0
+}
+
+\TEST{CJKunderwave~box}{
+  \showbox2
+}
+
+\TEST{CJKsout~box}{
+  \showbox4
+}
+
+\TEST{CJKxout~box}{
+  \showbox6
+}
+
+\END
+
+\end{document}

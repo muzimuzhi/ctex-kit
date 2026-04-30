@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage[CheckSingle]{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{CheckSingle~prevents~orphan~CJK~at~paragraph~end}{
+  \hsize=10em
+  \parindent=0pt
+  一二三四五六七八九十一二三四五六七八九十。
+  \clearpage
+}
+
+\TEST{CheckSingle~with~equation}{
+  \hsize=10em
+  \parindent=0pt
+  一二三四五六七八九十一二三四五六七八九十。
+  \[ x^2 + y^2 \]
+  一二三四五六七八九十一二三四五六七八九十。
+  \clearpage
+}
+
+\TEST{WidowPenalty~setting}{
+  \hsize=10em
+  \parindent=0pt
+  \xeCJKsetup{WidowPenalty=150}
+  一二三四五六七八九十一二三四五六七八九十。
+  \clearpage
+}
+
+\END
+
+\end{document}

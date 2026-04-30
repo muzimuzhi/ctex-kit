@@ -1,0 +1,134 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: CJK~in~page~header
+============================================================
+LaTeX Font Warning: Font shape `TU/FandolSong-Regular.otf(0)/m/sl' undefined
+(Font)              using `TU/FandolSong-Regular.otf(0)/m/n' instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 4.26fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.74+1.74998)x345.0
+....\hbox(7.74+1.74998)x345.0, glue set 273.2fil
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 页
+.....\glue 0.0
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 眉
+.....\glue 3.33 plus 1.66331 minus 1.1111
+.....\TU/lmr/m/sl/10 CJK
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 文
+.....\glue 0.0
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.....\kern -0.00017
+.....\kern 0.00017
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10 1
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 527.9436fil
+...\write-{}
+...\marks2{\__mark_value:nn {1}{页眉CJK文字}}
+...\marks3{\__mark_value:nn {2}{页眉CJK文字}}
+...\glue(\topskip) 2.31
+...\hbox(7.69+1.74998)x345.0
+....\hbox(0.0+0.0)x15.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 2.56001
+...\hbox(7.69+1.74998)x345.0, glue set 275.0fil
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.74998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

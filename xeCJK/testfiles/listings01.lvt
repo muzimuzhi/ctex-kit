@@ -1,0 +1,35 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+\usepackage{listings}
+
+\lstset{basicstyle=\ttfamily}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\BEGINTEST{lstlisting~with~CJK}
+\begin{lstlisting}
+int main() { // 主函数
+    return 0;
+}
+\end{lstlisting}
+\clearpage
+\ENDTEST
+
+\BEGINTEST{lstlisting~CJK~string}
+\begin{lstlisting}[language=C]
+char *s = "你好世界";
+\end{lstlisting}
+\clearpage
+\ENDTEST
+
+\END
+
+\end{document}

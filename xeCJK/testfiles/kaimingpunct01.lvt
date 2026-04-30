@@ -1,0 +1,28 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{kaiming~with~custom~KaiMingPunct}{
+  \xeCJKsetup{PunctStyle=kaiming}
+  标点、标点，标点。标点！标点？标点．
+  \clearpage
+}
+
+\TEST{kaiming~with~added~punct}{
+  \xeCJKsetup{PunctStyle=kaiming, KaiMingPunct+={，}}
+  标点、标点，标点。标点！标点？标点．
+  \clearpage
+}
+
+\END
+
+\end{document}

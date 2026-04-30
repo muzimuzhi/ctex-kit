@@ -1,0 +1,32 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{NewLineCS~treats~macro~as~newline}{
+  \xeCJKsetup{NewLineCS={\mybreak}}
+  \newcommand\mybreak{\par}
+  \hsize=10em
+  字字字字字字字字字字\mybreak 字字字字字字字字字字
+  \clearpage
+}
+
+\TEST{EnvCS~treats~macro~as~environment~boundary}{
+  \xeCJKsetup{EnvCS={\myenv}}
+  \newcommand\myenv[1]{\begin{center}#1\end{center}}
+  \hsize=10em
+  字字字字字\myenv{测试}字字字字字
+  \clearpage
+}
+
+\END
+
+\end{document}

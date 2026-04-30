@@ -1,0 +1,164 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: PlainEquation~with~inline~math
+============================================================
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line ....
+Overfull \hbox (5.0pt too wide) in paragraph at lines ...
+[]\TU/FandolSong-Regular.otf(0)/m/n/10 字 字 字 字 字
+\hbox(7.69+1.74998)x60.0
+.\hbox(0.0+0.0)x15.0
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue 0.0 plus 0.96002
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue 0.0 plus 0.96002
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue 0.0 plus 0.96002
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue 0.0 plus 0.96002
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue(\rightskip) 0.0
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x60.0, glue set 527.9436fil
+...\write-{}
+...\glue(\topskip) 2.31
+...\hbox(7.69+1.74998)x60.0
+....\hbox(0.0+0.0)x15.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 2.56001
+...\hbox(7.69+1.94444)x60.0, glue set 5.04747fil
+....\OML/cmm/m/it/10 x
+....\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+....\OT1/cmr/m/n/10 +
+....\penalty 700
+....\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+....\OML/cmm/m/it/10 y
+....\kern0.35878
+....\glue(\thickmuskip) 2.77771 plus 2.77771
+....\OT1/cmr/m/n/10 =
+....\penalty 500
+....\glue(\thickmuskip) 2.77771 plus 2.77771
+....\OML/cmm/m/it/10 z
+....\kern0.4398
+....\mathoff
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.94444
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================
+============================================================
+TEST 2: PlainEquation~false~restores~default
+============================================================
+Overfull \hbox (5.0pt too wide) in paragraph at lines ...
+[]\TU/FandolSong-Regular.otf(0)/m/n/10 字 字 字 字 字
+\hbox(7.69+1.74998)x60.0
+.\hbox(0.0+0.0)x15.0
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue 0.0 plus 0.96002
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue 0.0 plus 0.96002
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue 0.0 plus 0.96002
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue 0.0 plus 0.96002
+.\TU/FandolSong-Regular.otf(0)/m/n/10 字
+.\glue(\rightskip) 0.0
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x60.0, glue set 527.9436fil
+...\write-{}
+...\glue(\topskip) 2.31
+...\hbox(7.69+1.74998)x60.0
+....\hbox(0.0+0.0)x15.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 2.56001
+...\hbox(7.69+1.94444)x60.0, glue set 5.04747fil
+....\OML/cmm/m/it/10 x
+....\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+....\OT1/cmr/m/n/10 +
+....\penalty 700
+....\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+....\OML/cmm/m/it/10 y
+....\kern0.35878
+....\glue(\thickmuskip) 2.77771 plus 2.77771
+....\OT1/cmr/m/n/10 =
+....\penalty 500
+....\glue(\thickmuskip) 2.77771 plus 2.77771
+....\OML/cmm/m/it/10 z
+....\kern0.4398
+....\mathoff
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.94444
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 2
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================

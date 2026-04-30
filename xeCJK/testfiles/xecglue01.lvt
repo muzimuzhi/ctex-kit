@@ -1,0 +1,42 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\TEST{default:~space~at~CJK-Latin~boundary~preserved}{
+  \setbox0=\hbox{字 abc字}
+  \setbox1=\hbox{字abc字}
+  \TYPE{with-space:~\the\wd0}
+  \TYPE{no-space:~\the\wd1}
+}
+
+\TEST{xCJKecglue=true:~space~replaced~by~ecglue}{
+  \xeCJKsetup{xCJKecglue=true}
+  \setbox0=\hbox{字 abc字}
+  \setbox1=\hbox{字abc字}
+  \ifdim\wd0=\wd1
+    \TYPE{PASS:~space~replaced~by~ecglue}
+  \else
+    \TYPE{FAIL:~\the\wd0\space vs~\the\wd1}
+  \fi
+  \xeCJKsetup{xCJKecglue=false}
+}
+
+\TEST{xCJKecglue~with~custom~glue~value}{
+  \xeCJKsetup{xCJKecglue={0.5em}}
+  \setbox0=\hbox{字 abc字}
+  \setbox1=\hbox{字abc字}
+  \TYPE{custom-with-space:~\the\wd0}
+  \TYPE{custom-no-space:~\the\wd1}
+  \xeCJKsetup{xCJKecglue=false}
+}
+
+\END
+
+\end{document}

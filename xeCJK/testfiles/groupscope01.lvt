@@ -1,0 +1,50 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\TEST{group~scope~preserves~options}{
+  \setbox0=\hbox{字 字}
+  \TYPE{default:~\the\wd0}
+  \begingroup
+    \xeCJKsetup{CJKspace}
+    \setbox1=\hbox{字 字}
+    \TYPE{inside-group:~\the\wd1}
+  \endgroup
+  \setbox2=\hbox{字 字}
+  \TYPE{after-group:~\the\wd2}
+  \ifdim\wd0=\wd2
+    \TYPE{PASS:~option~scoped}
+  \else
+    \TYPE{FAIL:~\the\wd0\space vs~\the\wd2}
+  \fi
+}
+
+\TEST{nested~groups}{
+  \setbox0=\hbox{字，字}
+  \TYPE{outer:~\the\wd0}
+  \begingroup
+    \xeCJKsetup{PunctStyle=banjiao}
+    \setbox1=\hbox{字，字}
+    \TYPE{banjiao:~\the\wd1}
+    \begingroup
+      \xeCJKsetup{PunctStyle=quanjiao}
+      \setbox2=\hbox{字，字}
+      \TYPE{inner-quanjiao:~\the\wd2}
+    \endgroup
+    \setbox3=\hbox{字，字}
+    \TYPE{back-to-banjiao:~\the\wd3}
+  \endgroup
+  \setbox4=\hbox{字，字}
+  \TYPE{back-to-outer:~\the\wd4}
+}
+
+\END
+
+\end{document}

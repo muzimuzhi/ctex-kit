@@ -1,0 +1,32 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\TEST{Verb=true~zeroes~CJK~glue}{
+  \xeCJKsetup{Verb=true}
+  \setbox0=\hbox{{\ttfamily 字code字}}
+  \TYPE{verb-true:~\the\wd0}
+}
+
+\TEST{Verb=false~preserves~CJK~glue}{
+  \xeCJKsetup{Verb=false}
+  \setbox0=\hbox{{\ttfamily 字code字}}
+  \TYPE{verb-false:~\the\wd0}
+}
+
+\TEST{Verb=env~default}{
+  \xeCJKsetup{Verb=env}
+  \setbox0=\hbox{{\ttfamily 字code字}}
+  \TYPE{verb-env:~\the\wd0}
+}
+
+\END
+
+\end{document}

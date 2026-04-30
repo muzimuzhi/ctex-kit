@@ -1,0 +1,35 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\TEST{fallback~enable~disable~cycle}{
+  \xeCJKenablefallback
+  \setbox0=\hbox{字}
+  \TYPE{enabled:~\the\wd0}
+  \xeCJKdisablefallback
+  \setbox1=\hbox{字}
+  \TYPE{disabled:~\the\wd1}
+  \xeCJKenablefallback
+  \setbox2=\hbox{字}
+  \TYPE{re-enabled:~\the\wd2}
+}
+
+\TEST{xeCJKallowbreakbetweenpuncts~compat}{
+  \xeCJKallowbreakbetweenpuncts
+  \setbox0=\hbox{字，字。字}
+  \TYPE{allow:~\the\wd0}
+  \xeCJKnobreakbetweenpuncts
+  \setbox1=\hbox{字，字。字}
+  \TYPE{nobreak:~\the\wd1}
+}
+
+\END
+
+\end{document}

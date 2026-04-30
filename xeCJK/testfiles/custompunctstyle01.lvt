@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\xeCJKDeclarePunctStyle{mine}{
+  fixed-punct-ratio       = 0.5 ,
+  optimize-margin         = true ,
+  kerning-total-ratio     = 0.5 ,
+  optimize-kerning        = true ,
+  kerning-margin-minimum  = 0.1em
+}
+
+\xeCJKEditPunctStyle{hangmobanjiao}{enabled-global-setting=false}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{custom~PunctStyle~mine}{
+  \xeCJKsetup{PunctStyle=mine}
+  标点、标点，标点。标点、标点，标点。
+  「标点」、「『标点』」，《标点》、〈标点〉。
+  \clearpage
+}
+
+\TEST{edited~hangmobanjiao}{
+  \xeCJKsetup{PunctStyle=hangmobanjiao}
+  标点、标点，标点。标点、标点，标点。
+  「标点」、「『标点』」，《标点》、〈标点〉。
+  \clearpage
+}
+
+\END
+
+\end{document}

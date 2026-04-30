@@ -1,0 +1,41 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\def\measureecglue#1{%
+  \setbox0=\hbox{字A\kern0pt}%
+  \setbox2=\hbox{字}%
+  \setbox3=\hbox{A}%
+  \dimen0=\wd0 \advance\dimen0 by -\wd2 \advance\dimen0 by -\wd3
+  \TYPE{#1 ecglue = \the\dimen0}%
+}
+
+\TEST{default~CJKecglue~value}{
+  \measureecglue{default}
+}
+
+\TEST{custom~CJKecglue~value}{
+  \xeCJKsetup{CJKecglue={\hskip 0.5em}}
+  \measureecglue{custom-0.5em}
+  \xeCJKsetup{CJKecglue={\hskip 1em}}
+  \measureecglue{custom-1em}
+}
+
+\TEST{CJKglue~custom~value}{
+  \xeCJKsetup{CJKglue={\hskip 0.2em}}
+  \setbox0=\hbox{字字字}
+  \setbox2=\hbox{字}
+  \dimen0=\wd0 \advance\dimen0 by -\wd2 \advance\dimen0 by -\wd2 \advance\dimen0 by -\wd2
+  \TYPE{CJKglue-total = \the\dimen0}
+}
+
+\END
+
+\end{document}

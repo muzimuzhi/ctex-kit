@@ -1,0 +1,26 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: default CJK char uses CJK font
+============================================================
+CJK-char-width: 10.0pt
+============================================================
+============================================================
+TEST 2: reclassify char to CJK changes font
+============================================================
+Missing character: There is no ■ (U+25A0) in font [lmroman10-regular]:mapping=tex-text;!
+before: 2.8pt
+after: 10.0pt
+CHANGED
+============================================================
+============================================================
+TEST 3: CJKecglue inserted at CJK-Default boundary
+============================================================
+ecglue: 3.33pt
+PASS: ecglue present
+============================================================
+============================================================
+TEST 4: CJKglue natural width between CJK chars
+============================================================
+CJKglue-natural-width: 0.0pt
+============================================================

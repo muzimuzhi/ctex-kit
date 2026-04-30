@@ -1,0 +1,156 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: CheckFullRight~adjusts~line-end~right~punct
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x100.0, glue set 527.9436fil
+...\write-{}
+...\glue(\topskip) 2.25
+...\hbox(7.75+1.49998)x100.0, glue set 0.83852
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 2.82002
+...\hbox(7.68+1.77998)x100.0, glue set 56.44fil
+....\TU/FandolSong-Regular.otf(0)/m/n/10 测
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 试
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 文
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 本
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\kern 0.0004
+....\kern -0.0004
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.77998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================
+============================================================
+TEST 2: CheckFullRight~with~closing~bracket
+============================================================
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x100.0, glue set 527.9436fil
+...\write-{}
+...\glue(\topskip) 1.98
+...\hbox(8.02+1.69998)x100.0, glue set - 0.81764
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\glue 5.92 minus 4.98999
+....\rule(0.0+0.0)x-5.92
+....\TU/FandolSong-Regular.otf(0)/m/n/10 「引
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 用
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 」
+....\rule(0.0+0.0)x-5.92
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 2.80002
+...\hbox(7.5+1.24998)x100.0, glue set 16.44fil
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\kern 0.0004
+....\kern -0.0004
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.24998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 2
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================

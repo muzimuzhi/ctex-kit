@@ -1,0 +1,1272 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: CJKunderline~across~linebreak
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push  Black}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x80.0, glue set 515.94489fil
+...\write-{}
+...\glue(\topskip) 2.31
+...\hbox(7.69+2.39996)x80.0, glue set 1.04164
+....\hbox(0.0+0.0)x15.0
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 1.91003
+...\hbox(7.69+2.39996)x80.0
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 1.91003
+...\hbox(7.69+2.39996)x80.0, glue set 20.0fil
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.39996
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\special{color push  Black}
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+...\special{color pop}
+============================================================
+============================================================
+TEST 2: CJKsout~with~custom~options
+============================================================
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push  Black}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x150.0, glue set 539.94232fil
+...\write-{}
+...\glue(\topskip) 1.11244
+...\hbox(8.88756+1.92998)x150.0, glue set 35.0fil
+....\hbox(0.0+0.0)x15.0
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.76+1.83998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 虚
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.72+1.09999)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 室
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.71+1.14998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 生
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.65+1.56999)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 白
+....\penalty 10000
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 5.07997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -3.08
+....\hbox(1.06+1.92998)x3.08
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 ，
+.....\rule(0.0+0.0)x-6.92
+....\glue -0.99998
+....\leaders 8.91997 minus 5.0
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.7+1.66998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 吉
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.75+1.92998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 祥
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.6+1.39998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 止
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.6+1.39998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 止
+....\penalty 10000
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 5.55997
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\kern -3.56
+....\hbox(1.49+0.62999)x3.56
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+.....\rule(0.0+0.0)x-6.44
+....\glue -0.99998
+....\leaders 8.43997 minus 5.0
+.....\hbox(8.88756+1.88744)x1.99997
+......\hbox(10.775+0.0)x1.99997, shifted 1.88744
+.......\special{pdf:bc [0]}
+.......\special{color push cmyk 0 0 1 0}
+.......\rule(10.775+0.0)x1.99997
+.......\special{pdf:ec}
+.......\special{color pop}
+....\glue -0.99998
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.92998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\special{color push  Black}
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 2
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+...\special{color pop}
+============================================================
+============================================================
+TEST 3: CJKunderline~star~continuous
+============================================================
+Completed box being shipped out [3]
+\vbox(633.0+0.21999)x407.0
+.\glue 16.0
+.\vbox(617.0+0.21999)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push  Black}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x80.0, glue set 515.94489fil
+...\write-{}
+...\glue(\topskip) 2.31
+...\hbox(7.69+2.39996)x80.0, glue set 1.04164
+....\hbox(0.0+0.0)x15.0
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 1.91003
+...\hbox(7.69+2.39996)x80.0
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 1.91003
+...\hbox(7.69+2.39996)x80.0, glue set 20.0fil
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\glue -0.99998
+....\leaders 1.99997 plus 0.96002
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\rule(*+*)x0.0
+....\penalty 10000
+....\glue -0.99998
+....\leaders 11.99997
+.....\hbox(0.0+2.39996)x1.99997
+......\hbox(0.4+0.0)x1.99997, shifted 2.39996
+.......\special{pdf:bc [0]}
+.......\rule(0.4+0.0)x1.99997
+.......\special{pdf:ec}
+....\glue -0.99998
+....\kern -10.0
+....\hbox(7.69+1.74998)x10.0
+.....\kern -0.00005
+.....\kern 0.00005
+.....\TU/FandolSong-Regular.otf(0)/m/n/10 字
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.39996
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.21999)x345.0
+...\special{color push  Black}
+...\hbox(6.66+0.21999)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 3
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+...\special{color pop}
+============================================================

@@ -1,0 +1,43 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{RubberPunctSkip=true~(default)}{
+  \parindent=0pt
+  一二三四五六七八九，一二三四五六七八九。一二三四五。
+  \clearpage
+}
+
+\TEST{RubberPunctSkip=false}{
+  \parindent=0pt
+  \xeCJKsetup{RubberPunctSkip=false}
+  一二三四五六七八九，一二三四五六七八九。一二三四五。
+  \clearpage
+}
+
+\TEST{RubberPunctSkip=plus}{
+  \parindent=0pt
+  \xeCJKsetup{RubberPunctSkip=plus}
+  一二三四五六七八九，一二三四五六七八九。一二三四五。
+  \clearpage
+}
+
+\TEST{RubberPunctSkip=minus}{
+  \parindent=0pt
+  \xeCJKsetup{RubberPunctSkip=minus}
+  一二三四五六七八九，一二三四五六七八九。一二三四五。
+  \clearpage
+}
+
+\END
+
+\end{document}

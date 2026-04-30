@@ -1,0 +1,24 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\pagestyle{myheadings}
+\markright{页眉CJK文字}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{CJK~in~page~header}{
+  字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字
+  \clearpage
+}
+
+\END
+
+\end{document}

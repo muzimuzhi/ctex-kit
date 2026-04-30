@@ -1,0 +1,378 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: RubberPunctSkip=true~(default)
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 539.94232fil
+...\write-{}
+...\glue(\topskip) 2.25
+...\hbox(7.75+1.92998)x345.0, glue set 91.44fil
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 ，
+....\rule(0.0+0.0)x-6.92
+....\glue 6.92 minus 5.0
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\glue 6.44 minus 5.0
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\kern 0.0004
+....\kern -0.0004
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.92998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================
+============================================================
+TEST 2: RubberPunctSkip=false
+============================================================
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 539.94232fil
+...\write-{}
+...\glue(\topskip) 2.25
+...\hbox(7.75+1.92998)x345.0, glue set 91.44fil
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 ，
+....\rule(0.0+0.0)x-6.92
+....\glue 6.92
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\glue 6.44
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\kern 0.0004
+....\kern -0.0004
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.92998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 2
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================
+============================================================
+TEST 3: RubberPunctSkip=plus
+============================================================
+Completed box being shipped out [3]
+\vbox(633.0+0.21999)x407.0
+.\glue 16.0
+.\vbox(617.0+0.21999)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 539.94232fil
+...\write-{}
+...\glue(\topskip) 2.25
+...\hbox(7.75+1.92998)x345.0, glue set 91.44fil
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 ，
+....\rule(0.0+0.0)x-6.92
+....\glue 6.92
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\glue 6.44
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\kern 0.0004
+....\kern -0.0004
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.92998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.21999)x345.0
+...\hbox(6.66+0.21999)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 3
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================
+============================================================
+TEST 4: RubberPunctSkip=minus
+============================================================
+Completed box being shipped out [4]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 539.94232fil
+...\write-{}
+...\glue(\topskip) 2.25
+...\hbox(7.75+1.92998)x345.0, glue set 91.44fil
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 ，
+....\rule(0.0+0.0)x-6.92
+....\glue 6.92 minus 5.0
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 六
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 七
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 八
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 九
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\glue 6.44 minus 5.0
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 一
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 二
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 三
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 四
+....\glue 0.0 plus 0.96002
+....\TU/FandolSong-Regular.otf(0)/m/n/10 五
+....\penalty 10000
+....\TU/FandolSong-Regular.otf(0)/m/n/10 。
+....\rule(0.0+0.0)x-6.44
+....\kern 0.0004
+....\kern -0.0004
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.92998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.23
+..\hbox(6.77+0.0)x345.0
+...\hbox(6.77+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 4
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================

@@ -1,0 +1,26 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}[
+  Mapping=fullwidth-stop
+]
+
+\begin{document}
+
+\START
+
+\TEST{fullwidth-stop~mapping}{
+  \setbox0=\hbox{。}
+  \TYPE{fullwidth-stop:~\the\wd0}
+}
+
+\TEST{normal~punct~with~mapping}{
+  \setbox0=\hbox{字。字}
+  \TYPE{mapped:~\the\wd0}
+}
+
+\END
+
+\end{document}

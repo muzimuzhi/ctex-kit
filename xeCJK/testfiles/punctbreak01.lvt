@@ -1,0 +1,27 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{AllowBreakBetweenPuncts=false~(default)}{
+  标点、标点，标点。「标点」、标点。
+  \clearpage
+}
+
+\TEST{AllowBreakBetweenPuncts=true}{
+  \xeCJKsetup{AllowBreakBetweenPuncts=true}
+  标点、标点，标点。「标点」、标点。
+  \clearpage
+}
+
+\END
+
+\end{document}

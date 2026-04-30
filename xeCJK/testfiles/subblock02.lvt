@@ -1,0 +1,28 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\xeCJKDeclareSubCJKBlock{Ext-A}{"3400 -> "4DBF}
+
+\begin{document}
+
+\START
+
+\TEST{SubCJKBlock~cancel~merges~back}{
+  \xeCJKCancelSubCJKBlock{Ext-A}
+  \setbox0=\hbox{字}
+  \TYPE{after-cancel:~\the\wd0}
+}
+
+\TEST{SubCJKBlock~restore~re-separates}{
+  \xeCJKRestoreSubCJKBlock{Ext-A}
+  \setbox0=\hbox{字}
+  \TYPE{after-restore:~\the\wd0}
+}
+
+\END
+
+\end{document}

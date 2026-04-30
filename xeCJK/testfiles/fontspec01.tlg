@@ -1,0 +1,31 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: CJKfontspec~inline~change
+============================================================
+default:~10.0pt
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font 'FandolKai-Regular'. Check the typeset output, and if it is okay then ignore this warning. Otherwise a different font should be chosen.
+Package fontspec Info: 
+(fontspec)             Font family 'FandolKai-Regular.otf(0)' created for font 'FandolKai-Regular.otf' with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolKai-Regular.otf]/OT:script=hani;language=dflt;"
+kai:~10.0pt
+============================================================
+============================================================
+TEST 2: addCJKfontfeatures~BoldFont
+============================================================
+normal:~10.0pt
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font 'FandolSong-Regular'. Check the typeset output, and if it is okay then ignore this warning. Otherwise a different font should be chosen.
+Package fontspec Info: 
+(fontspec)             Font family 'FandolSong-Regular.otf(1)' created for font 'FandolSong-Regular.otf' with options [Script={CJK},Script={CJK},AutoFakeBold={3}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolSong-Regular.otf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[FandolSong-Regular.otf]/OT:script=hani;language=dflt;embolden=3;"
+fakebold:~10.0pt
+============================================================

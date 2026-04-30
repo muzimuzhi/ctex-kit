@@ -1,0 +1,29 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage[CheckSingle, PlainEquation]{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{PlainEquation~with~inline~math}{
+  \hsize=6em
+  字字字字字$x+y=z$字
+  \clearpage
+}
+
+\TEST{PlainEquation~false~restores~default}{
+  \xeCJKsetup{PlainEquation=false}
+  \hsize=6em
+  字字字字字$x+y=z$字
+  \clearpage
+}
+
+\END
+
+\end{document}

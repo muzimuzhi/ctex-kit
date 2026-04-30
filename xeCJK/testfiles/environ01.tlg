@@ -1,0 +1,97 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: CJK~in~minipage
+============================================================
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line ....
+Overfull \hbox (15.0pt too wide) in paragraph at lines ...
+[]$[]$ 
+\hbox(13.22+8.21999)x200.0
+.\hbox(0.0+0.0)x15.0
+.\mathon
+.\vbox(13.22+8.21999)x200.0
+..\hbox(7.69+1.74998)x200.0, glue set 0.57869
+...\hbox(0.0+0.0)x0.0
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue 0.0 plus 0.96002
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\glue(\rightskip) 0.0
+..\penalty 300
+..\glue(\baselineskip) 2.56001
+..\hbox(7.69+1.74998)x200.0, glue set 186.44fil
+...\TU/FandolSong-Regular.otf(0)/m/n/10 字
+...\penalty 10000
+...\TU/FandolSong-Regular.otf(0)/m/n/10 。
+...\rule(0.0+0.0)x-6.44
+...\kern 0.0004
+...\kern -0.0004
+...\kern -0.18753
+...\kern 0.18753
+...\penalty 10000
+...\glue(\parfillskip) 0.0 plus 1.0fil
+...\glue(\rightskip) 0.0
+.\mathoff
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+minipage-height:~13.22pt
+============================================================
+============================================================
+TEST 2: CJK~in~footnote
+============================================================
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line ....
+footnote-text-width:~34.483pt
+============================================================
+============================================================
+TEST 3: CJK~in~parbox
+============================================================
+parbox-width:~100.0pt
+============================================================
+============================================================
+TEST 4: CJK~across~group~boundary
+============================================================
+LaTeX Font Warning: Font shape `TU/FandolSong-Regular.otf(0)/b/n' undefined
+(Font)              using `TU/FandolSong-Regular.otf(0)/m/n' instead on input line ....
+with-group:~30.0pt
+without-group:~30.0pt
+============================================================

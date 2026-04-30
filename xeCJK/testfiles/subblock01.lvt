@@ -1,0 +1,27 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\xeCJKDeclareSubCJKBlock{Ext-A}{"3400 -> "4DBF}
+
+\begin{document}
+
+\START
+
+\TEST{SubCJKBlock~declaration}{
+  \setbox0=\hbox{字}
+  \TYPE{basic-CJK:~\the\wd0}
+}
+
+\TEST{SubCJKBlock~with~different~font}{
+  \setCJKfamilyfont{Ext-A}[AutoFakeBold]{FandolSong-Regular.otf}
+  \setbox0=\hbox{字}
+  \TYPE{basic:~\the\wd0}
+}
+
+\END
+
+\end{document}

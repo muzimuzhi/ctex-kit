@@ -1,0 +1,56 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\ExplSyntaxOn
+
+\TEST{default~CJK~char~uses~CJK~font}{
+  \hbox_set:Nn \l_tmpa_box { 字 }
+  \TYPE { CJK-char-width:~ \dim_use:N \box_wd:N \l_tmpa_box }
+}
+
+\TEST{reclassify~char~to~CJK~changes~font}{
+  \hbox_set:Nn \l_tmpa_box { \symbol{"25A0} }
+  \dim_set:Nn \l_tmpa_dim { \box_wd:N \l_tmpa_box }
+  \TYPE { before:~ \dim_use:N \l_tmpa_dim }
+  \xeCJKDeclareCharClass { CJK } { "25A0 }
+  \hbox_set:Nn \l_tmpa_box { \symbol{"25A0} }
+  \dim_set:Nn \l_tmpb_dim { \box_wd:N \l_tmpa_box }
+  \TYPE { after:~ \dim_use:N \l_tmpb_dim }
+  \dim_compare:nNnTF { \l_tmpa_dim } = { \l_tmpb_dim }
+    { \TYPE { SAME } }
+    { \TYPE { CHANGED } }
+}
+
+\TEST{CJKecglue~inserted~at~CJK-Default~boundary}{
+  \setbox0=\hbox{字A}
+  \setbox2=\hbox{字}
+  \setbox3=\hbox{A}
+  \dimen0=\wd0 \advance\dimen0 by -\wd2 \advance\dimen0 by -\wd3
+  \TYPE { ecglue:~\the\dimen0 }
+  \ifdim\dimen0>0pt
+    \TYPE { PASS:~ecglue~present }
+  \else
+    \TYPE { FAIL:~no~ecglue }
+  \fi
+}
+
+\TEST{CJKglue~natural~width~between~CJK~chars}{
+  \setbox0=\hbox{字字}
+  \setbox2=\hbox{字}
+  \dimen0=\wd0 \advance\dimen0 by -\wd2 \advance\dimen0 by -\wd2
+  \TYPE { CJKglue-natural-width:~\the\dimen0 }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

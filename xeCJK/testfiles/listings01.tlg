@@ -1,0 +1,445 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: lstlisting~with~CJK
+============================================================
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define it.
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 506.34589fil
+...\write-{}
+...\glue(\topskip) 1.60004
+...\hbox(8.39996+3.60004)x345.0, glue set 212.99866fil
+....\hbox(8.39996+3.60004)x0.0
+.....\hbox(8.39996+3.60004)x0.0, glue set - 3.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\hbox(8.39996+3.60004)x0.0
+........\rule(8.39996+3.60004)x0.0
+........\kern 0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\rule(8.39996+3.60004)x0.0
+......\kern 3.0
+......\kern 0.0
+.....\hbox(8.39996+3.60004)x0.0, glue set - 348.0fil
+......\kern 0.0
+......\hbox(8.39996+3.60004)x345.0
+.......\rule(8.39996+3.60004)x0.0
+.......\kern 345.0
+......\kern 3.0
+......\hbox(8.39996+3.60004)x0.0
+.......\hbox(8.39996+3.60004)x0.0
+........\rule(8.39996+3.60004)x0.0
+........\kern 0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\rule(8.39996+3.60004)x0.0
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(6.05+0.05998)x18.00018
+.....\hbox(6.05+0.05998)x18.00018, glue set 0.56255fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 i
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 n
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 t
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x6.00006
+.....\hbox(0.0+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 5.25
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(6.05+0.05998)x24.00024
+.....\hbox(6.05+0.05998)x24.00024, glue set 0.60005fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 m
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 a
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 i
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 n
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(6.94+0.81999)x12.00012
+.....\hbox(6.94+0.81999)x12.00012, glue set 0.50005fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 (
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 )
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x6.00006
+.....\hbox(0.0+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 5.25
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(6.94+0.82999)x6.00006
+.....\hbox(6.94+0.82999)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 {
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x6.00006
+.....\hbox(0.0+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 5.25
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(6.94+0.82999)x12.00012
+.....\hbox(6.94+0.82999)x12.00012, glue set 0.50005fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 /
+......\kern -0.00023
+......\kern 0.00023
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 /
+......\kern -0.00023
+......\kern 0.00023
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x6.00006
+.....\hbox(0.0+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 5.25
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(7.8+1.80998)x36.00037
+.....\hbox(7.8+1.80998)x36.00037, glue set 1.50009fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/FandolSong-Regular.otf(0)/m/n/10 主
+......\kern -0.00017
+......\kern 0.00017
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/FandolSong-Regular.otf(0)/m/n/10 函
+......\kern -0.00017
+......\kern 0.00017
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/FandolSong-Regular.otf(0)/m/n/10 数
+......\kern -0.00017
+......\kern 0.00017
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 0.0
+...\hbox(8.39996+3.60004)x345.0, glue set 266.9992fil
+....\hbox(8.39996+3.60004)x0.0
+.....\hbox(8.39996+3.60004)x0.0, glue set - 3.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\hbox(8.39996+3.60004)x0.0
+........\rule(8.39996+3.60004)x0.0
+........\kern 0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\rule(8.39996+3.60004)x0.0
+......\kern 3.0
+......\kern 0.0
+.....\hbox(8.39996+3.60004)x0.0, glue set - 348.0fil
+......\kern 0.0
+......\hbox(8.39996+3.60004)x345.0
+.......\rule(8.39996+3.60004)x0.0
+.......\kern 345.0
+......\kern 3.0
+......\hbox(8.39996+3.60004)x0.0
+.......\hbox(8.39996+3.60004)x0.0
+........\rule(8.39996+3.60004)x0.0
+........\kern 0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\rule(8.39996+3.60004)x0.0
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x24.00024
+.....\kern 24.00024
+....\hbox(5.54+0.05998)x36.00037
+.....\hbox(5.54+0.05998)x36.00037, glue set 0.64291fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 r
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 e
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 t
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 u
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 r
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 n
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x6.00006
+.....\hbox(0.0+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 5.25
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(6.22+1.38998)x12.00012
+.....\hbox(6.22+1.38998)x12.00012, glue set 0.50005fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 0
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 ;
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 0.0
+...\hbox(8.39996+3.60004)x345.0, glue set 338.99994fil
+....\hbox(8.39996+3.60004)x0.0
+.....\hbox(8.39996+3.60004)x0.0, glue set - 3.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\hbox(8.39996+3.60004)x0.0
+........\rule(8.39996+3.60004)x0.0
+........\kern 0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\rule(8.39996+3.60004)x0.0
+......\kern 3.0
+......\kern 0.0
+.....\hbox(8.39996+3.60004)x0.0, glue set - 348.0fil
+......\kern 0.0
+......\hbox(8.39996+3.60004)x345.0
+.......\rule(8.39996+3.60004)x0.0
+.......\kern 345.0
+......\kern 3.0
+......\hbox(8.39996+3.60004)x0.0
+.......\hbox(8.39996+3.60004)x0.0
+........\rule(8.39996+3.60004)x0.0
+........\kern 0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\rule(8.39996+3.60004)x0.0
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(6.94+0.82999)x6.00006
+.....\hbox(6.94+0.82999)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 }
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -50
+...\glue 6.0 plus 2.0 minus 2.0
+...\glue 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================
+============================================================
+TEST 2: lstlisting~CJK~string
+============================================================
+(../lstlang1.sty
+File: lstlang1.sty ....-..-.. 1.11b listings language file
+) (../lstmisc.sty
+File: lstmisc.sty ....-..-.. 1.11b (Carsten Heinz)
+)
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line ....
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 530.34332fil
+...\write-{}
+...\glue(\topskip) 1.60004
+...\hbox(8.39996+3.60004)x345.0, glue set 218.99872fil
+....\hbox(8.39996+3.60004)x0.0
+.....\hbox(8.39996+3.60004)x0.0, glue set - 3.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\hbox(8.39996+3.60004)x0.0
+........\rule(8.39996+3.60004)x0.0
+........\kern 0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\rule(8.39996+3.60004)x0.0
+......\kern 3.0
+......\kern 0.0
+.....\hbox(8.39996+3.60004)x0.0, glue set - 348.0fil
+......\kern 0.0
+......\hbox(8.39996+3.60004)x345.0
+.......\rule(8.39996+3.60004)x0.0
+.......\kern 345.0
+......\kern 3.0
+......\hbox(8.39996+3.60004)x0.0
+.......\hbox(8.39996+3.60004)x0.0
+........\rule(8.39996+3.60004)x0.0
+........\kern 0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(8.39996+3.60004)x0.0
+.......\rule(8.39996+3.60004)x0.0
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(6.11+0.05998)x24.00024
+.....\hbox(6.11+0.05998)x24.00024, glue set 0.60005fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/b/n/10 c
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/b/n/10 h
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/b/n/10 a
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/b/n/10 r
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x6.00006
+.....\hbox(0.0+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 5.25
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(5.21+0.0)x6.00006
+.....\hbox(5.21+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 *
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(4.4+0.05998)x6.00006
+.....\hbox(4.4+0.05998)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 s
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x6.00006
+.....\hbox(0.0+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 5.25
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(4.17+0.0)x6.00006
+.....\hbox(4.17+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 =
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x6.00006
+.....\hbox(0.0+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 5.25
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(6.22+0.0)x6.00006
+.....\hbox(6.22+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 "
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(7.7+1.77998)x48.00049
+.....\hbox(7.7+1.77998)x48.00049, glue set 1.6001fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/FandolSong-Regular.otf(0)/m/n/10 你
+......\kern -0.00017
+......\kern 0.00017
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/FandolSong-Regular.otf(0)/m/n/10 好
+......\kern -0.00017
+......\kern 0.00017
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/FandolSong-Regular.otf(0)/m/n/10 世
+......\kern -0.00017
+......\kern 0.00017
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/FandolSong-Regular.otf(0)/m/n/10 界
+......\kern -0.00017
+......\kern 0.00017
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(6.22+0.0)x6.00006
+.....\hbox(6.22+0.0)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 "
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(4.31+1.38998)x6.00006
+.....\hbox(4.31+1.38998)x6.00006, glue set 0.37503fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmtt/m/n/10 ;
+......\kern -0.0002
+......\kern 0.0002
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -50
+...\glue 6.0 plus 2.0 minus 2.0
+...\glue 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 2
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================

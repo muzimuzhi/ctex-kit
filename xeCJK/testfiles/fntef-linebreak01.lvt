@@ -1,0 +1,34 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK,xeCJKfntef,color}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{CJKunderline~across~linebreak}{
+  \hsize=8em
+  \CJKunderline{字字字字字字字字字字字字字字字字字字字字}
+  \clearpage
+}
+
+\TEST{CJKsout~with~custom~options}{
+  \hsize=15em
+  \CJKsout*[thickness=2.5ex, format=\color{yellow}]{虚室生白，吉祥止止。}
+  \clearpage
+}
+
+\TEST{CJKunderline~star~continuous}{
+  \hsize=8em
+  \CJKunderline*{字字字字字字字字字字字字字字字字字字字字}
+  \clearpage
+}
+
+\END
+
+\end{document}

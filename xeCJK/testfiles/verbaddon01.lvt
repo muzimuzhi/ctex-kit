@@ -1,0 +1,34 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\BEGINTEST{xeCJKVerbAddon~in~group}
+{%
+  \xeCJKVerbAddon
+  字code字
+}
+\clearpage
+\ENDTEST
+
+\BEGINTEST{xeCJKOffVerbAddon~restores}
+{%
+  \xeCJKVerbAddon
+  字code字
+  \xeCJKOffVerbAddon
+  字code字
+}
+\clearpage
+\ENDTEST
+
+\END
+
+\end{document}

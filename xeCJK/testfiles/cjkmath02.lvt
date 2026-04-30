@@ -1,0 +1,32 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage[CJKmath]{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+\setCJKmathfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\loggingoutput
+
+\TEST{CJKmath~inline~formula}{
+  $字 + 字 = 字$
+  \clearpage
+}
+
+\TEST{CJKmath~display~formula}{
+  \[ 字 + 字 = 字 \]
+  \clearpage
+}
+
+\TEST{CJKmath~mixed~with~Latin}{
+  $x + 字 = y$
+  \clearpage
+}
+
+\END
+
+\end{document}

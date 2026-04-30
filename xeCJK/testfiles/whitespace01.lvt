@@ -1,0 +1,52 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\TEST{multiple~spaces~collapse}{
+  \setbox0=\hbox{字  字}
+  \setbox1=\hbox{字 字}
+  \TYPE{double-space:~\the\wd0}
+  \TYPE{single-space:~\the\wd1}
+  \ifdim\wd0=\wd1
+    \TYPE{PASS:~collapsed}
+  \else
+    \TYPE{DIFFER:~\the\wd0\space vs~\the\wd1}
+  \fi
+}
+
+\TEST{newline~treated~as~space}{
+  \setbox0=\hbox{字
+字}
+  \setbox1=\hbox{字 字}
+  \TYPE{newline:~\the\wd0}
+  \TYPE{space:~\the\wd1}
+  \ifdim\wd0=\wd1
+    \TYPE{PASS:~same}
+  \else
+    \TYPE{DIFFER:~\the\wd0\space vs~\the\wd1}
+  \fi
+}
+
+\TEST{CJK~newline~no~extra~space}{
+  \setbox0=\hbox{字字}
+  \setbox1=\hbox{字
+字}
+  \TYPE{no-newline:~\the\wd0}
+  \TYPE{with-newline:~\the\wd1}
+  \ifdim\wd0=\wd1
+    \TYPE{PASS:~no~extra~space}
+  \else
+    \TYPE{DIFFER:~\the\wd0\space vs~\the\wd1}
+  \fi
+}
+
+\END
+
+\end{document}
