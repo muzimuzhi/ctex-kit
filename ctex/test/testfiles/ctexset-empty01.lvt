@@ -1,0 +1,35 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{section~format~reset~to~empty}{
+  \cs_log:c { CTEX@section@format }
+  \ctexset{section/format = {}}
+  \cs_log:c { CTEX@section@format }
+}
+
+\TEST{section~name~set~empty}{
+  \cs_log:c { CTEX@section@name@pre }
+  \ctexset{section/name = {}}
+  \cs_log:c { CTEX@section@name@pre }
+}
+
+\TEST{section~aftername~set~empty}{
+  \cs_log:c { CTEX@section@aftername }
+  \ctexset{section/aftername = {}}
+  \cs_log:c { CTEX@section@aftername }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

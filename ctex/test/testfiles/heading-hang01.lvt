@@ -1,0 +1,38 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{section~hangindent~true}{
+  \ctexset{
+    section/hang = true,
+    section/indent = 2em,
+  }
+  \loggingoutput
+  \section{测试hang为true时的标题排版效果对齐行为}
+  文字
+  \clearpage
+}
+
+\TEST{section~hangindent~false}{
+  \ctexset{
+    section/hang = false,
+    section/indent = 2em,
+  }
+  \section{测试hang为false时的标题排版效果对齐行为}
+  文字
+  \clearpage
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

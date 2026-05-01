@@ -1,0 +1,198 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: theindex~heading
+============================================================
+(load cache: extra_lmroman17-regular.luc)(load cache: extra_lmroman12-bold.luc)
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/bx/n' in size <15.05624> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/b/n' tried instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0, direction TLT
+.\whatsit4=[]
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0, direction TLT
+..\whatsit4=[]
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil, direction TLT
+...\whatsit4=[]
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0, direction TLT
+....\whatsit4=[]
+....\hbox(0.0+0.0)x345.0, direction TLT
+.....\whatsit4=[]
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, direction TLT
+...\whatsit4=[]
+...\vbox(21.40254+0.0)x345.0, direction TLT
+....\whatsit4=[]
+....\vbox(21.40254+0.0)x345.0, direction TLT
+.....\whatsit4=[]
+.....\penalty -300
+.....\glue 15.89862 plus 4.54247 minus 0.90848
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\hbox(13.2495+1.80675)x345.0, glue set 157.44376fil, direction TLT
+......\whatsit4=[]
+......\glue(\leftskip) 0.0 plus 1.0fil
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\whatsit4=[]
+......\penalty 0
+......\hbox(13.2495+1.80675)x15.05624, direction TLT
+.......\LTJY3/FandolSong-Regular(0)/bx/n/15.05624 索
+......\penalty 500
+......\glue 0.0 plus 1.44095
+......\hbox(13.2495+1.80675)x15.05624, direction TLT
+.......\LTJY3/FandolSong-Regular(0)/bx/n/15.05624 引
+......\penalty 10000
+......\glue(\parfillskip) 0.0
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 10000
+.....\glue 10.44768 plus 0.90848
+.....\glue -20.0 plus -2.0 minus -4.0
+...\glue 12.0 plus 2.0 minus 2.0
+...\glue -12.0 plus -2.0 minus -2.0
+...\glue 20.0 plus 2.0 minus 4.0
+...\hbox(508.59746+0.0)x345.0, glue set 5.0fil, direction TLT
+....\whatsit4=[]
+....\hbox(508.59746+0.0)x167.5, direction TLT
+.....\whatsit4=[]
+.....\vbox(508.59746+0.0)x167.5, glue set 465.66483fil, direction TLT
+......\whatsit4=[]
+......\write-{}
+......\write-{}
+......\marks1{\__mark_value:nn {1}{\MakeUppercase    []{索引}}}
+......\marks2{\__mark_value:nn {2}{\MakeUppercase    []{索引}}}
+......\marks3{\__mark_value:nn {3}{\MakeUppercase    []{索引}}}
+......\glue(\topskip) 0.72536
+......\hbox(9.27464+2.0341)x167.5, glue set 103.09392fil, direction TLT
+.......\whatsit4=[]
+.......\localpar
+........\localinterlinepenalty=0
+........\localbrokenpenalty=0
+........\localleftbox=null
+........\localrightbox=null
+.......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 测
+.......\glue 0.0 plus 0.60931
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 试
+.......\glue 0.0 plus 0.60931
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 条
+.......\glue 0.0 plus 0.60931
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 目
+.......\penalty 500
+.......\glue 0.0 plus 0.60931
+.......\norule(9.27464+1.26472)x0.0
+.......\LTJY3/FandolSong-Regular(0)/m/n/10.53937 一
+.......\penalty 10000
+.......\glue 0.0
+.......\TU/lmr/m/n/10.53937 ,
+.......\glue(\spaceskip) 3.50961 plus 2.1935 minus 0.9359
+.......\TU/lmr/m/n/10.53937 1
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+......\glue(\parskip) 0.0 plus 0.3
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 5.1327
+......\hbox(9.27464+2.0341)x167.5, glue set 103.09392fil, direction TLT
+.......\whatsit4=[]
+.......\localpar
+........\localinterlinepenalty=0
+........\localbrokenpenalty=0
+........\localleftbox=null
+........\localrightbox=null
+.......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 测
+.......\glue 0.0 plus 0.60931
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 试
+.......\glue 0.0 plus 0.60931
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 条
+.......\glue 0.0 plus 0.60931
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 目
+.......\penalty 500
+.......\glue 0.0 plus 0.60931
+.......\norule(9.27464+1.26472)x0.0
+.......\LTJY3/FandolSong-Regular(0)/m/n/10.53937 二
+.......\penalty 10000
+.......\glue 0.0
+.......\TU/lmr/m/n/10.53937 ,
+.......\glue(\spaceskip) 3.50961 plus 2.1935 minus 0.9359
+.......\TU/lmr/m/n/10.53937 2
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+......\glue(\parskip) 0.0 plus 0.3
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 5.1327
+......\hbox(9.27464+2.0341)x167.5, glue set 104.17265fil, direction TLT
+.......\whatsit4=[]
+.......\localpar
+........\localinterlinepenalty=0
+........\localbrokenpenalty=0
+........\localleftbox=null
+........\localrightbox=null
+.......\hbox(0.0+0.0)x0.0, direction TLT
+.......\rule(*+*)x0.0
+.......\penalty 10000
+.......\glue 20.0
+.......\glue 0.0
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 子
+.......\glue 0.0 plus 0.60931
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 条
+.......\penalty 500
+.......\glue 0.0 plus 0.60931
+.......\hbox(9.27464+1.26472)x10.53937, direction TLT
+........\LTJY3/FandolSong-Regular(0)/m/n/10.53937 目
+.......\penalty 10000
+.......\glue 0.0
+.......\TU/lmr/m/n/10.53937 ,
+.......\glue(\spaceskip) 3.50961 plus 2.1935 minus 0.9359
+.......\TU/lmr/m/n/10.53937 3
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+......\glue -2.0341
+......\glue 0.0 plus 1.0fil
+......\glue 0.0
+......\glue 0.0 plus 0.0001fil
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil
+....\rule(*+*)x0.0
+....\glue 0.0 plus 1.0fil
+....\hbox(508.59746+0.0)x167.5, glue set 167.5fil, direction TLT
+.....\whatsit4=[]
+.....\vbox(508.59746+0.0)x0.0, glue set 498.54422fil, direction TLT
+......\whatsit4=[]
+......\write-{}
+......\glue(\topskip) 10.0
+......\vbox(0.0+0.0)x0.0, direction TLT
+.......\whatsit4=[]
+......\glue 0.0 plus 1.0fil
+......\glue 0.0
+......\glue 0.0 plus 0.0001fil
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue(\baselineskip) 22.98077
+..\hbox(7.01923+0.0)x345.0, direction TLT
+...\whatsit4=[]
+...\hbox(7.01923+0.0)x345.0, glue set 169.86516fil, direction TLT
+....\whatsit4=[]
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10.53937 1
+....\glue 0.0 plus 1.0fil
+============================================================

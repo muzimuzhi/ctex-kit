@@ -1,0 +1,116 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: ctex package no heading section format
+============================================================
+> \CTEX@section@format=undefined.
+> \CTEX@subsection@format=undefined.
+============================================================
+============================================================
+TEST 2: ctex package no heading parindent
+============================================================
+> \parindent =21.07874pt.
+> \ccwd=10.53937pt.
+============================================================
+============================================================
+TEST 3: ctex package no heading afterindent
+============================================================
+afterindent not defined
+============================================================
+============================================================
+TEST 4: ctex~package~no~heading~output
+============================================================
+(load cache: extra_lmroman17-regular.luc)(load cache: extra_lmroman12-bold.luc)
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/bx/n' in size <15.05624> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/b/n' tried instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0, direction TLT
+.\whatsit4=[]
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0, direction TLT
+..\whatsit4=[]
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil, direction TLT
+...\whatsit4=[]
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0, direction TLT
+....\whatsit4=[]
+....\hbox(0.0+0.0)x345.0, direction TLT
+.....\whatsit4=[]
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 512.54688fil, direction TLT
+...\whatsit4=[]
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(10.50926+0.18068)x345.0, glue set 194.33215fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(9.87689+0.0)x23.53291, direction TLT
+.....\whatsit4=[]
+.....\glue 0.0
+.....\TU/lmr/bx/n/15.05624 1
+.....\glue 15.05624
+....\TU/lmr/bx/n/15.05624 S
+....\TU/lmr/bx/n/15.05624 t
+....\TU/lmr/bx/n/15.05624 a
+....\TU/lmr/bx/n/15.05624 n
+....\discretionary (penalty 50)
+.....< \TU/lmr/bx/n/15.05624 -
+....\TU/lmr/bx/n/15.05624 d
+....\TU/lmr/bx/n/15.05624 a
+....\TU/lmr/bx/n/15.05624 r
+....\TU/lmr/bx/n/15.05624 d
+....\glue(\spaceskip) 5.64609 plus 2.82304 minus 1.88203
+....\TU/lmr/bx/n/15.05624 S
+....\TU/lmr/bx/n/15.05624 e
+....\TU/lmr/bx/n/15.05624 c
+....\discretionary (penalty 50)
+.....< \TU/lmr/bx/n/15.05624 -
+....\TU/lmr/bx/n/15.05624 t
+....\TU/lmr/bx/n/15.05624 i
+....\TU/lmr/bx/n/15.05624 o
+....\TU/lmr/bx/n/15.05624 n
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}Standard Section}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.44768 plus 0.90848
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.98613
+...\hbox(9.27464+1.26472)x345.0, glue set 302.84253fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x21.07874, direction TLT
+....\hbox(9.27464+1.26472)x10.53937, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/m/n/10.53937 文
+....\penalty 500
+....\glue 0.0 plus 0.60931
+....\hbox(9.27464+1.26472)x10.53937, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.26472
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 22.98077
+..\hbox(7.01923+0.0)x345.0, direction TLT
+...\whatsit4=[]
+...\hbox(7.01923+0.0)x345.0, glue set 169.86516fil, direction TLT
+....\whatsit4=[]
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10.53937 1
+....\glue 0.0 plus 1.0fil
+============================================================

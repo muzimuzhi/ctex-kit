@@ -1,0 +1,196 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: hyperref~with~ctex~sections
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+..\special{pdf:docinfo<</Title()/Subject()/Creator(LaTeX with hyperref)/Author()/Keywords()>>}
+..\special{pdf:tounicode UTF8-UTF16}
+.\vbox(0.0+0.0)x0.0, glue set - 14.99626fil
+..\kern 0.0
+..\kern 16.0
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set - 60.99626fil
+...\kern 0.0
+...\kern 62.0
+...\kern -1.00374
+...\special{pdf:dest (page.1) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(633.0+0.0)x407.0
+..\glue 16.0
+..\vbox(617.0+0.0)x345.0, shifted 62.0
+...\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+....\glue 0.0 plus 1.0fil
+....\hbox(9.27464+1.26471)x345.0
+.....\hbox(9.27464+1.26471)x345.0, glue set 260.68501fil
+......\OT1/cmr/m/sl/10.53937 1
+......\glue 10.53938
+......\JY2/zhrm/m/it/10.53937 超
+......\JY2/zhrm/m/it/10.53937 链
+......\JY2/zhrm/m/it/10.53937 接
+......\JY2/zhrm/m/it/10.53937 节
+......\JY2/zhrm/m/it/10.53937 标
+......\JY2/zhrm/m/it/10.53937 题
+......\glue 0.0 plus 1.0fil
+......\OT1/cmr/m/n/10.53937 1
+...\glue 25.0
+...\glue(\lineskip) 0.0
+...\vbox(550.0+0.0)x345.0, glue set 451.77307fil
+....\write-{}
+....\special{pdf:majorversion 1}
+....\special{pdf:minorversion 7}
+....\special{pdf:outline 1<</Title(超链接节标题)/A<</S/GoTo/D(section.1)>>>>}
+....\special{pdf:outline 2<</Title(超链接小节)/A<</S/GoTo/D(subsection.1.1)>>>>}
+....\special{pdf:docview<</OpenAction[@page1/Fit]/PageMode/UseOutlines>>}
+....\special{pdf:dest (Doc-Start) [@thispage /XYZ @xpos @ypos null]}
+....\special{pdf:dest (section.1) [@thispage /XYZ @xpos @ypos null]}
+....\glue(\topskip) 0.0
+....\hbox(13.24948+1.80675)x345.0, glue set 114.62758fil
+.....\glue(\leftskip) 0.0 plus 1.0fil
+.....\hbox(9.70291+0.0)x25.4074
+......\OT1/cmr/bx/n/15.05624 1
+......\glue 16.93826
+.....\JY2/zhrm/bx/n/15.05624 超
+.....\JY2/zhrm/bx/n/15.05624 链
+.....\JY2/zhrm/bx/n/15.05624 接
+.....\JY2/zhrm/bx/n/15.05624 节
+.....\JY2/zhrm/bx/n/15.05624 标
+.....\JY2/zhrm/bx/n/15.05624 题
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0
+.....\glue(\rightskip) 0.0 plus 1.0fil
+....\marks2{\__mark_value:nn {1}{\MakeUppercase    []{1\hskip 1em\relax 超链接节标题}}}
+....\marks3{\__mark_value:nn {2}{\MakeUppercase    []{1\hskip 1em\relax 超链接节标题}}}
+....\write3{\protect \BOOKMARK [1][-]{section.1}{超链接节标题}{}% 1}
+....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}超链接节标题}{\thepage }{section.1}\protected@file@percent }}
+....\penalty 10000
+....\glue 10.4369 plus 0.90753
+....\glue(\parskip) 0.0 plus 1.0
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 5.36006
+....\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+.....\hbox(0.0+0.0)x21.07874
+.....\JY2/zhrm/m/n/10.53937 文
+.....\JY2/zhrm/m/n/10.53937 字
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\penalty -300
+....\glue 14.74779 plus 4.53778 minus 0.90753
+....\special{pdf:dest (subsection.1.1) [@thispage /XYZ @xpos @ypos null]}
+....\penalty 10000
+....\glue -14.74779 plus -4.53778 minus -0.90753
+....\glue 14.74779 plus 4.53778 minus 0.90753
+....\glue(\parskip) 0.0 plus 1.0
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 6.92592
+....\hbox(10.5996+1.44539)x345.0, glue set 253.90974fil
+.....\hbox(7.76233+0.0)x30.86526
+......\OT1/cmr/bx/n/12.045 1
+......\OT1/cmr/bx/n/12.045 .
+......\OT1/cmr/bx/n/12.045 1
+......\glue 13.55061
+.....\JY2/zhrm/bx/n/12.045 超
+.....\JY2/zhrm/bx/n/12.045 链
+.....\JY2/zhrm/bx/n/12.045 接
+.....\JY2/zhrm/bx/n/12.045 小
+.....\JY2/zhrm/bx/n/12.045 节
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\write3{\protect \BOOKMARK [2][-]{subsection.1.1}{超链接小节}{section.1}% 2}
+....\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline {1.1}超链接小节}{\thepage }{subsection.1.1}\protected@file@percent }}
+....\penalty 10000
+....\glue 6.80667 plus 0.90753
+....\glue(\parskip) 0.0 plus 1.0
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 5.72142
+....\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+.....\hbox(0.0+0.0)x21.07874
+.....\JY2/zhrm/m/n/10.53937 文
+.....\JY2/zhrm/m/n/10.53937 字
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+....\glue 0.0 plus 0.0001fil
+...\glue(\baselineskip) 30.0
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+.\kern 0.0
+(hyperref01.toc)
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\vbox(0.0+0.0)x0.0, glue set - 14.99626fil
+..\kern 0.0
+..\kern 16.0
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set - 60.99626fil
+...\kern 0.0
+...\kern 62.0
+...\kern -1.00374
+...\special{pdf:dest (page.2) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(633.0+0.0)x407.0
+..\glue 16.0
+..\vbox(617.0+0.0)x345.0, shifted 62.0
+...\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+....\glue 0.0 plus 1.0fil
+....\hbox(9.27464+1.26471)x345.0
+.....\hbox(9.27464+1.26471)x345.0, glue set 318.65157fil
+......\JY2/zhrm/m/it/10.53937 目
+......\JY2/zhrm/m/it/10.53937 录
+......\glue 0.0 plus 1.0fil
+......\OT1/cmr/m/n/10.53937 2
+...\glue 25.0
+...\glue(\lineskip) 0.0
+...\vbox(550.0+0.0)x345.0, glue set 524.45085fil
+....\write-{}
+....\special{pdf:dest (section*.1) [@thispage /XYZ @xpos @ypos null]}
+....\glue(\topskip) 0.0
+....\hbox(13.24948+1.80675)x345.0, glue set 157.44376fil
+.....\glue(\leftskip) 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x0.0
+.....\JY2/zhrm/bx/n/15.05624 目
+.....\JY2/zhrm/bx/n/15.05624 录
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0
+.....\glue(\rightskip) 0.0 plus 1.0fil
+....\marks1{\__mark_value:nn {3}{\MakeUppercase    []{目录}}}
+....\marks2{\__mark_value:nn {4}{\MakeUppercase    []{目录}}}
+....\marks3{\__mark_value:nn {5}{\MakeUppercase    []{目录}}}
+....\penalty 10000
+....\glue 10.4369 plus 0.90753
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+....\glue 0.0 plus 0.0001fil
+...\glue(\baselineskip) 30.0
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+============================================================

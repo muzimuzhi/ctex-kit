@@ -1,0 +1,34 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: punct quanjiao default
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+rm on input line ....
+(c70rm.fd)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line ....
+> \box_wd:N \l_tmpa_box =52.697pt.
+============================================================
+============================================================
+TEST 2: punct banjiao
+============================================================
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (banjiao) on input line ....
+> \box_wd:N \l_tmpa_box =42.15715pt.
+============================================================
+============================================================
+TEST 3: punct kaiming
+============================================================
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (kaiming) on input line ....
+> \box_wd:N \l_tmpa_box =42.26299pt.
+============================================================
+============================================================
+TEST 4: punct CCT
+============================================================
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (CCT) on input line ....
+> \box_wd:N \l_tmpa_box =48.48117pt.
+============================================================
+============================================================
+TEST 5: punct plain
+============================================================
+> \box_wd:N \l_tmpa_box =52.69684pt.
+============================================================

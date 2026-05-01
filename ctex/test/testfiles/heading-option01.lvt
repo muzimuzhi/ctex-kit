@@ -1,0 +1,34 @@
+\input{regression-test}
+
+\documentclass{article}
+\usepackage[fontset=fandol, heading=true]{ctex}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{heading~true~section~format}{
+  \cs_log:c { CTEX@section@format }
+  \cs_log:c { CTEX@section@aftername }
+  \cs_log:c { CTEX@subsection@format }
+}
+
+\ExplSyntaxOff
+
+\loggingoutput
+
+\TEST{heading~true~section~output}{
+  \section{节 Section}
+  文字
+  \subsection{小节 Subsection}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

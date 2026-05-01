@@ -1,0 +1,146 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: title~and~author~chinese
+============================================================
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.045> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 401.8584fil
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 21.07877
+...\glue -21.07877
+...\penalty -51
+...\glue 21.07877
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 12.28595
+...\hbox(15.89938+2.16809)x345.0, glue set 118.29753fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x0.0
+.....\glue 5.0
+....\penalty 0
+....\JY2/zhrm/m/n/18.06749 中
+....\JY2/zhrm/m/n/18.06749 文
+....\JY2/zhrm/m/n/18.06749 文
+....\JY2/zhrm/m/n/18.06749 章
+....\JY2/zhrm/m/n/18.06749 标
+....\JY2/zhrm/m/n/18.06749 题
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 15.80907
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 3.46904
+...\hbox(13.15309+5.63712)x345.0, glue set 109.18721fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+....\hbox(13.15309+5.63712)x48.13501
+.....\mathon
+.....\vbox(13.15309+5.63712)x48.13501
+......\hbox(13.15309+5.63712)x48.13501
+.......\glue(\tabskip) 0.0
+.......\hbox(13.15309+5.63712)x48.13501
+........\rule(13.15309+5.63712)x0.0
+........\glue 6.0
+........\glue 0.0 plus 1.0fil
+........\glue 0.00002
+........\JY2/zhrm/m/n/12.045 作
+........\JY2/zhrm/m/n/12.045 者
+........\JY2/zhrm/m/n/12.045 甲
+........\glue 0.0 plus 1.0fil
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.....\mathoff
+....\hbox(0.0+0.0)x0.0
+....\glue 11.79393 plus 0.17fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(13.15309+5.63712)x48.13501
+.....\mathon
+.....\vbox(13.15309+5.63712)x48.13501
+......\hbox(13.15309+5.63712)x48.13501
+.......\glue(\tabskip) 0.0
+.......\hbox(13.15309+5.63712)x48.13501
+........\rule(13.15309+5.63712)x0.0
+........\glue 6.0
+........\glue 0.0 plus 1.0fil
+........\glue 0.00002
+........\JY2/zhrm/m/n/12.045 作
+........\JY2/zhrm/m/n/12.045 者
+........\JY2/zhrm/m/n/12.045 乙
+........\glue 0.0 plus 1.0fil
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.....\mathoff
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 10.53938
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 0.20474
+...\hbox(10.5996+1.44539)x345.0, glue set 130.34251fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\JY2/zhrm/m/n/12.045 二
+....\JY2/zhrm/m/n/12.045 〇
+....\JY2/zhrm/m/n/12.045 二
+....\JY2/zhrm/m/n/12.045 六
+....\JY2/zhrm/m/n/12.045 年
+....\JY2/zhrm/m/n/12.045 四
+....\penalty 500(for \jcharwidowpenalty)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/12.045 月
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue 15.80907
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.20798
+..\hbox(6.79202+0.0)x345.0
+...\hbox(6.79202+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10.53937 1
+....\glue 0.0 plus 1.0fil
+.\kern 0.0
+============================================================

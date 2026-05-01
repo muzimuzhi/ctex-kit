@@ -1,0 +1,30 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{invalid~punct~option}{
+  \ctexset{punct = invalid_value}
+}
+
+\TEST{invalid~today~option}{
+  \ctexset{today = nonexistent}
+}
+
+\TEST{valid~after~invalid}{
+  \ctexset{punct = quanjiao}
+  \dim_log:N \ccwd
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

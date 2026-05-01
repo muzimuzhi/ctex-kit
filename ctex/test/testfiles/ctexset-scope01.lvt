@@ -1,0 +1,58 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{section/format~scoped~in~group}{
+  \cs_log:c { CTEX@section@format }
+  \group_begin:
+    \ctexset{section/format = \Large\bfseries\raggedright}
+    \cs_log:c { CTEX@section@format }
+  \group_end:
+  \cs_log:c { CTEX@section@format }
+}
+
+\TEST{section/aftername~scoped~in~group}{
+  \cs_log:c { CTEX@section@aftername }
+  \group_begin:
+    \ctexset{section/aftername = \quad CUSTOM}
+    \cs_log:c { CTEX@section@aftername }
+  \group_end:
+  \cs_log:c { CTEX@section@aftername }
+}
+
+\TEST{nested~groups~heading~keys}{
+  \cs_log:c { CTEX@section@aftername }
+  \group_begin:
+    \ctexset{section/aftername = ~OUTER}
+    \cs_log:c { CTEX@section@aftername }
+    \group_begin:
+      \ctexset{section/aftername = ~INNER}
+      \cs_log:c { CTEX@section@aftername }
+    \group_end:
+    \cs_log:c { CTEX@section@aftername }
+  \group_end:
+  \cs_log:c { CTEX@section@aftername }
+}
+
+\TEST{autoindent~scoped~in~group}{
+  \dim_log:n { \parindent }
+  \group_begin:
+    \ctexset{autoindent = false}
+    \dim_log:n { \parindent }
+  \group_end:
+  \dim_log:n { \parindent }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

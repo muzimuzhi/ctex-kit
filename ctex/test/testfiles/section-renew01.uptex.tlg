@@ -1,0 +1,139 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: renewcommand section format
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 279.1289fil
+.....\OT1/cmr/m/sl/10.53937 A
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 字
+.....\JY2/zhrm/m/it/10.53937 母
+.....\JY2/zhrm/m/it/10.53937 编
+.....\JY2/zhrm/m/it/10.53937 号
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 508.55313fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(13.24948+1.80675)x345.0, glue set 127.52296fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(10.33026+0.0)x29.72911
+.....\OT1/cmr/bx/n/15.05624 A
+.....\glue 16.93826
+....\JY2/zhrm/bx/n/15.05624 字
+....\JY2/zhrm/bx/n/15.05624 母
+....\JY2/zhrm/bx/n/15.05624 编
+....\JY2/zhrm/bx/n/15.05624 号
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{A\hskip 1em\relax 字母编号}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{A\hskip 1em\relax 字母编号}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {A}字母编号}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.36006
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 2: ctexset overrides renewcommand
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 271.22438fil
+.....\OT1/cmr/m/sl/10.53937 2
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 阿
+.....\JY2/zhrm/m/it/10.53937 拉
+.....\JY2/zhrm/m/it/10.53937 伯
+.....\JY2/zhrm/m/it/10.53937 数
+.....\JY2/zhrm/m/it/10.53937 字
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 2
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 508.55313fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(13.24948+1.80675)x345.0, glue set 122.1557fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 2
+.....\glue 16.93826
+....\JY2/zhrm/bx/n/15.05624 阿
+....\JY2/zhrm/bx/n/15.05624 拉
+....\JY2/zhrm/bx/n/15.05624 伯
+....\JY2/zhrm/bx/n/15.05624 数
+....\JY2/zhrm/bx/n/15.05624 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{2\hskip 1em\relax 阿拉伯数字}}}
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{2\hskip 1em\relax 阿拉伯数字}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {2}阿拉伯数字}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.36006
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

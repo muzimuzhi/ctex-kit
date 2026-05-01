@@ -1,0 +1,59 @@
+\ExplSyntaxOn
+\sys_if_engine_luatex:TF
+  {
+    \ExplSyntaxOff
+    \input { regression-test }
+    \START \TYPE { LuaTeX:~ not~ tested~ yet. } \END
+    \file_input_stop:
+  }
+  {
+    \sys_if_engine_uptex:T
+      {
+        \ExplSyntaxOff
+        \input { regression-test }
+        \START \TYPE { upTeX:~ not~ tested~ yet. } \END
+        \file_input_stop:
+      }
+  }
+\ExplSyntaxOff
+
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\ExplSyntaxOn
+\sys_if_engine_xetex:T
+  { \xeCJKsetup { CJKglue = { \hskip 0.8em plus 0.08em minus 0.02em } } }
+\sys_if_engine_pdftex:T
+  { \cs_set_protected:Npn \CJKglue { \hskip 0.8em plus 0.08em minus 0.02em } }
+\ExplSyntaxOff
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{custom~CJKglue~preserved~in~body}{
+  \cs_log:N \CJKglue
+}
+
+\TEST{linestretch~does~not~override~custom~CJKglue}{
+  \ctexset{linestretch = \ccwd}
+  \cs_log:N \CJKglue
+}
+
+\TEST{custom~CJKglue~preserved~after~zihao}{
+  \group_begin:
+    \zihao{-4}
+    \cs_log:N \CJKglue
+  \group_end:
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

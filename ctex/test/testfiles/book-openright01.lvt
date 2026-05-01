@@ -1,0 +1,23 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{chapter~openright~default}{
+  \chapter{第一章}
+  文字
+  \chapter{第二章}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

@@ -1,0 +1,42 @@
+\input{regression-test}
+
+\documentclass{article}
+\usepackage[fontset=fandol]{ctex}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{ctex~package~no~heading~section~format}{
+  \cs_log:c { CTEX@section@format }
+  \cs_log:c { CTEX@subsection@format }
+}
+
+\TEST{ctex~package~no~heading~parindent}{
+  \dim_log:n { \parindent }
+  \dim_log:N \ccwd
+}
+
+\TEST{ctex~package~no~heading~afterindent}{
+  \bool_if_exist:cTF { CTEX@section@afterindent }
+    { \bool_log:c { CTEX@section@afterindent } }
+    { \TYPE { afterindent~not~defined } }
+}
+
+\ExplSyntaxOff
+
+\loggingoutput
+
+\TEST{ctex~package~no~heading~output}{
+  \section{Standard Section}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

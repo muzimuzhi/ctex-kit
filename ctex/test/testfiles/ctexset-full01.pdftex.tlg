@@ -1,0 +1,267 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: full~ctexset~configuration
+============================================================
+^^e7^^ac^^ac^^e4^^b8^^80^^e7^^ab^^a0
+LaTeX Font Info:    Trying to load font information for C70+rm on input line ....
+(c70rm.fd)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line ....
+(ctex-zhmap-fandol.tex)
+Completed box being shipped out [1]
+\vbox(627.36243+0.0)x380.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline gbk@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbksong@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbkkai@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline gbkhei@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline gbkfs@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline cyberb@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unisong@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unikai@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline unihei@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline unifs@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline gbksongsl@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline gbkkaisl@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline gbkheisl@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline gbkfssl@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+..\special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline unikaisl@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline uniheisl@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline unifssl@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 324.9949fil
+...\write-{}
+...\write-{}
+...\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline {^^e7^^ac^^ac^^e4^^b8^^80^^e7^^ab^^a0\protect \hspace  {.3em}}^^e6^^a6^^82^^e8^^bf^^b0}{\thepage }{}\protected@file@percent }}
+...\marks1{\__mark_value:nn {1}{\MakeUppercase    []{^^e7^^ac^^ac^^e4^^b8^^80^^e7^^ab^^a0\hskip 1em\relax ^^e6^^a6^^82^^e8^^bf^^b0}}}
+...\marks2{\__mark_value:nn {2}{}}
+...\write1{\@writefile{lof}{\protect \addvspace {10.0pt}}}
+...\write1{\@writefile{lot}{\protect \addvspace {10.0pt}}}
+...\glue(\topskip) 10.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 21.07877
+...\glue 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 16.78278
+...\hbox(17.66599+2.20825)x345.0, glue set 104.87239fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\C70/rm/bx/n/22.08249/7b ,
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 2.75732
+....\C70/rm/bx/n/22.08249/4e ^^@
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 2.75732
+....\C70/rm/bx/n/22.08249/7a ^^e0
+....\kern -0.00002
+....\kern 0.00002
+....\glue 24.84279
+....\C70/rm/bx/n/22.08249/69 ^^82
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 2.75732
+....\C70/rm/bx/n/22.08249/8f ^^f0
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty 10000
+...\glue 10.53938
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.80171
+...\hbox(8.43149+1.05394)x345.0, glue set 229.06696fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/67 ,
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/7a ^^e0
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/4e ^^cb
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/7e ^^cd
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/57 ^^fa
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/67 ,
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/51 ^^85
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b ^^b9
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 15.88223 plus 4.53778 minus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 10.38885
+...\hbox(12.04498+1.50562)x345.0, glue set 252.78052fil
+....\hbox(12.04498+1.50562)x62.107
+.....\C70/rm/bx/n/15.05624/7b ,
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.44095
+.....\C70/rm/bx/n/15.05624/4e ^^@
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.44095
+.....\C70/rm/bx/n/15.05624/82 ^^82
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 16.93826
+....\C70/rm/bx/n/15.05624/5f ^^U
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/8a ^^@
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{^^e7^^ac^^ac^^e4^^b8^^80^^e8^^8a^^82\hskip 1em\relax ^^e5^^bc^^95^^e8^^a8^^80}}}
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{^^e7^^ac^^ac^^e4^^b8^^80^^e8^^8a^^82\hskip 1em\relax ^^e5^^bc^^95^^e8^^a8^^80}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {^^e7^^ac^^ac^^e4^^b8^^80^^e8^^8a^^82}^^e5^^bc^^95^^e8^^a8^^80}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.50435
+...\hbox(8.43149+1.05394)x345.0, glue set 271.22443fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/5f ^^U
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/8a ^^@
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 15.88223 plus 4.53778 minus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 10.38885
+...\hbox(12.04498+1.50562)x345.0, glue set 252.78052fil
+....\hbox(12.04498+1.50562)x62.107
+.....\C70/rm/bx/n/15.05624/7b ,
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.44095
+.....\C70/rm/bx/n/15.05624/4e ^^8c
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.44095
+.....\C70/rm/bx/n/15.05624/82 ^^82
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 16.93826
+....\C70/rm/bx/n/15.05624/80 ^^cc
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/66 o
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\marks2{\__mark_value:nn {5}{\MakeUppercase    []{^^e7^^ac^^ac^^e4^^ba^^8c^^e8^^8a^^82\hskip 1em\relax ^^e8^^83^^8c^^e6^^99^^af}}}
+...\marks3{\__mark_value:nn {6}{\MakeUppercase    []{^^e7^^ac^^ac^^e4^^ba^^8c^^e8^^8a^^82\hskip 1em\relax ^^e8^^83^^8c^^e6^^99^^af}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {^^e7^^ac^^ac^^e4^^ba^^8c^^e8^^8a^^82}^^e8^^83^^8c^^e6^^99^^af}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.50435
+...\hbox(8.43149+1.05394)x345.0, glue set 271.22443fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/80 ^^cc
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/66 o
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 18.50291
+..\hbox(6.79202+0.0)x345.0
+...\hbox(6.79202+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10.53937 1
+....\glue 0.0 plus 1.0fil
+.\kern 0.0
+============================================================

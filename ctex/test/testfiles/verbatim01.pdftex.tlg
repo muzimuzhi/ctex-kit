@@ -1,0 +1,17 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: verbatim~in~ctex
+============================================================
+)
+Runaway argument?
+ ^^e4^^b8^^ad^^e6^^96^^87 verbatim ^^e6^^b5^^8b^^e8^^af^^95 hello wor\ETC.
+! File ended while scanning use of \@xverbatim.
+<inserted text> 
+                \par 
+<*> \input verbatim01.lvt
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.

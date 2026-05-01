@@ -1,0 +1,36 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{chinese~function~output}{
+  \CTEXnumber \l_tmpa_tl {0}
+  \tl_log:N \l_tmpa_tl
+  \CTEXnumber \l_tmpa_tl {-5}
+  \tl_log:N \l_tmpa_tl
+  \CTEXnumber \l_tmpa_tl {9999}
+  \tl_log:N \l_tmpa_tl
+}
+
+\TEST{chinese~digits~edge}{
+  \CTEXdigits \l_tmpa_tl {1234567890}
+  \tl_log:N \l_tmpa_tl
+}
+
+\TEST{chinese~function~used~in~heading}{
+  \ctexset{section/number = \chinese{section}}
+  \cs_log:c { CTEX@section@number }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

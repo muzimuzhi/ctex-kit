@@ -1,0 +1,44 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{ctexset~multiple~keys~in~one~call}{
+  \ctexset{
+    section/format = \Large\bfseries,
+    section/aftername = \quad,
+    subsection/format = \large\bfseries,
+  }
+  \cs_log:c { CTEX@section@format }
+  \cs_log:c { CTEX@section@aftername }
+  \cs_log:c { CTEX@subsection@format }
+}
+
+\TEST{ctexset~overwrite~previous~call}{
+  \ctexset{section/format = \Large\bfseries}
+  \cs_log:c { CTEX@section@format }
+  \ctexset{section/format = \normalfont\LARGE}
+  \cs_log:c { CTEX@section@format }
+}
+
+\TEST{ctexset~preserves~other~keys}{
+  \ctexset{
+    section/format = \Large\bfseries,
+    section/aftername = \enspace,
+  }
+  \ctexset{section/format = \normalfont}
+  \cs_log:c { CTEX@section@aftername }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

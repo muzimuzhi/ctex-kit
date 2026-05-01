@@ -1,0 +1,42 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{section~afterindent~true}{
+  \ctexset{section/afterindent = true}
+  \bool_log:c { CTEX@section@afterindent }
+}
+
+\TEST{section~afterindent~false}{
+  \ctexset{section/afterindent = false}
+  \bool_log:c { CTEX@section@afterindent }
+}
+
+\TEST{subsection~afterindent~scoped}{
+  \ctexset{subsection/afterindent = true}
+  \bool_log:c { CTEX@subsection@afterindent }
+  \group_begin:
+    \ctexset{subsection/afterindent = false}
+    \bool_log:c { CTEX@subsection@afterindent }
+  \group_end:
+  \bool_log:c { CTEX@subsection@afterindent }
+}
+
+\TEST{paragraph~afterindent}{
+  \ctexset{paragraph/afterindent = true}
+  \bool_log:c { CTEX@paragraph@afterindent }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

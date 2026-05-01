@@ -1,0 +1,37 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{ctex~version~defined}{
+  \cs_if_exist:NTF \ctexrelease
+    { \TYPE { ctexrelease:~ defined } }
+    { \TYPE { ctexrelease:~ not~defined } }
+  \cs_if_exist:NTF \GetFileInfo
+    {
+      \GetFileInfo{ctex.sty}
+      \tl_if_empty:NTF \fileversion
+        { \TYPE { version:~ empty } }
+        { \TYPE { version:~ available } }
+    }
+    { \TYPE { GetFileInfo:~ not~available } }
+}
+
+\TEST{ctex~package~options~stored}{
+  \cs_if_exist:NTF \g__ctex_fontset_tl
+    { \tl_log:N \g__ctex_fontset_tl }
+    { \TYPE { fontset~tl:~ not~defined } }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

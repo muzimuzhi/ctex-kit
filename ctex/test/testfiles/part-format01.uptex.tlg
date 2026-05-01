@@ -1,0 +1,373 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: part~default~format
+============================================================
+Completed box being shipped out [1]
+\vbox(627.36243+0.0)x380.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 149.48419fil
+...\write-{}
+...\write-{}
+...\glue(\topskip) 10.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {part}{第一部分\protect \hspace  {1em}第一部分}{\thepage }{}\protected@file@percent }}
+...\marks1{\__mark_value:nn {1}{}}
+...\marks2{\__mark_value:nn {2}{}}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 15.01617
+...\hbox(19.43259+2.64989)x345.0, glue set 128.33502fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\JY2/zhrm/bx/n/22.08249 第
+....\JY2/zhrm/bx/n/22.08249 一
+....\JY2/zhrm/bx/n/22.08249 部
+....\JY2/zhrm/bx/n/22.08249 分
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 20.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 12.36629
+...\hbox(19.43259+2.64989)x345.0, glue set 128.33502fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\JY2/zhrm/bx/n/22.08249 第
+....\JY2/zhrm/bx/n/22.08249 一
+....\JY2/zhrm/bx/n/22.08249 部
+....\JY2/zhrm/bx/n/22.08249 分
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 18.50291
+..\hbox(6.79202+0.0)x345.0
+...\hbox(6.79202+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10.53937 1
+....\glue 0.0 plus 1.0fil
+.\kern 0.0
+Completed box being shipped out [2]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [3]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 3
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 538.73529fil
+...\glue(\topskip) 0.72536
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 2: part~custom~name~and~number
+============================================================
+Completed box being shipped out [4]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\write-{}
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+Completed box being shipped out [5]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 149.48419fil
+...\glue(\topskip) 10.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {part}{篇二\protect \hspace  {1em}自定义部分}{\thepage }{}\protected@file@percent }}
+...\marks1{\__mark_value:nn {3}{}}
+...\marks2{\__mark_value:nn {4}{}}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 15.01617
+...\hbox(19.43259+2.64989)x345.0, glue set 150.41751fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\JY2/zhrm/bx/n/22.08249 篇
+....\JY2/zhrm/bx/n/22.08249 二
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 20.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 12.36629
+...\hbox(19.43259+2.64989)x345.0, glue set 117.29378fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\JY2/zhrm/bx/n/22.08249 自
+....\JY2/zhrm/bx/n/22.08249 定
+....\JY2/zhrm/bx/n/22.08249 义
+....\JY2/zhrm/bx/n/22.08249 部
+....\JY2/zhrm/bx/n/22.08249 分
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 18.50291
+..\hbox(6.79202+0.0)x345.0
+...\hbox(6.79202+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10.53937 5
+....\glue 0.0 plus 1.0fil
+Completed box being shipped out [6]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [7]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 7
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 538.73529fil
+...\glue(\topskip) 0.72536
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 3: part~custom~format
+============================================================
+Completed box being shipped out [8]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\write-{}
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+Completed box being shipped out [9]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 142.0281fil
+...\glue(\topskip) 10.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {part}{第三部分\protect \hspace  {1em}格式化的部分}{\thepage }{}\protected@file@percent }}
+...\marks1{\__mark_value:nn {5}{}}
+...\marks2{\__mark_value:nn {6}{}}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 17.74638
+...\hbox(22.96579+3.13168)x345.0, glue set 120.30502fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\JY2/zhrm/bx/n/26.09749 第
+....\JY2/zhrm/bx/n/26.09749 三
+....\JY2/zhrm/bx/n/26.09749 部
+....\JY2/zhrm/bx/n/26.09749 分
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 29.35966
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 14.6147
+...\hbox(22.96579+3.13168)x345.0, glue set 94.20753fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\JY2/zhrm/bx/n/26.09749 格
+....\JY2/zhrm/bx/n/26.09749 式
+....\JY2/zhrm/bx/n/26.09749 化
+....\JY2/zhrm/bx/n/26.09749 的
+....\JY2/zhrm/bx/n/26.09749 部
+....\JY2/zhrm/bx/n/26.09749 分
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 18.50291
+..\hbox(6.79202+0.0)x345.0
+...\hbox(6.79202+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10.53937 9
+....\glue 0.0 plus 1.0fil
+Completed box being shipped out [10]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [11]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 334.4606fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 538.73529fil
+...\glue(\topskip) 0.72536
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

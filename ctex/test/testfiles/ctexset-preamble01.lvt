@@ -1,0 +1,38 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\ctexset{
+  section/format = \Large\bfseries\raggedright,
+  section/name = {第,节},
+  section/number = \chinese{section},
+  subsection/format = \large\bfseries,
+  subsection/indent = 2em
+}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{preamble~ctexset~headings}{
+  \section{测试节标题}
+  文字
+  \subsection{测试小节标题}
+  文字
+  \clearpage
+}
+
+\TEST{body~ctexset~override~preamble}{
+  \ctexset{section/format = \normalfont\LARGE\centering}
+  \section{覆盖后的节标题}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

@@ -1,0 +1,97 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: ctex package no heading section format
+============================================================
+> \CTEX@section@format=undefined.
+> \CTEX@subsection@format=undefined.
+============================================================
+============================================================
+TEST 2: ctex package no heading parindent
+============================================================
+> \parindent =21.07874pt.
+> \ccwd=10.53937pt.
+============================================================
+============================================================
+TEST 3: ctex package no heading afterindent
+============================================================
+afterindent not defined
+============================================================
+============================================================
+TEST 4: ctex~package~no~heading~output
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 511.34662fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(10.4557+0.0)x345.0, glue set 192.49469fil
+....\hbox(9.70291+0.0)x25.4074
+.....\glue 0.0
+.....\OT1/cmr/bx/n/15.05624 1
+.....\glue 16.93826
+....\OT1/cmr/bx/n/15.05624 S
+....\OT1/cmr/bx/n/15.05624 t
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 n
+....\OT1/cmr/bx/n/15.05624 d
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 r
+....\OT1/cmr/bx/n/15.05624 d
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\OT1/cmr/bx/n/15.05624 S
+....\OT1/cmr/bx/n/15.05624 e
+....\OT1/cmr/bx/n/15.05624 c
+....\OT1/cmr/bx/n/15.05624 t
+....\OT1/cmr/bx/n/15.05624 i
+....\OT1/cmr/bx/n/15.05624 o
+....\OT1/cmr/bx/n/15.05624 n
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}Standard Section}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 7.16681
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.20798
+..\hbox(6.79202+0.0)x345.0
+...\hbox(6.79202+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10.53937 1
+....\glue 0.0 plus 1.0fil
+.\kern 0.0
+============================================================

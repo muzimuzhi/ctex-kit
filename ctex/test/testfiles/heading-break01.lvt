@@ -1,0 +1,39 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{section~with~break~newpage}{
+  \ctexset{section/break = \newpage}
+  第一段文字。
+  \section{分页后的节}
+  第二段文字。
+  \clearpage
+}
+
+\TEST{section~with~break~clear}{
+  \ctexset{section/break = \clearpage}
+  第三段文字。
+  \section{clearpage后的节}
+  第四段文字。
+  \clearpage
+}
+
+\TEST{section~break~reset}{
+  \ctexset{section/break = {}}
+  连续文字。
+  \section{无break的节}
+  紧接的文字。
+  \clearpage
+}
+
+\END
+
+\end{document}

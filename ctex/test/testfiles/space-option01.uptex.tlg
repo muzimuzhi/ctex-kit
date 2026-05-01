@@ -1,0 +1,30 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: default space option
+============================================================
+> \box_wd:N \l_tmpa_box =57.87872pt.
+> \box_wd:N \l_tmpa_box =57.87872pt.
+============================================================
+============================================================
+TEST 2: space true preserves all spaces
+============================================================
+Class ctexart Warning: Option `space' is invalid in current mode.
+> \box_wd:N \l_tmpa_box =42.15747pt.
+> \box_wd:N \l_tmpa_box =42.15747pt.
+============================================================
+============================================================
+TEST 3: space false ignores spaces between CJK
+============================================================
+Class ctexart Warning: Option `space' is invalid in current mode.
+> \box_wd:N \l_tmpa_box =42.15747pt.
+> \box_wd:N \l_tmpa_box =42.15747pt.
+============================================================
+============================================================
+TEST 4: space auto engine dependent
+============================================================
+Class ctexart Warning: Option `space' is invalid in current mode.
+> \box_wd:N \l_tmpa_box =42.15747pt.
+> \box_wd:N \l_tmpa_box =42.15747pt.
+============================================================

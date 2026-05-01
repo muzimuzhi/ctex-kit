@@ -1,0 +1,259 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: footnote~basic
+============================================================
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.53937> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.52812> on input line ....
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 521.45891fil
+...\write-{}
+...\glue(\topskip) 0.72536
+...\hbox(9.27464+1.26471)x345.0, glue set 272.00798fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 正
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 内
+....\JY2/zhrm/m/n/10.53937 容
+....\penalty 10000
+....\hbox(0.0+0.0)x0.0
+....\hbox(8.33575+0.0)x4.48613
+.....\mathon
+.....\hbox(4.51111+0.0)x4.48613, shifted -3.82465
+......\OT1/cmr/m/n/7 1
+.....\mathoff
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000(for kinsoku)
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 0.0001fil
+...\glue 9.0 plus 4.0 minus 2.0
+...\kern -3.0
+...\rule(0.4+0.0)x137.9979
+...\kern 2.6
+...\hbox(8.22069+3.5232)x345.0, glue set 280.63448fil
+....\hbox(6.4677+0.0)x15.43274, glue set 11.5299fil
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\hbox(0.0+0.0)x0.0
+.....\hbox(6.4677+0.0)x3.90283
+......\mathon
+......\hbox(3.22221+0.0)x3.90283, shifted -3.24548
+.......\OT1/cmr/m/n/5 1
+......\mathoff
+.....\hbox(0.0+0.0)x0.0
+....\hbox(8.22069+0.0)x0.0
+.....\rule(8.22069+0.0)x0.0
+....\JY2/zhrm/m/n/7.52812 这
+....\JY2/zhrm/m/n/7.52812 是
+....\JY2/zhrm/m/n/7.52812 一
+....\JY2/zhrm/m/n/7.52812 条
+....\JY2/zhrm/m/n/7.52812 脚
+....\JY2/zhrm/m/n/7.52812 注
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.32007
+....\JY2/zhrm/m/n/7.52812 。
+....\penalty 10000
+....\rule(0.0+3.5232)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -3.5232
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 2: footnote~multiple
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 2
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 497.97365fil
+...\write-{}
+...\glue(\topskip) 0.72536
+...\hbox(9.27464+1.26471)x345.0, glue set 189.26015fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 第
+....\JY2/zhrm/m/n/10.53937 一
+....\JY2/zhrm/m/n/10.53937 句
+....\penalty 10000
+....\hbox(0.0+0.0)x0.0
+....\hbox(8.33575+0.0)x4.48613
+.....\mathon
+.....\hbox(4.51111+0.0)x4.48613, shifted -3.82465
+......\OT1/cmr/m/n/7 2
+.....\mathoff
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000(for kinsoku)
+....\JY2/zhrm/m/n/10.53937 。
+....\glue(refer from jfm) 5.26968
+....\JY2/zhrm/m/n/10.53937 第
+....\JY2/zhrm/m/n/10.53937 二
+....\JY2/zhrm/m/n/10.53937 句
+....\penalty 10000
+....\hbox(0.0+0.0)x0.0
+....\hbox(8.33575+0.0)x4.48613
+.....\mathon
+.....\hbox(4.51111+0.0)x4.48613, shifted -3.82465
+......\OT1/cmr/m/n/7 3
+.....\mathoff
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000(for kinsoku)
+....\JY2/zhrm/m/n/10.53937 。
+....\glue(refer from jfm) 5.26968
+....\JY2/zhrm/m/n/10.53937 第
+....\JY2/zhrm/m/n/10.53937 三
+....\JY2/zhrm/m/n/10.53937 句
+....\penalty 10000
+....\hbox(0.0+0.0)x0.0
+....\hbox(8.33575+0.0)x4.48613
+.....\mathon
+.....\hbox(4.51111+0.0)x4.48613, shifted -3.82465
+......\OT1/cmr/m/n/7 4
+.....\mathoff
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000(for kinsoku)
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 0.0001fil
+...\glue 9.0 plus 4.0 minus 2.0
+...\kern -3.0
+...\rule(0.4+0.0)x137.9979
+...\kern 2.6
+...\hbox(8.22069+3.5232)x345.0, glue set 306.9829fil
+....\hbox(6.4677+0.0)x15.43274, glue set 11.5299fil
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\hbox(0.0+0.0)x0.0
+.....\hbox(6.4677+0.0)x3.90283
+......\mathon
+......\hbox(3.22221+0.0)x3.90283, shifted -3.24548
+.......\OT1/cmr/m/n/5 2
+......\mathoff
+.....\hbox(0.0+0.0)x0.0
+....\hbox(8.22069+0.0)x0.0
+.....\rule(8.22069+0.0)x0.0
+....\JY2/zhrm/m/n/7.52812 脚
+....\JY2/zhrm/m/n/7.52812 注
+....\JY2/zhrm/m/n/7.52812 一
+....\penalty 10000
+....\rule(0.0+3.5232)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\hbox(8.22069+3.5232)x345.0, glue set 306.9829fil
+....\hbox(6.4677+0.0)x15.43274, glue set 11.5299fil
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\hbox(0.0+0.0)x0.0
+.....\hbox(6.4677+0.0)x3.90283
+......\mathon
+......\hbox(3.22221+0.0)x3.90283, shifted -3.24548
+.......\OT1/cmr/m/n/5 3
+......\mathoff
+.....\hbox(0.0+0.0)x0.0
+....\hbox(8.22069+0.0)x0.0
+.....\rule(8.22069+0.0)x0.0
+....\JY2/zhrm/m/n/7.52812 脚
+....\JY2/zhrm/m/n/7.52812 注
+....\JY2/zhrm/m/n/7.52812 二
+....\penalty 10000
+....\rule(0.0+3.5232)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\hbox(8.22069+3.5232)x345.0, glue set 306.9829fil
+....\hbox(6.4677+0.0)x15.43274, glue set 11.5299fil
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\hbox(0.0+0.0)x0.0
+.....\hbox(6.4677+0.0)x3.90283
+......\mathon
+......\hbox(3.22221+0.0)x3.90283, shifted -3.24548
+.......\OT1/cmr/m/n/5 4
+......\mathoff
+.....\hbox(0.0+0.0)x0.0
+....\hbox(8.22069+0.0)x0.0
+.....\rule(8.22069+0.0)x0.0
+....\JY2/zhrm/m/n/7.52812 脚
+....\JY2/zhrm/m/n/7.52812 注
+....\JY2/zhrm/m/n/7.52812 三
+....\penalty 10000
+....\rule(0.0+3.5232)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -3.5232
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 3: footnote~in~section
+============================================================
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <15.05624> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.045> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.03374> on input line ....
+! Use of \@xfootnote doesn't match its definition.
+\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
+                                                  \def \reserved@b {#3}\futu...
+l. ...}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.

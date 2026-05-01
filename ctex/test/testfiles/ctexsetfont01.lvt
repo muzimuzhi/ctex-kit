@@ -1,0 +1,48 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\OMIT
+\begingroup \fontsize{15}{18}\selectfont \leavevmode \endgroup
+\begingroup \fontsize{20}{24}\selectfont \leavevmode \endgroup
+\TIMO
+
+\TEST{CTEXsetfont~updates~ccwd}{
+  \dim_log:N \ccwd
+  \fontsize{15}{18}\selectfont
+  \CTEXsetfont
+  \dim_log:N \ccwd
+}
+
+\TEST{CTEXsetfont~updates~parindent}{
+  \normalsize
+  \CTEXsetfont
+  \dim_log:n { \parindent }
+  \dim_log:N \ccwd
+  \fontsize{20}{24}\selectfont
+  \CTEXsetfont
+  \dim_log:n { \parindent }
+  \dim_log:N \ccwd
+}
+
+\TEST{CTEXsetfont~after~ziju}{
+  \ziju{1}
+  \dim_log:N \ccwd
+  \fontsize{15}{18}\selectfont
+  \CTEXsetfont
+  \dim_log:N \ccwd
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

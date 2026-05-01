@@ -1,0 +1,51 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\OMIT
+\begingroup \zihao{-4} \leavevmode \endgroup
+\begingroup \zihao{5}  \leavevmode \endgroup
+\TIMO
+
+\TEST{zihao~-4~ccwd~and~parindent}{
+  \zihao{-4}
+  \dim_log:N \ccwd
+  \dim_log:n { \parindent }
+  \dim_log:n { 2\ccwd }
+}
+
+\TEST{zihao~5~ccwd~and~parindent}{
+  \zihao{5}
+  \dim_log:N \ccwd
+  \dim_log:n { \parindent }
+  \dim_log:n { 2\ccwd }
+}
+
+\TEST{zihao~default~normalsize}{
+  \normalsize
+  \dim_log:N \ccwd
+  \dim_log:n { \parindent }
+}
+
+\TEST{zihao~scoped}{
+  \dim_log:N \ccwd
+  \group_begin:
+    \zihao{-4}
+    \dim_log:N \ccwd
+  \group_end:
+  \dim_log:N \ccwd
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

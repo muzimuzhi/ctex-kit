@@ -1,0 +1,45 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{section~runin~true}{
+  \ctexset{
+    section/runin = true,
+    section/afterskip = 1em,
+  }
+  \section{runin标题}紧跟的正文内容。
+  \clearpage
+}
+
+\TEST{subsection~runin}{
+  \ctexset{
+    subsection/runin = true,
+    subsection/afterskip = 0.5em,
+  }
+  \subsection{runin小节}后续正文。
+  \clearpage
+}
+
+\TEST{runin~scoped}{
+  \ctexset{section/runin = true, section/afterskip = 1em}
+  \section{分组内runin}文字。
+
+  \begingroup
+    \ctexset{section/runin = false}
+    \section{分组外非runin}
+    文字。
+  \endgroup
+  \clearpage
+}
+
+\END
+
+\end{document}

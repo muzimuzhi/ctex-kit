@@ -1,0 +1,35 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~secnumdepth}{
+  \int_log:c { c@secnumdepth }
+}
+
+\TEST{default~tocdepth}{
+  \int_log:c { c@tocdepth }
+}
+
+\TEST{secnumdepth~after~setcounter}{
+  \setcounter{secnumdepth}{4}
+  \int_log:c { c@secnumdepth }
+}
+
+\TEST{tocdepth~after~setcounter}{
+  \setcounter{tocdepth}{1}
+  \int_log:c { c@tocdepth }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

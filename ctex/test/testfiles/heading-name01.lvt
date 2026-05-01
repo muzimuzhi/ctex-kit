@@ -1,0 +1,43 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{section~name~with~prefix~and~suffix}{
+  \ctexset{section/name = {第,节}}
+  \section{自定义前后缀}
+  文字
+  \clearpage
+}
+
+\TEST{section~name~prefix~only}{
+  \ctexset{section/name = {Section~}}
+  \section{仅前缀}
+  文字
+  \clearpage
+}
+
+\TEST{chapter~name~with~number~format}{
+  \begingroup
+    \makeatletter
+    \ctexset{
+      section/name = {[,]},
+      section/number = \arabic{section}
+    }
+    \makeatother
+    \section{方括号编号}
+    文字
+  \endgroup
+  \clearpage
+}
+
+\END
+
+\end{document}

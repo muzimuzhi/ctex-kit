@@ -1,0 +1,45 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\ctexset{
+  section/format = \Large\bfseries,
+  subsection/format = \large\bfseries,
+}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{titleformat~custom}{
+  \ctexset{section/titleformat = \itshape}
+  \section{斜体标题文字}
+  文字
+  \clearpage
+}
+
+\TEST{numberformat~custom}{
+  \ctexset{section/numberformat = \bfseries\large}
+  \section{粗体编号}
+  文字
+  \clearpage
+}
+
+\TEST{nameformat~custom}{
+  \ctexset{
+    section/name = {第,节},
+    section/number = \chinese{section},
+    section/nameformat = \Large\bfseries,
+  }
+  \section{自定义名称格式}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

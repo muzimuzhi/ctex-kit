@@ -1,0 +1,49 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\OMIT
+\begingroup \zihao{-4} \leavevmode \endgroup
+\TIMO
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{ziju~negative~tighter}{
+  \dim_log:N \ccwd
+  \ziju{-0.5}
+  \dim_log:N \ccwd
+}
+
+\TEST{ziju~very~large}{
+  \ziju{4}
+  \dim_log:N \ccwd
+}
+
+\TEST{ziju~fractional}{
+  \ziju{0}
+  \dim_log:N \ccwd
+  \ziju{0.25}
+  \dim_log:N \ccwd
+}
+
+\TEST{ziju~with~different~sizes}{
+  \ziju{1}
+  \dim_log:N \ccwd
+  \group_begin:
+    \zihao{-4}
+    \dim_log:N \ccwd
+  \group_end:
+  \dim_log:N \ccwd
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

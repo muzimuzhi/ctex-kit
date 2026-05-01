@@ -1,0 +1,56 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\OMIT
+\begingroup \zihao{-4} \leavevmode \endgroup
+\begingroup \zihao{3} \leavevmode \endgroup
+\begingroup \Large \leavevmode \endgroup
+\TIMO
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{ccwd~updates~with~selectfont}{
+  \dim_log:N \ccwd
+  \group_begin:
+    \Large
+    \dim_log:N \ccwd
+  \group_end:
+  \dim_log:N \ccwd
+}
+
+\TEST{parindent~updates~with~selectfont}{
+  \dim_log:n { \parindent }
+  \group_begin:
+    \Large
+    \dim_log:n { \parindent }
+  \group_end:
+  \dim_log:n { \parindent }
+}
+
+\TEST{ccwd~consistent~with~actual~char~width}{
+  \hbox_set:Nn \l_tmpa_box { 字 }
+  \dim_log:N \ccwd
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+}
+
+\TEST{ccwd~after~font~family~switch}{
+  \dim_log:N \ccwd
+  \group_begin:
+    \heiti
+    \dim_log:N \ccwd
+  \group_end:
+  \dim_log:N \ccwd
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

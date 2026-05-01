@@ -1,0 +1,20 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: verbatim~in~ctex
+============================================================
+(load cache: extra_fandolfang-regular.luc)(load cache: extra_lmmono10-regular.luc)
+Package fontspec Info: 
+(fontspec)             Font family 'FandolFang-Regular(0)' created for font 'FandolFang-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.otf},LTJFONTUID=3].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolFang-Regular.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+)
+Runaway argument?
+ 中文 verbatim 测试hello world \end {verbatim} \clearpage \ENDTEST \ETC.
+! File ended while scanning use of \@xverbatim.
+<inserted text> 
+                \par 
+<*> \input verbatim01.lvt

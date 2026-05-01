@@ -1,0 +1,269 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: chapter~aftertitle~custom
+============================================================
+第一章
+(load cache: extra_lmroman17-regular.luc)(load cache: extra_lmroman12-bold.luc)
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/bx/n' in size <22.08249> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/b/n' tried instead on input line ....
+Completed box being shipped out [1]
+\vbox(627.36243+0.0)x380.0, direction TLT
+.\whatsit4=[]
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0, direction TLT
+..\whatsit4=[]
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil, direction TLT
+...\whatsit4=[]
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0, direction TLT
+....\whatsit4=[]
+....\hbox(0.0+0.0)x345.0, direction TLT
+.....\whatsit4=[]
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 392.18546fil, direction TLT
+...\whatsit4=[]
+...\write-{}
+...\write-{}
+...\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline {第一章\protect \hspace  {.3em}}带横线的章标题}{\thepage }{}\protected@file@percent }}
+...\marks1{\__mark_value:nn {1}{\MakeUppercase    []{第一章\hskip 1em\relax 带横线的章标题}}}
+...\marks2{\__mark_value:nn {2}{}}
+...\write1{\@writefile{lof}{\protect \addvspace {10.0pt}}}
+...\write1{\@writefile{lot}{\protect \addvspace {10.0pt}}}
+...\glue(\topskip) 10.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 50.0
+...\glue 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 15.01617
+...\hbox(19.43259+2.6499)x345.0, glue set 51.04631fil, direction TLT
+....\whatsit4=[]
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 第
+....\glue 0.0 plus 2.75732
+....\norule(19.43259+2.6499)x0.0
+....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 一
+....\glue 0.0 plus 2.75732
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 章
+....\glue 22.08249
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 带
+....\glue 0.0 plus 2.75732
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 横
+....\glue 0.0 plus 2.75732
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 线
+....\glue 0.0 plus 2.75732
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 的
+....\glue 0.0 plus 2.75732
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 章
+....\glue 0.0 plus 2.75732
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 标
+....\penalty 500
+....\glue 0.0 plus 2.75732
+....\hbox(19.43259+2.6499)x22.08249, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/22.08249 题
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 11.04124
+...\rule(0.4+0.0)x*
+...\penalty 10000
+...\glue 40.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\hbox(9.27464+1.26472)x345.0, glue set 302.84253fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x21.07874, direction TLT
+....\hbox(9.27464+1.26472)x10.53937, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/m/n/10.53937 文
+....\penalty 500
+....\glue 0.0 plus 0.60931
+....\hbox(9.27464+1.26472)x10.53937, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.26472
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 18.27571
+..\hbox(7.01923+0.0)x345.0, direction TLT
+...\whatsit4=[]
+...\hbox(7.01923+0.0)x345.0, glue set 169.86516fil, direction TLT
+....\whatsit4=[]
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10.53937 1
+....\glue 0.0 plus 1.0fil
+============================================================
+============================================================
+TEST 2: section~aftertitle~custom
+============================================================
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/bx/n' in size <15.05624> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/b/n' tried instead on input line ....
+(load cache: extra_lmromanslant10-regular.luc)
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/m/sl' in size <10.53937> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/m/it' tried instead on input line ....
+Completed box being shipped out [2]
+\vbox(627.36243+0.0)x434.0, direction TLT
+.\whatsit4=[]
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0, direction TLT
+..\whatsit4=[]
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil, direction TLT
+...\whatsit4=[]
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26472)x345.0, direction TLT
+....\whatsit4=[]
+....\hbox(9.27464+1.26472)x345.0, glue set 223.79727fil, direction TLT
+.....\whatsit4=[]
+.....\TU/lmr/m/n/10.53937 2
+.....\glue 0.0 plus 1.0fil
+.....\hbox(9.27464+1.26472)x10.53937, direction TLT
+......\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 第
+.....\glue 0.0 plus 0.60931
+.....\norule(9.27464+1.26472)x0.0
+.....\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 一
+.....\glue 0.0 plus 0.60931
+.....\hbox(9.27464+1.26472)x10.53937, direction TLT
+......\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 章
+.....\glue 10.53937
+.....\hbox(9.27464+1.26472)x10.53937, direction TLT
+......\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 带
+.....\glue 0.0 plus 0.60931
+.....\hbox(9.27464+1.26472)x10.53937, direction TLT
+......\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 横
+.....\glue 0.0 plus 0.60931
+.....\hbox(9.27464+1.26472)x10.53937, direction TLT
+......\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 线
+.....\glue 0.0 plus 0.60931
+.....\hbox(9.27464+1.26472)x10.53937, direction TLT
+......\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 的
+.....\glue 0.0 plus 0.60931
+.....\hbox(9.27464+1.26472)x10.53937, direction TLT
+......\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 章
+.....\glue 0.0 plus 0.60931
+.....\norule(9.27464+1.26472)x0.0
+.....\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 标
+.....\glue 0.0 plus 0.60931
+.....\norule(9.27464+1.26472)x0.0
+.....\LTJY3/FandolSong-Regular(0)/m/sl/10.53937 题
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 509.86139fil, direction TLT
+...\whatsit4=[]
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(13.2495+1.80675)x345.0, glue set 130.35822fill, direction TLT
+....\whatsit4=[]
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(9.87689+0.0)x36.72218, direction TLT
+.....\whatsit4=[]
+.....\TU/lmr/bx/n/15.05624 1
+.....\TU/lmr/bx/n/15.05624 .
+.....\TU/lmr/bx/n/15.05624 1
+.....\glue 15.05624
+....\penalty 0
+....\hbox(13.2495+1.80675)x15.05624, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/15.05624 自
+....\glue 0.0 plus 1.44095
+....\hbox(13.2495+1.80675)x15.05624, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/15.05624 定
+....\glue 0.0 plus 1.44095
+....\hbox(13.2495+1.80675)x15.05624, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/15.05624 义
+....\glue 3.76405 plus 1.0 minus 1.0
+....\TU/lmr/bx/n/15.05624 a
+....\TU/lmr/bx/n/15.05624 f
+....\discretionary (penalty 50)
+.....< \TU/lmr/bx/n/15.05624 -
+....\TU/lmr/bx/n/15.05624 t
+....\TU/lmr/bx/n/15.05624 e
+....\TU/lmr/bx/n/15.05624 r
+....\discretionary (penalty 50)
+.....< \TU/lmr/bx/n/15.05624 -
+....\TU/lmr/bx/n/15.05624 t
+....\TU/lmr/bx/n/15.05624 i
+....\discretionary (penalty 50)
+.....< \TU/lmr/bx/n/15.05624 -
+....\TU/lmr/bx/n/15.05624 t
+....\TU/lmr/bx/n/15.05624 l
+....\TU/lmr/bx/n/15.05624 e
+....\penalty 500
+....\glue 3.76405 plus 1.0 minus 1.0
+....\hbox(13.2495+1.80675)x15.05624, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/bx/n/15.05624 节
+....\glue 0.0 plus 1.0fill
+....\hbox(0.4+0.0)x45.16873, direction TLT
+.....\whatsit4=[]
+.....\rule(0.4+0.0)x45.16873
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{1.1\hskip 1em\relax 自定义aftertitle节}}}
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{1.1\hskip 1em\relax 自定义aftertitle节}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1.1}自定义aftertitle节}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.44768 plus 0.90848
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.36006
+...\hbox(9.27464+1.26472)x345.0, glue set 302.84253fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x21.07874, direction TLT
+....\hbox(9.27464+1.26472)x10.53937, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/m/n/10.53937 文
+....\penalty 500
+....\glue 0.0 plus 0.60931
+....\hbox(9.27464+1.26472)x10.53937, direction TLT
+.....\LTJY3/FandolSong-Regular(0)/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.26472
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0, direction TLT
+...\whatsit4=[]
+...\hbox(0.0+0.0)x345.0, direction TLT
+....\whatsit4=[]
+============================================================
+============================================================
+TEST 3: chapter~nameformat~and~numberformat
+============================================================
+第二章
+! Undefined control sequence.
+\CTEX@chapter@numberformat ->\color 
+                                    @begingroup\fontsize {50}{60}\selectfont 
+l. ...}

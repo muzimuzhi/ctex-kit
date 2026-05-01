@@ -1,0 +1,33 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~parskip}{
+  \dim_log:n { \parskip }
+}
+
+\TEST{parskip~in~group}{
+  \group_begin:
+    \setlength{\parskip}{1em}
+    \dim_log:n { \parskip }
+  \group_end:
+  \dim_log:n { \parskip }
+}
+
+\TEST{parskip~with~list}{
+  \dim_log:n { \parskip }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

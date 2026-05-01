@@ -1,0 +1,23 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{thebibliography~heading}{
+  \begin{thebibliography}{9}
+    \bibitem{test1} 测试文献一。
+    \bibitem{test2} 测试文献二。
+  \end{thebibliography}
+  \clearpage
+}
+
+\END
+
+\end{document}

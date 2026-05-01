@@ -1,0 +1,30 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{long~section~title~output}{
+  \loggingoutput
+  \section{这是一个非常长的中文节标题，用来测试当标题超过一行时的换行和缩进行为是否正确}
+  文字
+  \clearpage
+}
+
+\TEST{long~subsection~title}{
+  \subsection{同样是一个非常长的小节标题，它的排版行为应该和节标题有所不同因为字号更小}
+  文字
+  \clearpage
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

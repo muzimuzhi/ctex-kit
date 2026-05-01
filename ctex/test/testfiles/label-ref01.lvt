@@ -1,0 +1,29 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{section~with~label~and~ref}{
+  \section{被引用的节}\label{sec:test}
+  本节编号是\ref{sec:test}。
+  \clearpage
+}
+
+\TEST{equation~label~and~ref}{
+  \begin{equation}\label{eq:test}
+    E = mc^2
+  \end{equation}
+  见公式\ref{eq:test}。
+  \clearpage
+}
+
+\END
+
+\end{document}

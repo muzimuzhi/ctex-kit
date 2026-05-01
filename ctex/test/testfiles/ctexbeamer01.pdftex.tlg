@@ -1,0 +1,1022 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: ctexbeamer~frame~with~CJK~title
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+zhhei on input line ....
+(../c70zhhei.fd) (ctex-zhmap-fandol.tex)
+Completed box being shipped out [1]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline gbk@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbksong@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbkkai@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline gbkhei@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline gbkfs@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline cyberb@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unisong@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unikai@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline unihei@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline unifs@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline gbksongsl@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline gbkkaisl@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline gbkheisl@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline gbkfssl@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+..\special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline unikaisl@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline uniheisl@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline unifssl@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\special{pdf:obj @pgfcolorspaces <<>>}
+.....\special{pdf:put @resources << /ColorSpace @pgfcolorspaces >>}
+.....\special{pdf:put @pgfcolorspaces <<  /pgfprgb [/Pattern /DeviceRGB]  >>}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\special{pdf:dest (Navigation1) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\special{pdf:dest (page.1) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\special{pdf:put @thispage <</Trans<</S/R>>>>}
+..\vbox(200.87663+0.0)x263.47263
+...\glue -72.26999
+...\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+....\vbox(0.0+0.0)x307.28987
+.....\glue 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x307.28987
+......\special{color push gray 0}
+......\hbox(0.0+0.0)x307.28987
+.......\vbox(0.0+0.0)x307.28987
+........\hbox(0.0+0.0)x-28.45274
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x364.19536, shifted 273.14662
+...........\hbox(273.14662+0.0)x364.19536
+............\special{color push gray 0}
+............\special{color push gray 0}
+............\special{color push gray 1}
+............\rule(273.14662+*)x364.19536
+............\special{color pop}
+............\special{color pop}
+............\special{color pop}
+............\special{pdf:put @thispage <</Trans<</S/R>>>>}
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push gray 0}
+............\special{color push gray 0}
+............\special{color pop}
+............\special{color pop}
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x-56.90549
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+...........\hbox(273.14662+0.0)x-28.45274
+............\glue -28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push gray 0}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\special{color push gray 0}
+.............\special{color push gray 0}
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+...........\hbox(273.14662+0.0)x335.74261
+............\glue 307.28987
+............\glue 28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push gray 0}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 261.64662fill
+.............\special{color push gray 0}
+.............\special{color push gray 0}
+.............\glue 0.0 plus 1.0fill
+.............\hbox(0.0+0.0)x0.0, glue set - 2.84544fil
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+..............\special{color push rgb 0.15 0.15 0.525}
+..............\special{color pop}
+..............\glue 2.84544
+.............\glue 2.0
+.............\glue(\lineskip) 0.0
+.............\hbox(7.5+0.0)x0.0, glue set - 129.92888fil
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+..............\special{color push gray 0}
+..............\special{color push rgb 0.68 0.68 0.88}
+..............\hbox(7.5+0.0)x127.08344
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 8.26909 0.79701 3.38733 2.39105 re S Q }
+...................\special{pdf:code Q }
+...................\special{color push rgb 0.84 0.84 0.94}
+...................\special{pdf:code q }
+...................\special{pdf:code q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l f 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f Q }
+...................\special{pdf:code Q }
+...................\special{color pop}
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 6.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[1 0 0]/A<</S/Named/N/GoToPage>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 8.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 6.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 6.97394 0.0 3.38733 2.39105 re 7.80008 2.40001 m 7.80008 3.20003 l 11.20012 3.20003 l 11.20012 0.8 l 10.4001 0.8 l 8.6001 3.20003 m 8.6001 4.00005 l 12.00015 4.00005 l 12.00015 1.60002 l 11.20012 1.60002 l S Q }
+...................\special{pdf:code Q }
+...................\special{color push rgb 0.84 0.84 0.94}
+...................\special{pdf:code q }
+...................\special{pdf:code q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f Q }
+...................\special{pdf:code Q }
+...................\special{color pop}
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 0.59776 w 9.00009 3.00003 m 12.00015 3.00003 l S Q }
+...................\special{pdf:code Q }
+...................\special{color push rgb 0.84 0.84 0.94}
+...................\special{pdf:code q }
+...................\special{pdf:code q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 2.00002 m 12.00015 2.00002 l 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+...................\special{pdf:code Q }
+...................\special{color pop}
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 3.00003 m 12.00015 3.00003 l 9.00009 2.00002 m 12.00015 2.00002 l S Q }
+...................\special{pdf:code Q }
+...................\special{color push rgb 0.84 0.84 0.94}
+...................\special{pdf:code q }
+...................\special{pdf:code q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f 0.59776 w 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+...................\special{pdf:code Q }
+...................\special{color pop}
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 3.00003 m 12.00015 3.00003 l 9.00009 2.00002 m 12.00015 2.00002 l 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+...................\special{pdf:code Q }
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 9.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 11.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 0.59776 w 10.4001 1.60002 m 12.00015 0.0 l S 0.3985 w 10.66016 2.49069 m 10.66016 3.15096 10.1249 3.68622 9.46463 3.68622 c 8.80435 3.68622 8.26909 3.15096 8.26909 2.49069 c 8.26909 1.83041 8.80435 1.29515 9.46463 1.29515 c 10.1249 1.29515 10.66016 1.83041 10.66016 2.49069 c h 9.46463 2.49069 m S 1 J 4.00005 0.0 m 5.08101 0.0 6.00006 0.9 6.00006 2.00002 c 6.00006 3.10002 5.10005 4.00005 4.00005 4.00005 c 2.90001 4.00005 2.00002 3.10002 2.00002 2.00002 c 3.20003 2.60002 m 2.00002 1.60002 l 0.8 2.60002 l 16.0002 0.0 m 14.90016 0.0 14.00017 0.9 14.00017 2.00002 c 14.00017 3.10002 14.90016 4.00005 16.0002 4.00005 c 17.1002 4.00005 18.00021 3.10002 18.00021 2.00002 c 19.20023 2.60002 m 18.00021 1.60002 l 16.8002 2.60002 l S Q }
+...................\special{pdf:code Q }
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[1 0 0]/A<</S/Named/N/GoBack>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 7.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[1 0 0]/A<</S/Named/N/Find>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 6.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[1 0 0]/A<</S/Named/N/GoForward>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 7.0
+................\special{pdf:eann}
+..............\special{color pop}
+..............\special{color pop}
+..............\glue 2.84544
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 2.0
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x-56.90549
+..........\glue -28.45274
+..........\hbox(0.0+0.0)x0.0
+...........\vbox(0.0+0.0)x0.0
+............\special{color push gray 0}
+............\special{color push gray 0}
+............\special{color pop}
+............\special{color pop}
+..........\glue -28.45274
+.........\glue 0.0 plus 1.0fil
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.........\hbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0
+......\special{color pop}
+....\glue 0.0
+....\glue(\lineskip) 0.0
+....\vbox(269.14662+0.0)x307.28987
+.....\special{color push gray 0}
+.....\special{pdf:majorversion 1}
+.....\special{pdf:minorversion 7}
+.....\write-{}
+.....\special{pdf:outline 2<</Title(\376\377\116\055\145\207\202\202)/A<</S/GoTo/D(Outline0.1)>>>>}
+.....\special{pdf:docview<</OpenAction[@page1/Fit]/PageMode/UseOutlines>>}
+.....\special{pdf:dest (Doc-Start) [@thispage /XYZ @xpos @ypos null]}
+.....\special{pdf:docinfo<</Title()/Subject()/Creator(\376\377\000L\000a\000T\000e\000X\000\040\000w\000i\000t\000h\000\040\000B\000e\000a\000m\000e\000r\000\040\000c\000l\000a\000s\000s)/Author()/Keywords()>>}
+.....\special{pdf:docview <</PageLabels<</Nums[0<</P(\376\377\0001)>>1<</P(\376\377\0002)>>]>>>>}
+.....\special{color push gray 0}
+.....\special{color push gray 0}
+.....\special{color push gray 0}
+.....\special{color push gray 0}
+.....\glue(\topskip) 0.0
+.....\vbox(269.14662+0.0)x307.28987, glue set 92.63124fill
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\penalty 10000
+......\penalty 10000
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\special{color push gray 0}
+......\special{color push rgb 0.2 0.2 0.7}
+......\glue(\lineskip) 1.0
+......\hbox(19.136+0.0)x307.28987, glue set - 1.0
+.......\glue 0.0 minus 28.45274
+.......\hbox(19.136+0.0)x364.19536
+........\special{color push rgb 0.2 0.2 0.7}
+........\vbox(19.136+0.0)x364.19536
+.........\glue 8.5359
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(0.0+0.0)x364.19536, glue set 347.12355fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -6.39998
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 5.40005
+.........\hbox(12.59995+5.40005)x364.19536, glue set 246.3236fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\rule(12.59995+5.40005)x0.0
+..........\C70/zhhei/m/n/14.4/4e -
+..........\kern -0.00002
+..........\kern 0.00002
+..........\glue 0.0 plus 0.8085
+..........\C70/zhhei/m/n/14.4/65 ^^87
+..........\kern -0.00002
+..........\kern 0.00002
+..........\glue 0.0 plus 0.8085
+..........\C70/zhhei/m/n/14.4/5e {
+..........\kern -0.00002
+..........\kern 0.00002
+..........\glue 0.0 plus 0.8085
+..........\C70/zhhei/m/n/14.4/70 o
+..........\kern -0.00002
+..........\kern 0.00002
+..........\glue 0.0 plus 0.8085
+..........\C70/zhhei/m/n/14.4/72 G
+..........\kern -0.00002
+..........\kern 0.00002
+..........\glue 0.0 plus 0.8085
+..........\C70/zhhei/m/n/14.4/68 ^^G
+..........\kern -0.00002
+..........\kern 0.00002
+..........\glue 0.0 plus 0.8085
+..........\C70/zhhei/m/n/14.4/98 ^^98
+..........\kern -0.00002
+..........\kern 0.00002
+..........\rule(12.59995+5.40005)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -6.39998
+.........\glue -8.5359
+.........\glue 8.5359
+........\special{color pop}
+.......\glue 0.0 minus 28.45274
+......\special{color pop}
+......\special{color pop}
+......\glue 2.7375
+......\penalty 10000
+......\glue 0.0 plus 1.0fill
+......\penalty 10000
+......\penalty 10000
+......\glue 0.0
+......\vbox(0.0+0.0)x0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 4.84001
+......\hbox(8.76+1.095)x307.28987, glue set 131.74495fil
+.......\hbox(0.0+0.0)x0.0
+.......\C70/zhhei/m/n/10.95/4e -
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/65 ^^87
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/51 ^^85
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/5b ^^b9
+.......\kern -0.00002
+.......\kern 0.00002
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\glue 0.0 plus 1.5fill
+.....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1}{1/1}{}{0}}}}
+.....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {1}{1}}}}
+.....\glue 0.0 plus 1.0fil
+.....\glue 0.0
+....\glue(\baselineskip) 4.0
+....\hbox(0.0+0.0)x307.28987
+.....\special{color push gray 0}
+.....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+......\vbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\special{color push gray 0}
+...........\special{color push gray 0}
+...........\special{color pop}
+...........\special{color pop}
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+........\glue 0.0 plus 1.0fil
+.......\glue(\lineskip) 0.0
+.......\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil
+.....\special{color pop}
+.\kern 0.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 2: ctexbeamer~section~and~frame
+============================================================
+Completed box being shipped out [2]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\special{pdf:put @resources << /ColorSpace @pgfcolorspaces >>}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\special{pdf:dest (Navigation2) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\special{pdf:dest (page.2) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\special{pdf:put @thispage <</Trans<</S/R>>>>}
+..\vbox(200.87663+0.0)x263.47263
+...\glue -72.26999
+...\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+....\vbox(0.0+0.0)x307.28987
+.....\glue 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x307.28987
+......\special{color push gray 0}
+......\hbox(0.0+0.0)x307.28987
+.......\vbox(0.0+0.0)x307.28987
+........\hbox(0.0+0.0)x-28.45274
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x364.19536, shifted 273.14662
+...........\hbox(273.14662+0.0)x364.19536
+............\special{color push gray 0}
+............\special{color push gray 0}
+............\special{color push gray 1}
+............\rule(273.14662+*)x364.19536
+............\special{color pop}
+............\special{color pop}
+............\special{color pop}
+............\special{pdf:put @thispage <</Trans<</S/R>>>>}
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push gray 0}
+............\special{color push gray 0}
+............\special{color pop}
+............\special{color pop}
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x-56.90549
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+...........\hbox(273.14662+0.0)x-28.45274
+............\glue -28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push gray 0}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\special{color push gray 0}
+.............\special{color push gray 0}
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+...........\hbox(273.14662+0.0)x335.74261
+............\glue 307.28987
+............\glue 28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push gray 0}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 261.64662fill
+.............\special{color push gray 0}
+.............\special{color push gray 0}
+.............\glue 0.0 plus 1.0fill
+.............\hbox(0.0+0.0)x0.0, glue set - 2.84544fil
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+..............\special{color push rgb 0.15 0.15 0.525}
+..............\special{color pop}
+..............\glue 2.84544
+.............\glue 2.0
+.............\glue(\lineskip) 0.0
+.............\hbox(7.5+0.0)x0.0, glue set - 129.92888fil
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+..............\special{color push gray 0}
+..............\special{color push rgb 0.68 0.68 0.88}
+..............\hbox(7.5+0.0)x127.08344
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 8.26909 0.79701 3.38733 2.39105 re S Q }
+...................\special{pdf:code Q }
+...................\special{color push rgb 0.84 0.84 0.94}
+...................\special{pdf:code q }
+...................\special{pdf:code q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l f 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f Q }
+...................\special{pdf:code Q }
+...................\special{color pop}
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 6.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[1 0 0]/A<</S/Named/N/GoToPage>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 8.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 6.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 6.97394 0.0 3.38733 2.39105 re 7.80008 2.40001 m 7.80008 3.20003 l 11.20012 3.20003 l 11.20012 0.8 l 10.4001 0.8 l 8.6001 3.20003 m 8.6001 4.00005 l 12.00015 4.00005 l 12.00015 1.60002 l 11.20012 1.60002 l S Q }
+...................\special{pdf:code Q }
+...................\special{color push rgb 0.84 0.84 0.94}
+...................\special{pdf:code q }
+...................\special{pdf:code q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f Q }
+...................\special{pdf:code Q }
+...................\special{color pop}
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 0.59776 w 9.00009 3.00003 m 12.00015 3.00003 l S Q }
+...................\special{pdf:code Q }
+...................\special{color push rgb 0.84 0.84 0.94}
+...................\special{pdf:code q }
+...................\special{pdf:code q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 2.00002 m 12.00015 2.00002 l 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+...................\special{pdf:code Q }
+...................\special{color pop}
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 3.00003 m 12.00015 3.00003 l 9.00009 2.00002 m 12.00015 2.00002 l S Q }
+...................\special{pdf:code Q }
+...................\special{color push rgb 0.84 0.84 0.94}
+...................\special{pdf:code q }
+...................\special{pdf:code q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f 0.59776 w 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+...................\special{pdf:code Q }
+...................\special{color pop}
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 5.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 3.00003 m 12.00015 3.00003 l 9.00009 2.00002 m 12.00015 2.00002 l 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+...................\special{pdf:code Q }
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 9.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[.5 .5 .5]/A<</S/GoTo/D(Navigation1)>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 11.0
+................\special{pdf:eann}
+...............\glue 1.41669 plus 0.70834 minus 0.47223
+...............\hbox(7.5+0.0)x20.0
+................\hbox(7.0+0.0)x20.0
+.................\glue 0.0
+.................\hbox(0.0+0.0)x0.0, shifted -1.5
+..................\special{pdf:bcontent}
+..................\special{pdf:code q }
+..................\special{pdf:code 0.68 0.68 0.88 RG }
+..................\special{pdf:code 0.68 0.68 0.88 rg }
+..................\special{pdf:code 0.3985 w }
+..................\hbox(0.0+0.0)x0.0
+...................\glue 0.0
+...................\special{pdf:code q }
+...................\special{pdf:code q 0.59776 w 10.4001 1.60002 m 12.00015 0.0 l S 0.3985 w 10.66016 2.49069 m 10.66016 3.15096 10.1249 3.68622 9.46463 3.68622 c 8.80435 3.68622 8.26909 3.15096 8.26909 2.49069 c 8.26909 1.83041 8.80435 1.29515 9.46463 1.29515 c 10.1249 1.29515 10.66016 1.83041 10.66016 2.49069 c h 9.46463 2.49069 m S 1 J 4.00005 0.0 m 5.08101 0.0 6.00006 0.9 6.00006 2.00002 c 6.00006 3.10002 5.10005 4.00005 4.00005 4.00005 c 2.90001 4.00005 2.00002 3.10002 2.00002 2.00002 c 3.20003 2.60002 m 2.00002 1.60002 l 0.8 2.60002 l 16.0002 0.0 m 14.90016 0.0 14.00017 0.9 14.00017 2.00002 c 14.00017 3.10002 14.90016 4.00005 16.0002 4.00005 c 17.1002 4.00005 18.00021 3.10002 18.00021 2.00002 c 19.20023 2.60002 m 18.00021 1.60002 l 16.8002 2.60002 l S Q }
+...................\special{pdf:code Q }
+...................\glue 0.0 plus 1.0fil minus 1.0fil
+..................\special{pdf:code n }
+..................\special{pdf:code Q }
+..................\special{pdf:econtent}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+................\kern -20.0
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[1 0 0]/A<</S/Named/N/GoBack>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 7.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[1 0 0]/A<</S/Named/N/Find>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 6.0
+................\special{pdf:eann}
+................\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/N/C[1 0 0]/A<</S/Named/N/GoForward>>>>}
+................\vbox(7.5+0.0)x0.0
+................\kern 7.0
+................\special{pdf:eann}
+..............\special{color pop}
+..............\special{color pop}
+..............\glue 2.84544
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 2.0
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x-56.90549
+..........\glue -28.45274
+..........\hbox(0.0+0.0)x0.0
+...........\vbox(0.0+0.0)x0.0
+............\special{color push gray 0}
+............\special{color push gray 0}
+............\special{color pop}
+............\special{color pop}
+..........\glue -28.45274
+.........\glue 0.0 plus 1.0fil
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.........\hbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0
+......\special{color pop}
+....\glue 0.0
+....\glue(\lineskip) 0.0
+....\vbox(269.14662+0.0)x307.28987
+.....\write-{}
+.....\write-{}
+.....\write1{\@writefile{toc}{\protect \beamer@sectionintoc {1}{^^e4^^b8^^ad^^e6^^96^^87^^e8^^8a^^82}{2}{0}{1}}}
+.....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@sectionpages {1}{1}}}}
+.....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@subsectionpages {1}{1}}}}
+.....\write1{\@writefile{nav}{\protect \headcommand {\protect \sectionentry {1}{^^e4^^b8^^ad^^e6^^96^^87^^e8^^8a^^82}{2}{^^e4^^b8^^ad^^e6^^96^^87^^e8^^8a^^82}{0}}}}
+.....\write5{\protect \BOOKMARK [2][]{Outline0.1}{\376\377\116\055\145\207\202\202}{}% 1}
+.....\special{pdf:dest (Outline0.1) [@thispage /XYZ @xpos @ypos null]}
+.....\glue(\topskip) 0.0
+.....\vbox(269.14662+0.0)x307.28987, glue set 92.63124fill
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\penalty 10000
+......\penalty 10000
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\special{color push gray 0}
+......\special{color push rgb 0.2 0.2 0.7}
+......\glue(\lineskip) 1.0
+......\hbox(19.136+0.0)x307.28987, glue set - 1.0
+.......\glue 0.0 minus 28.45274
+.......\hbox(19.136+0.0)x364.19536
+........\special{color push rgb 0.2 0.2 0.7}
+........\vbox(19.136+0.0)x364.19536
+.........\glue 8.5359
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(0.0+0.0)x364.19536, glue set 347.12355fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -6.39998
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 5.40005
+.........\hbox(12.59995+5.40005)x364.19536, glue set 303.92357fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\rule(12.59995+5.40005)x0.0
+..........\C70/zhhei/m/n/14.4/82 ^^82
+..........\kern -0.00002
+..........\kern 0.00002
+..........\glue 0.0 plus 0.8085
+..........\C70/zhhei/m/n/14.4/51 ^^85
+..........\kern -0.00002
+..........\kern 0.00002
+..........\glue 0.0 plus 0.8085
+..........\C70/zhhei/m/n/14.4/5e '
+..........\kern -0.00002
+..........\kern 0.00002
+..........\rule(12.59995+5.40005)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -6.39998
+.........\glue -8.5359
+.........\glue 8.5359
+........\special{color pop}
+.......\glue 0.0 minus 28.45274
+......\special{color pop}
+......\special{color pop}
+......\glue 2.7375
+......\penalty 10000
+......\glue 0.0 plus 1.0fill
+......\penalty 10000
+......\penalty 10000
+......\glue 0.0
+......\vbox(0.0+0.0)x0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 4.84001
+......\hbox(8.76+1.095)x307.28987, glue set 115.31995fil
+.......\hbox(0.0+0.0)x0.0
+.......\C70/zhhei/m/n/10.95/82 ^^82
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/68 ^^G
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/98 ^^98
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/4e -
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/65 ^^87
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/51 ^^85
+.......\kern -0.00002
+.......\kern 0.00002
+.......\glue 0.0 plus 0.4477
+.......\C70/zhhei/m/n/10.95/5b ^^b9
+.......\kern -0.00002
+.......\kern 0.00002
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\glue 0.0 plus 1.5fill
+.....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {1}{0}{1}{2/2}{}{0}}}}
+.....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {2}{2}}}}
+.....\glue 0.0 plus 1.0fil
+.....\glue 0.0
+....\glue(\baselineskip) 4.0
+....\hbox(0.0+0.0)x307.28987
+.....\special{color push gray 0}
+.....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+......\vbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\special{color push gray 0}
+...........\special{color push gray 0}
+...........\special{color pop}
+...........\special{color pop}
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+........\glue 0.0 plus 1.0fil
+.......\glue(\lineskip) 0.0
+.......\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil
+.....\special{color pop}
+.\kern 0.0
+============================================================

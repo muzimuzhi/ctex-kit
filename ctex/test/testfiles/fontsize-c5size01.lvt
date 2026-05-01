@@ -1,0 +1,31 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol, c5size]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{c5size~normalsize}{
+  \dim_log:n { 1em }
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{c5size~ccwd}{
+  \dim_log:N \ccwd
+}
+
+\TEST{c5size~parindent}{
+  \dim_log:n { \parindent }
+  \dim_log:n { 2\ccwd }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

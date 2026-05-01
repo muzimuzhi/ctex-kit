@@ -1,0 +1,34 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: ctex package with article parindent
+============================================================
+> \parindent =21.07874pt.
+> \ccwd=10.53937pt.
+============================================================
+============================================================
+TEST 2: ctex package section format
+============================================================
+> \CTEX@section@format=undefined.
+============================================================
+============================================================
+TEST 3: ctex package font commands
+============================================================
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font 'FandolSong-Regular'. Check the typeset output, and if it is okay then ignore this warning. Otherwise a different font should be chosen.
+Package fontspec Info: 
+(fontspec)             Font family 'FandolSong-Regular(1)' created for font 'FandolSong-Regular' with options [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolSong-Regular.otf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[FandolSong-Bold.otf]/OT:script=hani;language=dflt;"
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 4: ctex package zihao works
+============================================================
+> \ccwd=10.53937pt.
+> \ccwd=16.06pt.
+============================================================

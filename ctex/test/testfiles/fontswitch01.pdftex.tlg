@@ -1,0 +1,45 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: songti font switch
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+zhsong on input line ....
+(../c70zhsong.fd)
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 2: heiti font switch
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+zhhei on input line ....
+(../c70zhhei.fd)
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 3: kaishu font switch
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+zhkai on input line ....
+(../c70zhkai.fd)
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 4: fangsong font switch
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+zhfs on input line ....
+(../c70zhfs.fd)
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 5: CJKfamily switch
+============================================================
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 6: font switch scoped
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+rm on input line ....
+(c70rm.fd)
+> \box_wd:N \l_tmpa_box =10.53937pt.
+> \box_wd:N \l_tmpa_box =10.53937pt.
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================

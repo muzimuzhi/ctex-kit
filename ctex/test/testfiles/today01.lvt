@@ -1,0 +1,32 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{today~small~format}{
+  \ctexset{today = small}
+  \tl_log:x { \today }
+}
+
+\TEST{today~big~format}{
+  \ctexset{today = big}
+  \tl_log:x { \today }
+}
+
+\TEST{today~old~format}{
+  \ctexset{today = old}
+  \tl_log:x { \today }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

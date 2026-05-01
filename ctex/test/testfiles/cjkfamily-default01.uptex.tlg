@@ -1,0 +1,31 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: CJKfamilydefault is rm
+============================================================
+> zhrm.
+============================================================
+============================================================
+TEST 2: rmfamily switches CJK
+============================================================
+> \f@family=macro:->cmr.
+============================================================
+============================================================
+TEST 3: sffamily switches CJK
+============================================================
+LaTeX Font Info:    Trying to load font information for JT2+zhsf on input line ....
+(jt2zhsf.fd)
+LaTeX Font Info:    Trying to load font information for JY2+zhsf on input line ....
+(jy2zhsf.fd)
+> \f@family=macro:->cmss.
+============================================================
+============================================================
+TEST 4: ttfamily switches CJK
+============================================================
+LaTeX Font Info:    Trying to load font information for JT2+zhtt on input line ....
+(jt2zhtt.fd)
+LaTeX Font Info:    Trying to load font information for JY2+zhtt on input line ....
+(jy2zhtt.fd)
+> \f@family=macro:->cmtt.
+============================================================

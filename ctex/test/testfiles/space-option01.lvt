@@ -1,0 +1,54 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~space~option}{
+  \hbox_set:Nn \l_tmpa_box { 汉字 English }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+  \hbox_set:Nn \l_tmpa_box { 汉字English }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+}
+
+\TEST{space~true~preserves~all~spaces}{
+  \group_begin:
+    \ctexset{space = true}
+    \hbox_set:Nn \l_tmpa_box { 汉字 汉字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+    \hbox_set:Nn \l_tmpa_box { 汉字汉字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\TEST{space~false~ignores~spaces~between~CJK}{
+  \group_begin:
+    \ctexset{space = false}
+    \hbox_set:Nn \l_tmpa_box { 汉字 汉字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+    \hbox_set:Nn \l_tmpa_box { 汉字汉字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\TEST{space~auto~engine~dependent}{
+  \group_begin:
+    \ctexset{space = auto}
+    \hbox_set:Nn \l_tmpa_box { 汉字 汉字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+    \hbox_set:Nn \l_tmpa_box { 汉字汉字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

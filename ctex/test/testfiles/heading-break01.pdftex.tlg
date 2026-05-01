@@ -1,0 +1,519 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: section~with~break~newpage
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+rm on input line ....
+(c70rm.fd)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line ....
+(ctex-zhmap-fandol.tex)
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline gbk@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbksong@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbkkai@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline gbkhei@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline gbkfs@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline cyberb@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unisong@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unikai@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline unihei@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline unifs@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline gbksongsl@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline gbkkaisl@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline gbkheisl@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline gbkfssl@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+..\special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline unikaisl@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline uniheisl@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline unifssl@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 539.94232fil
+...\write-{}
+...\glue(\topskip) 1.56851
+...\hbox(8.43149+1.05394)x345.0, glue set 260.68506fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/7b ,
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/4e ^^@
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/6b ^^b5
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 3.56851fil
+...\glue 0.0 plus 1.0fil
+...\hbox(8.43149+1.05394)x345.0
+....\hbox(8.43149+1.05394)x345.0, glue set 271.22438fil
+.....\OT1/cmr/m/sl/10.53937 1
+.....\glue 10.53938
+.....\C70/rm/m/sl/10.53937/52 ^^F
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/98 u
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/54 ^^N
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/76 ^^84
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/82 ^^82
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 2
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 511.02208fil
+...\glue(\topskip) 0.0
+...\hbox(12.04498+1.50562)x345.0, glue set 122.1557fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 1
+.....\glue 16.93826
+....\C70/rm/bx/n/15.05624/52 ^^F
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/98 u
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/54 ^^N
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/76 ^^84
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/82 ^^82
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{1\hskip 1em\relax ^^e5^^88^^86^^e9^^a1^^b5^^e5^^90^^8e^^e7^^9a^^84^^e8^^8a^^82}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{1\hskip 1em\relax ^^e5^^88^^86^^e9^^a1^^b5^^e5^^90^^8e^^e7^^9a^^84^^e8^^8a^^82}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}^^e5^^88^^86^^e9^^a1^^b5^^e5^^90^^8e^^e7^^9a^^84^^e8^^8a^^82}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.50435
+...\hbox(8.43149+1.05394)x345.0, glue set 260.68506fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/7b ,
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/4e ^^8c
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/6b ^^b5
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 2: section~with~break~clear
+============================================================
+Completed box being shipped out [3]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 3.56851fil
+...\glue 0.0 plus 1.0fil
+...\hbox(8.43149+1.05394)x345.0
+....\hbox(8.43149+1.05394)x345.0, glue set 271.22438fil
+.....\OT1/cmr/m/sl/10.53937 1
+.....\glue 10.53938
+.....\C70/rm/m/sl/10.53937/52 ^^F
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/98 u
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/54 ^^N
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/76 ^^84
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/82 ^^82
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 3
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 539.94232fil
+...\write-{}
+...\glue(\topskip) 1.56851
+...\hbox(8.43149+1.05394)x345.0, glue set 260.68506fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/7b ,
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/4e ^^I
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/6b ^^b5
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+Completed box being shipped out [4]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 3.56851fil
+...\glue 0.0 plus 1.0fil
+...\hbox(8.43149+1.05394)x345.0
+....\hbox(8.43149+1.05394)x345.0, glue set 225.91965fil
+.....\OT1/cmr/m/sl/10.53937 2
+.....\glue 10.53938
+.....\OT1/cmr/m/sl/10.53937 C
+.....\OT1/cmr/m/sl/10.53937 L
+.....\OT1/cmr/m/sl/10.53937 E
+.....\OT1/cmr/m/sl/10.53937 A
+.....\OT1/cmr/m/sl/10.53937 R
+.....\OT1/cmr/m/sl/10.53937 P
+.....\kern-0.8783
+.....\OT1/cmr/m/sl/10.53937 A
+.....\kern-0.29277
+.....\OT1/cmr/m/sl/10.53937 G
+.....\OT1/cmr/m/sl/10.53937 E
+.....\C70/rm/m/sl/10.53937/54 ^^N
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/76 ^^84
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/82 ^^82
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 4
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 511.02208fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(12.04498+2.92758)x345.0, glue set 102.73422fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 2
+.....\glue 16.93826
+....\OT1/cmr/bx/n/15.05624 c
+....\OT1/cmr/bx/n/15.05624 l
+....\OT1/cmr/bx/n/15.05624 e
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 r
+....\OT1/cmr/bx/n/15.05624 p
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 g
+....\OT1/cmr/bx/n/15.05624 e
+....\C70/rm/bx/n/15.05624/54 ^^N
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/76 ^^84
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/82 ^^82
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{2\hskip 1em\relax clearpage^^e5^^90^^8e^^e7^^9a^^84^^e8^^8a^^82}}}
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{2\hskip 1em\relax clearpage^^e5^^90^^8e^^e7^^9a^^84^^e8^^8a^^82}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {2}clearpage^^e5^^90^^8e^^e7^^9a^^84^^e8^^8a^^82}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.08238
+...\hbox(8.43149+1.05394)x345.0, glue set 260.68506fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/7b ,
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/56 ^^db
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/6b ^^b5
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 3: section~break~reset
+============================================================
+Completed box being shipped out [5]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 3.56851fil
+...\glue 0.0 plus 1.0fil
+...\hbox(8.43149+1.05394)x345.0
+....\hbox(8.43149+1.05394)x345.0, glue set 253.80507fil
+.....\OT1/cmr/m/sl/10.53937 3
+.....\glue 10.53938
+.....\C70/rm/m/sl/10.53937/65 ^^e0
+.....\kern -0.00002
+.....\kern 0.00002
+.....\OT1/cmr/m/sl/10.53937 B
+.....\OT1/cmr/m/sl/10.53937 R
+.....\OT1/cmr/m/sl/10.53937 E
+.....\OT1/cmr/m/sl/10.53937 A
+.....\OT1/cmr/m/sl/10.53937 K
+.....\C70/rm/m/sl/10.53937/76 ^^84
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/82 ^^82
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 5
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 473.70103fil
+...\write-{}
+...\glue(\topskip) 1.56851
+...\hbox(8.43149+1.05394)x345.0, glue set 271.22443fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/8f ^^de
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/7e ^^ed
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 15.88223 plus 4.53778 minus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 10.38885
+...\hbox(12.04498+1.50562)x345.0, glue set 116.59676fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 3
+.....\glue 16.93826
+....\C70/rm/bx/n/15.05624/65 ^^e0
+....\kern -0.00002
+....\kern 0.00002
+....\OT1/cmr/bx/n/15.05624 b
+....\OT1/cmr/bx/n/15.05624 r
+....\OT1/cmr/bx/n/15.05624 e
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 k
+....\C70/rm/bx/n/15.05624/76 ^^84
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/82 ^^82
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {5}{\MakeUppercase    []{3\hskip 1em\relax ^^e6^^97^^a0break^^e7^^9a^^84^^e8^^8a^^82}}}
+...\marks3{\__mark_value:nn {6}{\MakeUppercase    []{3\hskip 1em\relax ^^e6^^97^^a0break^^e7^^9a^^84^^e8^^8a^^82}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {3}^^e6^^97^^a0break^^e7^^9a^^84^^e8^^8a^^82}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.50435
+...\hbox(8.43149+1.05394)x345.0, glue set 260.68506fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/7d '
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/63 ^^a5
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/76 ^^84
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

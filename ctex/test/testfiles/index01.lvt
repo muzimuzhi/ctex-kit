@@ -1,0 +1,24 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{theindex~heading}{
+  \begin{theindex}
+    \item 测试条目一, 1
+    \item 测试条目二, 2
+    \subitem 子条目, 3
+  \end{theindex}
+  \clearpage
+}
+
+\END
+
+\end{document}

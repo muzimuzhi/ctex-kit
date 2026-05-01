@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{section~meta~key}{
+  \ctexset{
+    section = {
+      format = \Large\bfseries\centering,
+      aftername = \quad,
+      indent = 0pt,
+    }
+  }
+  \cs_log:c { CTEX@section@format }
+  \cs_log:c { CTEX@section@aftername }
+}
+
+\TEST{subsection~meta~key}{
+  \ctexset{
+    subsection = {
+      format = \large\bfseries,
+      hang = true,
+    }
+  }
+  \cs_log:c { CTEX@subsection@format }
+  \bool_log:c { CTEX@subsection@hang }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

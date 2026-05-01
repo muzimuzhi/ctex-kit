@@ -1,0 +1,300 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: section~runin~true
+============================================================
+LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10.53937> not available
+(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 4.19032fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.80968+1.26471)x345.0
+....\hbox(7.80968+1.26471)x345.0, glue set 264.35275fil
+.....\TU/lmr/m/sl/10.53937 1
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 10.53937
+.....\TU/lmr/m/sl/10.53937 RUNIN
+.....\glue 3.50961 plus 1.7548 minus 1.16986
+.....\TU/FandolSong-Regular(0)/m/it/10.53937 标
+.....\glue 0.0 plus 0.60931
+.....\TU/FandolSong-Regular(0)/m/it/10.53937 题
+.....\kern -0.00017
+.....\kern 0.00017
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 1
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 522.01488fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(11.48792+2.42404)x345.0, glue set 122.91978fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\TU/lmr/bx/n/15.05624 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 15.05624
+....\TU/lmr/bx/n/15.05624 runin
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\TU/FandolSong-Regular(0)/b/n/15.05624 标
+....\glue 0.0 plus 1.44095
+....\TU/FandolSong-Regular(0)/b/n/15.05624 题
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{1\hskip 1em\relax runin标题}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{1\hskip 1em\relax runin标题}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}runin标题}{\thepage }{}\protected@file@percent }}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.87048
+...\hbox(8.14693+1.9287)x345.0, glue set 235.85431fil
+....\hbox(0.0+0.0)x21.07874
+....\glue 10.53937
+....\TU/FandolSong-Regular(0)/m/n/10.53937 紧
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 跟
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 的
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 正
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 内
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 容
+....\penalty 10000
+....\TU/FandolSong-Regular(0)/m/n/10.53937 。
+....\rule(0.0+0.0)x-6.78735
+....\kern 0.00041
+....\kern -0.00041
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.9287
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 2: subsection~runin
+============================================================
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 4.19032fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.80968+1.26471)x345.0
+....\hbox(7.80968+1.26471)x345.0, glue set 264.35275fil
+.....\TU/lmr/m/sl/10.53937 1
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 10.53937
+.....\TU/lmr/m/sl/10.53937 RUNIN
+.....\glue 3.50961 plus 1.7548 minus 1.16986
+.....\TU/FandolSong-Regular(0)/m/it/10.53937 标
+.....\glue 0.0 plus 0.60931
+.....\TU/FandolSong-Regular(0)/m/it/10.53937 题
+.....\kern -0.00017
+.....\kern 0.00017
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 2
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 523.50262fil
+...\write-{}
+...\glue(\topskip) 0.93011
+...\hbox(9.06989+1.90309)x345.0, glue set 255.12022fil
+....\TU/lmr/bx/n/12.045 1.1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 12.045
+....\TU/lmr/bx/n/12.045 runin
+....\glue 4.51688 plus 2.25844 minus 1.50562
+....\TU/FandolSong-Regular(0)/b/n/12.045 小
+....\glue 0.0 plus 0.76097
+....\TU/FandolSong-Regular(0)/b/n/12.045 节
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline {1.1}runin小节}{\thepage }{}\protected@file@percent }}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.46521
+...\hbox(8.07315+1.70737)x345.0, glue set 272.7421fil
+....\hbox(0.0+0.0)x21.07874
+....\glue 5.26968
+....\TU/FandolSong-Regular(0)/m/n/10.53937 后
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 续
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 正
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\penalty 10000
+....\TU/FandolSong-Regular(0)/m/n/10.53937 。
+....\rule(0.0+0.0)x-6.78735
+....\kern 0.00041
+....\kern -0.00041
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.70737
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 3: runin~scoped
+============================================================
+Completed box being shipped out [3]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 4.30626fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.69374+1.51765)x345.0
+....\hbox(7.69374+1.51765)x345.0, glue set 253.81339fil
+.....\TU/lmr/m/sl/10.53937 2
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 10.53937
+.....\TU/FandolSong-Regular(0)/m/it/10.53937 分
+.....\glue 0.0 plus 0.60931
+.....\TU/FandolSong-Regular(0)/m/it/10.53937 组
+.....\glue 0.0 plus 0.60931
+.....\TU/FandolSong-Regular(0)/m/it/10.53937 内
+.....\glue 3.50961 plus 1.75304 minus 1.17102
+.....\TU/lmr/m/sl/10.53937 RUNIN
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 3
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 455.76013fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(11.38252+2.28853)x345.0, glue set 115.39166fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\TU/lmr/bx/n/15.05624 2
+....\kern -0.0002
+....\kern 0.0002
+....\glue 15.05624
+....\TU/FandolSong-Regular(0)/b/n/15.05624 分
+....\glue 0.0 plus 1.44095
+....\TU/FandolSong-Regular(0)/b/n/15.05624 组
+....\glue 0.0 plus 1.44095
+....\TU/FandolSong-Regular(0)/b/n/15.05624 内
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\TU/lmr/bx/n/15.05624 runin
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{2\hskip 1em\relax 分组内runin}}}
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{2\hskip 1em\relax 分组内runin}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {2}分组内runin}{\thepage }{}\protected@file@percent }}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.04816
+...\hbox(8.10477+1.84438)x345.0, glue set 288.55115fil
+....\hbox(0.0+0.0)x21.07874
+....\glue 10.53937
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 字
+....\penalty 10000
+....\TU/FandolSong-Regular(0)/m/n/10.53937 。
+....\rule(0.0+0.0)x-6.78735
+....\kern 0.00041
+....\kern -0.00041
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 15.89862 plus 4.54247 minus 0.90848
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 10.291
+...\hbox(11.3524+2.34875)x345.0, glue set 107.86354fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.87689+0.18066)x23.53291
+.....\TU/lmr/bx/n/15.05624 3
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 15.05624
+....\TU/FandolSong-Regular(0)/b/n/15.05624 分
+....\glue 0.0 plus 1.44095
+....\TU/FandolSong-Regular(0)/b/n/15.05624 组
+....\glue 0.0 plus 1.44095
+....\TU/FandolSong-Regular(0)/b/n/15.05624 外
+....\glue 0.0 plus 1.44095
+....\TU/FandolSong-Regular(0)/b/n/15.05624 非
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\TU/lmr/bx/n/15.05624 runin
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {5}{\MakeUppercase    []{3\hskip 1em\relax 分组外非runin}}}
+...\marks3{\__mark_value:nn {6}{\MakeUppercase    []{3\hskip 1em\relax 分组外非runin}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {3}分组外非runin}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.53937
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.98793
+...\hbox(8.10477+1.84438)x345.0, glue set 299.09052fil
+....\hbox(0.0+0.0)x21.07874
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 字
+....\penalty 10000
+....\TU/FandolSong-Regular(0)/m/n/10.53937 。
+....\rule(0.0+0.0)x-6.78735
+....\kern 0.00041
+....\kern -0.00041
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.84438
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

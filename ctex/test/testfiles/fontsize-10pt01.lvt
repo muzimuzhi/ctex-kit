@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass[10pt, fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{10pt~default~baselineskip}{
+  \dim_log:n { \f@size pt }
+  \dim_log:n { \baselineskip }
+  \dim_log:N \ccwd
+}
+
+\TEST{10pt~linespread~effect}{
+  \dim_log:n { \baselineskip }
+  \group_begin:
+    \linespread{2.0}\selectfont
+    \dim_log:n { \baselineskip }
+  \group_end:
+}
+
+\TEST{10pt~vs~normalsize}{
+  \dim_log:n { \f@size pt }
+  \group_begin:
+    \normalsize
+    \dim_log:n { 1em }
+    \dim_log:N \ccwd
+  \group_end:
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

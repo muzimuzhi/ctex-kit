@@ -1,0 +1,36 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{amsmath~equation~in~ctex}{
+  文字之前。
+  \begin{equation}
+    a^2 + b^2 = c^2
+  \end{equation}
+  文字之后。
+  \clearpage
+}
+
+\TEST{amsmath~align~in~ctex}{
+  对齐环境测试。
+  \begin{align}
+    x &= y + z \\
+    a &= b + c
+  \end{align}
+  对齐后。
+  \clearpage
+}
+
+\END
+
+\end{document}

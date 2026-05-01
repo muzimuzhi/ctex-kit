@@ -1,0 +1,56 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\OMIT
+\begingroup \zihao{3} \leavevmode \endgroup
+\TIMO
+
+\TEST{parindent~default~2ccwd}{
+  \dim_log:n { \parindent }
+  \dim_log:N \ccwd
+  \dim_log:n { 2\ccwd }
+}
+
+\TEST{autoindent~number~3}{
+  \ctexset{autoindent = 3}
+  \normalsize
+  \CTEXsetfont
+  \dim_log:n { \parindent }
+  \dim_log:N \ccwd
+  \dim_log:n { 3\ccwd }
+}
+
+\TEST{autoindent~dimension}{
+  \ctexset{autoindent = 2.5em}
+  \normalsize
+  \CTEXsetfont
+  \dim_log:n { \parindent }
+}
+
+\TEST{autoindent~after~fontsize~change}{
+  \ctexset{autoindent = 2}
+  \normalsize
+  \CTEXsetfont
+  \dim_log:n { \parindent }
+  \group_begin:
+    \zihao{3}
+    \dim_log:n { \parindent }
+    \dim_log:N \ccwd
+  \group_end:
+  \dim_log:n { \parindent }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

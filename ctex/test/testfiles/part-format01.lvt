@@ -1,0 +1,41 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{part~default~format}{
+  \part{第一部分}
+  文字
+  \clearpage
+}
+
+\TEST{part~custom~name~and~number}{
+  \ctexset{
+    part/name = {篇,},
+    part/number = \chinese{part},
+  }
+  \part{自定义部分}
+  文字
+  \clearpage
+}
+
+\TEST{part~custom~format}{
+  \ctexset{
+    part/format = \Huge\bfseries\centering,
+    part/aftername = \par\vskip 1em,
+  }
+  \part{格式化的部分}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

@@ -1,0 +1,224 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: abstract~in~ctexart
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 514.11328fil
+...\write-{}
+...\glue(\topskip) 2.05032
+...\hbox(7.94968+1.08405)x345.0, glue set 163.46626fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x0.0
+.....\glue 5.0
+....\penalty 0
+....\JY2/zhrm/bx/n/9.03374 摘
+....\JY2/zhrm/bx/n/9.03374 要
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue -5.3449
+...\glue 0.0
+...\glue 0.0
+...\glue 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -11.08405 plus -3.0 minus -5.0
+...\penalty -51
+...\glue 1.08405
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.05893
+...\hbox(7.94968+1.08405)x294.99994, glue set 154.97704fil, shifted 25.00003
+....\hbox(0.0+0.0)x18.06747
+.....\glue 18.06747
+.....\glue -20.00003
+.....\glue -5.0
+.....\hbox(0.0+0.0)x20.00003, glue set 20.00003fil
+......\glue 0.0 plus 1.0fil
+.....\glue 5.0
+....\penalty 0
+....\JY2/zhrm/m/n/9.03374 这
+....\JY2/zhrm/m/n/9.03374 是
+....\JY2/zhrm/m/n/9.03374 摘
+....\JY2/zhrm/m/n/9.03374 要
+....\JY2/zhrm/m/n/9.03374 内
+....\JY2/zhrm/m/n/9.03374 容
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.29866
+....\JY2/zhrm/m/n/9.03374 。
+....\glue(refer from jfm) 4.51686
+....\JY2/zhrm/m/n/9.03374 中
+....\JY2/zhrm/m/n/9.03374 文
+....\JY2/zhrm/m/n/9.03374 排
+....\JY2/zhrm/m/n/9.03374 版
+....\JY2/zhrm/m/n/9.03374 测
+....\penalty 500(for \jcharwidowpenalty)
+....\glue(\kanjiskip) 0.0 plus 0.29866
+....\JY2/zhrm/m/n/9.03374 试
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.29866
+....\JY2/zhrm/m/n/9.03374 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 6.0 plus 3.0 minus 3.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 2: abstract~with~section~after
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 302.84248fil
+.....\OT1/cmr/m/sl/10.53937 1
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 引
+.....\JY2/zhrm/m/it/10.53937 言
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 2
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 453.6907fil
+...\write-{}
+...\glue(\topskip) 2.05032
+...\hbox(7.94968+1.08405)x345.0, glue set 163.46626fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x0.0
+.....\glue 5.0
+....\penalty 0
+....\JY2/zhrm/bx/n/9.03374 摘
+....\JY2/zhrm/bx/n/9.03374 要
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue -5.3449
+...\glue 0.0
+...\glue 0.0
+...\glue 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -11.08405 plus -3.0 minus -5.0
+...\penalty -51
+...\glue 1.08405
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.05893
+...\hbox(7.94968+1.08405)x294.99994, glue set 236.28065fil, shifted 25.00003
+....\hbox(0.0+0.0)x18.06747
+.....\glue 18.06747
+.....\glue -20.00003
+.....\glue -5.0
+.....\hbox(0.0+0.0)x20.00003, glue set 20.00003fil
+......\glue 0.0 plus 1.0fil
+.....\glue 5.0
+....\penalty 0
+....\JY2/zhrm/m/n/9.03374 摘
+....\JY2/zhrm/m/n/9.03374 要
+....\JY2/zhrm/m/n/9.03374 文
+....\JY2/zhrm/m/n/9.03374 字
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.29866
+....\JY2/zhrm/m/n/9.03374 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 6.0 plus 3.0 minus 3.0
+...\glue -7.08405 plus -3.0 minus -3.0
+...\penalty -300
+...\glue 1.08405
+...\glue 6.0 plus 3.0 minus 3.0
+...\glue -6.0 plus -3.0 minus -3.0
+...\glue 15.88223 plus 4.53778 minus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.15425
+...\hbox(13.24948+1.80675)x345.0, glue set 144.74007fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 1
+.....\glue 16.93826
+....\JY2/zhrm/bx/n/15.05624 引
+....\JY2/zhrm/bx/n/15.05624 言
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{1\hskip 1em\relax 引言}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{1\hskip 1em\relax 引言}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}引言}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.36006
+...\hbox(9.27464+1.26471)x345.0, glue set 276.49411fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 正
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 内
+....\JY2/zhrm/m/n/10.53937 容
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

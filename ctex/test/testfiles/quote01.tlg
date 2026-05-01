@@ -1,0 +1,247 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: quotation~environment
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 4.98077fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.01923+0.0)x345.0
+....\hbox(7.01923+0.0)x345.0, glue set 339.73032fil
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 1
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x320.0, glue set 528.09921fil
+...\write-{}
+...\glue(\topskip) 1.76875
+...\hbox(8.23125+1.84438)x295.0, glue set 38.30316fil, shifted 25.0
+....\hbox(0.0+0.0)x21.07874
+.....\glue 21.07874
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil
+.....\glue 5.0
+....\penalty 0
+....\TU/FandolSong-Regular(0)/m/n/10.53937 这
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 是
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 一
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 段
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 引
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 用
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 字
+....\penalty 10000
+....\TU/FandolSong-Regular(0)/m/n/10.53937 。
+....\rule(0.0+0.0)x-6.78735
+....\glue 6.78735 minus 5.26968
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 中
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 排
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 版
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 在
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 引
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 用
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 环
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 境
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 中
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 的
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 表
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 现
+....\penalty 10000
+....\TU/FandolSong-Regular(0)/m/n/10.53937 。
+....\rule(0.0+0.0)x-6.78735
+....\kern 0.00041
+....\kern -0.00041
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 2: quote~environment
+============================================================
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 4.98077fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.01923+0.0)x345.0
+....\hbox(7.01923+0.0)x345.0, glue set 339.73032fil
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 2
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x320.0, glue set 528.15192fil
+...\write-{}
+...\glue(\topskip) 1.78983
+...\hbox(8.21017+1.79167)x295.0, glue set 206.93304fil, shifted 25.0
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil
+.....\glue 5.0
+....\penalty 0
+....\TU/FandolSong-Regular(0)/m/n/10.53937 这
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 是
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 一
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 段
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 简
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 短
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 引
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 用
+....\penalty 10000
+....\TU/FandolSong-Regular(0)/m/n/10.53937 。
+....\rule(0.0+0.0)x-6.78735
+....\kern 0.00041
+....\kern -0.00041
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 3: verse~environment
+============================================================
+Completed box being shipped out [3]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 4.98077fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.01923+0.23186)x345.0
+....\hbox(7.01923+0.23186)x345.0, glue set 339.73032fil
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 3
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x320.0, glue set 495.16714fil
+...\write-{}
+...\glue(\topskip) 1.80037
+...\hbox(8.19963+1.82329)x273.92126, glue set 263.3819fil, shifted 46.07874
+....\hbox(0.0+0.0)x-21.07874
+.....\glue -21.07874
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil
+.....\glue 5.0
+....\penalty 0
+....\TU/FandolSong-Regular(0)/m/n/10.53937 静
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 夜
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 思
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -4.0 plus -2.0 minus -1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.40799
+...\hbox(8.21017+1.85492)x273.92126, glue set 242.30316fil, shifted 46.07874
+....\hbox(0.0+0.0)x-21.07874
+....\TU/FandolSong-Regular(0)/m/n/10.53937 床
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 前
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 明
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 月
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 光
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -4.0 plus -2.0 minus -1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.40799
+...\hbox(8.17854+1.89706)x273.92126, glue set 242.30316fil, shifted 46.07874
+....\hbox(0.0+0.0)x-21.07874
+....\TU/FandolSong-Regular(0)/m/n/10.53937 疑
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 是
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 地
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 上
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 霜
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

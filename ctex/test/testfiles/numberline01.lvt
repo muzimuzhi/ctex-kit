@@ -1,0 +1,35 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{CTEXnumberline~basic}{
+  \tl_log:x { \CTEXnumberline{\thesection} }
+}
+
+\TEST{CTEXnumberline~custom~format}{
+  \ctexset{section/name = {第,节}}
+  \tl_log:x { \CTEXnumberline{\thesection} }
+}
+
+\TEST{CTEXtheHeading~section}{
+  \cs_log:c { CTEXthesection }
+}
+
+\TEST{CTEXtheHeading~after~custom~number}{
+  \ctexset{section/number = \chinese{section}}
+  \cs_log:c { CTEXthesection }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

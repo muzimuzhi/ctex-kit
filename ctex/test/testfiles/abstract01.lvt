@@ -1,0 +1,31 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{abstract~in~ctexart}{
+  \begin{abstract}
+    这是摘要内容。中文排版测试。
+  \end{abstract}
+  \clearpage
+}
+
+\TEST{abstract~with~section~after}{
+  \begin{abstract}
+    摘要文字。
+  \end{abstract}
+  \section{引言}
+  正文内容。
+  \clearpage
+}
+
+\END
+
+\end{document}

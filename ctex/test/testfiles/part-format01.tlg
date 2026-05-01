@@ -1,0 +1,415 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: part~default~format
+============================================================
+Completed box being shipped out [1]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 149.13087fil
+...\write-{}
+...\write-{}
+...\glue(\topskip) 10.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {part}{第一部分\protect \hspace  {1em}第一部分}{\thepage }{}\protected@file@percent }}
+...\marks1{\__mark_value:nn {1}{}}
+...\marks2{\__mark_value:nn {2}{}}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 17.66606
+...\hbox(16.7827+3.70984)x345.0, glue set 128.33502fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\TU/FandolSong-Regular(0)/b/n/22.08249 第
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 一
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 部
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 分
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 20.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 13.95622
+...\hbox(16.7827+3.70984)x345.0, glue set 128.33502fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular(0)/b/n/22.08249 第
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 一
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 部
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 分
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 18.27571
+..\hbox(7.01923+0.0)x345.0
+...\hbox(7.01923+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10.53937 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+Completed box being shipped out [2]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+Completed box being shipped out [3]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 4.98077fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.01923+0.23186)x345.0
+....\hbox(7.01923+0.23186)x345.0, glue set 339.73032fil
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 3
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 540.0fil
+...\glue(\topskip) 1.89523
+...\hbox(8.10477+1.84438)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 字
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.84438
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 2: part~custom~name~and~number
+============================================================
+Completed box being shipped out [4]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 4.86485fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.13515+0.0)x345.0
+....\hbox(7.13515+0.0)x345.0, glue set 339.73032fil
+.....\TU/lmr/m/n/10.53937 4
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 0.0 plus 1.0fil
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\write-{}
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+Completed box being shipped out [5]
+\vbox(627.36243+0.23186)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.23186)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 149.15295fil
+...\glue(\topskip) 10.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {part}{篇二\protect \hspace  {1em}自定义部分}{\thepage }{}\protected@file@percent }}
+...\marks1{\__mark_value:nn {3}{}}
+...\marks2{\__mark_value:nn {4}{}}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 17.42316
+...\hbox(17.0256+3.84233)x345.0, glue set 150.41751fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\TU/FandolSong-Regular(0)/b/n/22.08249 篇
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 二
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 20.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 13.58083
+...\hbox(17.0256+3.6436)x345.0, glue set 117.29378fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular(0)/b/n/22.08249 自
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 定
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 义
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 部
+....\glue 0.0 plus 2.75732
+....\TU/FandolSong-Regular(0)/b/n/22.08249 分
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 18.27571
+..\hbox(7.01923+0.23186)x345.0
+...\hbox(7.01923+0.23186)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10.53937 5
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+Completed box being shipped out [6]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+Completed box being shipped out [7]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 4.87538fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.12462+0.23186)x345.0
+....\hbox(7.12462+0.23186)x345.0, glue set 339.73032fil
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 7
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 540.0fil
+...\glue(\topskip) 1.89523
+...\hbox(8.10477+1.84438)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 字
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.84438
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 3: part~custom~format
+============================================================
+Completed box being shipped out [8]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 4.98077fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.01923+0.23186)x345.0
+....\hbox(7.01923+0.23186)x345.0, glue set 339.73032fil
+.....\TU/lmr/m/n/10.53937 8
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 0.0 plus 1.0fil
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\write-{}
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+Completed box being shipped out [9]
+\vbox(627.36243+0.23186)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.23186)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 142.72403fil
+...\glue(\topskip) 10.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {part}{第三部分\protect \hspace  {1em}格式化的部分}{\thepage }{}\protected@file@percent }}
+...\marks1{\__mark_value:nn {5}{}}
+...\marks2{\__mark_value:nn {6}{}}
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 20.87808
+...\hbox(19.83409+4.38437)x345.0, glue set 120.30502fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\TU/FandolSong-Regular(0)/b/n/26.09749 第
+....\glue 0.0 plus 2.89365
+....\TU/FandolSong-Regular(0)/b/n/26.09749 三
+....\glue 0.0 plus 2.89365
+....\TU/FandolSong-Regular(0)/b/n/26.09749 部
+....\glue 0.0 plus 2.89365
+....\TU/FandolSong-Regular(0)/b/n/26.09749 分
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 26.09749
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 16.49371
+...\hbox(19.83409+4.30608)x345.0, glue set 94.20753fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolSong-Regular(0)/b/n/26.09749 格
+....\glue 0.0 plus 2.89365
+....\TU/FandolSong-Regular(0)/b/n/26.09749 式
+....\glue 0.0 plus 2.89365
+....\TU/FandolSong-Regular(0)/b/n/26.09749 化
+....\glue 0.0 plus 2.89365
+....\TU/FandolSong-Regular(0)/b/n/26.09749 的
+....\glue 0.0 plus 2.89365
+....\TU/FandolSong-Regular(0)/b/n/26.09749 部
+....\glue 0.0 plus 2.89365
+....\TU/FandolSong-Regular(0)/b/n/26.09749 分
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 18.27571
+..\hbox(7.01923+0.23186)x345.0
+...\hbox(7.01923+0.23186)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10.53937 9
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+Completed box being shipped out [10]
+\vbox(627.36243+0.0)x434.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 89.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x0.0, glue set 540.0fil
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+Completed box being shipped out [11]
+\vbox(627.36243+0.0)x380.0
+.\glue 22.0
+.\vbox(605.36243+0.0)x345.0, shifted 35.0
+..\vbox(12.0+0.0)x345.0, glue set 4.98077fil
+...\glue 0.0 plus 1.0fil
+...\hbox(7.01923+0.0)x345.0
+....\hbox(7.01923+0.0)x345.0, glue set 334.46063fil
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10.53937 11
+.....\kern -0.0002
+.....\kern 0.0002
+..\glue 18.06749
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 540.0fil
+...\glue(\topskip) 1.89523
+...\hbox(8.10477+1.84438)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 字
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.84438
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 25.29494
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

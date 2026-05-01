@@ -1,0 +1,39 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{chapter~aftertitle~custom}{
+  \ctexset{chapter/aftertitle = \par\vskip 0.5em\hrule}
+  \chapter{带横线的章标题}
+  文字
+  \clearpage
+}
+
+\TEST{section~aftertitle~custom}{
+  \ctexset{section/aftertitle = \hfill\rule{3em}{0.4pt}}
+  \section{自定义aftertitle节}
+  文字
+  \clearpage
+}
+
+\TEST{chapter~nameformat~and~numberformat}{
+  \ctexset{
+    chapter/nameformat = \bfseries\huge,
+    chapter/numberformat = \color@begingroup\fontsize{50}{60}\selectfont,
+  }
+  \chapter{格式化编号}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

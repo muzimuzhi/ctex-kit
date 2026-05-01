@@ -1,0 +1,47 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{punct~quanjiao~default}{
+  \ctexset{punct = quanjiao}
+  \hbox_set:Nn \l_tmpa_box { 字，字。字 }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+}
+
+\TEST{punct~banjiao}{
+  \ctexset{punct = banjiao}
+  \hbox_set:Nn \l_tmpa_box { 字，字。字 }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+}
+
+\TEST{punct~kaiming}{
+  \ctexset{punct = kaiming}
+  \hbox_set:Nn \l_tmpa_box { 字，字。字 }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+}
+
+\TEST{punct~CCT}{
+  \ctexset{punct = CCT}
+  \hbox_set:Nn \l_tmpa_box { 字，字。字 }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+}
+
+\TEST{punct~plain}{
+  \ctexset{punct = plain}
+  \hbox_set:Nn \l_tmpa_box { 字，字。字 }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

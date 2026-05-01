@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~caption~names~ctexart}{
+  \tl_log:x { \contentsname }
+  \tl_log:x { \listfigurename }
+  \tl_log:x { \listtablename }
+  \tl_log:x { \abstractname }
+  \tl_log:x { \refname }
+  \tl_log:x { \indexname }
+  \tl_log:x { \figurename }
+  \tl_log:x { \tablename }
+  \tl_log:x { \appendixname }
+}
+
+\TEST{caption~names~after~ctexset}{
+  \ctexset{
+    contentsname = 文章目录,
+    figurename = 插图,
+    tablename = 表格,
+  }
+  \tl_log:x { \contentsname }
+  \tl_log:x { \figurename }
+  \tl_log:x { \tablename }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

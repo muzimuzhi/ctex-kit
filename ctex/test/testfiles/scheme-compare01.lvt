@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol, scheme=chinese]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{scheme~chinese~parindent~and~baselineskip}{
+  \dim_log:n { \parindent }
+  \dim_log:N \ccwd
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{scheme~chinese~section~afterindent~is~true}{
+  \bool_log:c { CTEX@section@afterindent }
+  \bool_log:c { CTEX@subsection@afterindent }
+}
+
+\sys_if_engine_pdftex:F
+  {
+    \TEST{scheme~chinese~today~is~small}{
+      \tl_log:x { \today }
+    }
+  }
+
+\TEST{scheme~chinese~section~name~and~format}{
+  \cs_log:c { CTEXthesection }
+  \cs_log:c { CTEX@section@format }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

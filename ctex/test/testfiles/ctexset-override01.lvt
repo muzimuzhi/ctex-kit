@@ -1,0 +1,53 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{sequential~ctexset~overrides}{
+  \cs_log:c { CTEX@section@format }
+  \ctexset{section/format = \Large\bfseries}
+  \cs_log:c { CTEX@section@format }
+  \ctexset{section/format = \large\itshape}
+  \cs_log:c { CTEX@section@format }
+}
+
+\TEST{ctexset~multiple~keys~at~once}{
+  \ctexset{
+    section/format = \normalfont\Large,
+    section/aftername = \enspace,
+    subsection/format = \normalfont\large
+  }
+  \cs_log:c { CTEX@section@format }
+  \cs_log:c { CTEX@section@aftername }
+  \cs_log:c { CTEX@subsection@format }
+}
+
+\TEST{ctexset~reset~after~group}{
+  \cs_log:c { CTEX@section@format }
+  \group_begin:
+    \ctexset{section/format = \Huge}
+    \cs_log:c { CTEX@section@format }
+    \ctexset{section/format = \tiny}
+    \cs_log:c { CTEX@section@format }
+  \group_end:
+  \cs_log:c { CTEX@section@format }
+}
+
+\TEST{meta~key~section~passes~to~section~keys}{
+  \ctexset{section = {format = \sffamily\Large, aftername = {---}}}
+  \cs_log:c { CTEX@section@format }
+  \cs_log:c { CTEX@section@aftername }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

@@ -1,0 +1,41 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{engine~detection}{
+  \sys_if_engine_pdftex:TF
+    { \TYPE { engine:~ pdftex } }
+    {
+      \sys_if_engine_xetex:TF
+        { \TYPE { engine:~ xetex } }
+        {
+          \sys_if_engine_luatex:TF
+            { \TYPE { engine:~ luatex } }
+            {
+              \sys_if_engine_uptex:TF
+                { \TYPE { engine:~ uptex } }
+                { \TYPE { engine:~ unknown } }
+            }
+        }
+    }
+}
+
+\TEST{ctex~encoding~matches~engine}{
+  \cs_if_exist:cTF { g__ctex_encoding_tl }
+    { \tl_log:c { g__ctex_encoding_tl } }
+    { \TYPE { encoding~tl:~ not~defined } }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

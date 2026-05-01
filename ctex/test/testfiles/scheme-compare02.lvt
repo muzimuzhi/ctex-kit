@@ -1,0 +1,43 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol, scheme=plain]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{scheme~plain~parindent~and~baselineskip}{
+  \dim_log:n { \parindent }
+  \dim_log:N \ccwd
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{scheme~plain~section~afterindent~is~false}{
+  \bool_log:c { CTEX@section@afterindent }
+  \bool_log:c { CTEX@subsection@afterindent }
+}
+
+\TEST{scheme~plain~section~format}{
+  \cs_log:c { CTEX@section@format }
+  \cs_log:c { CTEX@subsection@format }
+}
+
+\ExplSyntaxOff
+
+\loggingoutput
+
+\TEST{scheme~plain~heading~output}{
+  \section{Section Title}
+  Text
+  \subsection{Subsection Title}
+  Text
+  \clearpage
+}
+
+\END
+
+\end{document}

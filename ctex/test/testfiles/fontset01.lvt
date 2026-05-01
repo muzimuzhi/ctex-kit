@@ -1,0 +1,36 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{ctex~provides~zhmap~commands}{
+  \cs_if_exist:cTF { ctex_zhmap_case:nnn }
+    { \TYPE { zhmap~case:~ exists } }
+    { \TYPE { zhmap~case:~ not~defined } }
+}
+
+\TEST{ctex~fontset~is~fandol}{
+  \tl_log:N \g__ctex_fontset_tl
+}
+
+\TEST{fandol~song~defined}{
+  \cs_if_exist:cTF { CTEX@family@zhsong }
+    {
+      \cs_log:c { CTEX@family@zhsong }
+      \TYPE { zhsong:~ defined }
+    }
+    { \TYPE { zhsong:~ not~defined } }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

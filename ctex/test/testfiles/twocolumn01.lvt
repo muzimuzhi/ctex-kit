@@ -1,0 +1,32 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{twocolumn~section}{
+  \twocolumn
+  \section{双栏标题}
+  左栏文字。
+  \clearpage
+}
+
+\TEST{onecolumn~after~twocolumn}{
+  \twocolumn
+  \section{双栏中的节}
+  文字
+  \onecolumn
+  \section{恢复单栏}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

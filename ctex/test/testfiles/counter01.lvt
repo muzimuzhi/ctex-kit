@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{section~counter~default}{
+  \int_log:c { c@section }
+  \section{第一节}
+  \int_log:c { c@section }
+  \section{第二节}
+  \int_log:c { c@section }
+}
+
+\TEST{subsection~counter~resets}{
+  \int_log:c { c@subsection }
+  \subsection{小节一}
+  \int_log:c { c@subsection }
+  \section{第三节}
+  \int_log:c { c@subsection }
+}
+
+\TEST{setcounter~works}{
+  \setcounter{section}{10}
+  \int_log:c { c@section }
+  \section{第十一节}
+  \int_log:c { c@section }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

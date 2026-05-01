@@ -1,0 +1,42 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\usepackage{enumitem}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{enumerate~with~chinese}{
+  \begin{enumerate}
+    \item 第一项
+    \item 第二项
+    \item 第三项
+  \end{enumerate}
+  \clearpage
+}
+
+\TEST{itemize~with~chinese}{
+  \begin{itemize}
+    \item 无序第一
+    \item 无序第二
+  \end{itemize}
+  \clearpage
+}
+
+\TEST{description~with~chinese}{
+  \begin{description}
+    \item[名词] 名词的解释
+    \item[动词] 动词的解释
+  \end{description}
+  \clearpage
+}
+
+\END
+
+\end{document}

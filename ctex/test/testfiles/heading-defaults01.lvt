@@ -1,0 +1,42 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~heading~keys~section}{
+  \cs_log:c { CTEX@section@format }
+  \cs_log:c { CTEX@section@aftername }
+  \bool_log:c { CTEX@section@afterindent }
+  \bool_log:c { CTEX@section@hang }
+}
+
+\TEST{default~heading~keys~subsection}{
+  \cs_log:c { CTEX@subsection@format }
+  \cs_log:c { CTEX@subsection@aftername }
+  \bool_log:c { CTEX@subsection@afterindent }
+  \bool_log:c { CTEX@subsection@hang }
+}
+
+\TEST{default~heading~keys~subsubsection}{
+  \cs_log:c { CTEX@subsubsection@format }
+  \cs_log:c { CTEX@subsubsection@aftername }
+  \bool_log:c { CTEX@subsubsection@afterindent }
+}
+
+\TEST{default~heading~keys~paragraph}{
+  \cs_log:c { CTEX@paragraph@format }
+  \bool_log:c { CTEX@paragraph@runin }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

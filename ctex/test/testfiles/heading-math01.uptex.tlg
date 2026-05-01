@@ -1,0 +1,362 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: section~with~inline~math
+============================================================
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <15.05624> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.045> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.03374> on input line ....
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.53937> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+2.63484)x345.0
+....\hbox(9.27464+2.63484)x345.0, glue set 219.12085fil
+.....\OT1/cmr/m/sl/10.53937 1
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 关
+.....\JY2/zhrm/m/it/10.53937 于
+.....\glue 3.51312 plus 1.75656 minus 1.17104
+.....\mathon
+.....\OML/cmm/m/it/10.53937 f
+.....\kern1.13445
+.....\OT1/cmr/m/n/10.53937 (
+.....\OML/cmm/m/it/10.53937 x
+.....\OT1/cmr/m/n/10.53937 )
+.....\glue(\thickmuskip) 2.92755 plus 2.92755
+.....\OT1/cmr/m/n/10.53937 =
+.....\glue(\thickmuskip) 2.92755 plus 2.92755
+.....\OML/cmm/m/it/10.53937 x
+.....\hbox(4.51111+0.0)x4.48613, shifted -3.82465
+......\OT1/cmr/m/n/7 2
+.....\mathoff
+.....\glue 3.51312 plus 1.75656 minus 1.17104
+.....\JY2/zhrm/m/it/10.53937 的
+.....\JY2/zhrm/m/it/10.53937 讨
+.....\JY2/zhrm/m/it/10.53937 论
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 508.55313fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(13.24948+3.76405)x345.0, glue set 84.84785fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 1
+.....\glue 16.93826
+....\JY2/zhrm/bx/n/15.05624 关
+....\JY2/zhrm/bx/n/15.05624 于
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\mathon
+....\OML/cmm/m/it/15.05624 f
+....\kern1.60754
+....\OT1/cmr/m/n/15.05624 (
+....\OML/cmm/m/it/15.05624 x
+....\OT1/cmr/m/n/15.05624 )
+....\glue(\thickmuskip) 4.18228 plus 4.18228
+....\OT1/cmr/m/n/15.05624 =
+....\penalty 500
+....\glue(\thickmuskip) 4.18228 plus 4.18228
+....\OML/cmm/m/it/15.05624 x
+....\hbox(7.76233+0.0)x6.39696, shifted -5.46379
+.....\OT1/cmr/m/n/12.045 2
+....\mathoff
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\JY2/zhrm/bx/n/15.05624 的
+....\JY2/zhrm/bx/n/15.05624 讨
+....\penalty 500(for \jcharwidowpenalty)
+....\glue(\kanjiskip) 0.0 plus 1.44095
+....\JY2/zhrm/bx/n/15.05624 论
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{1\hskip 1em\relax 关于 $f(x)=x^2$ 的讨论}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{1\hskip 1em\relax 关于 $f(x)=x^2$ 的讨论}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}关于 $f(x)=x^2$ 的讨论}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 3.40276
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 2: subsection~with~display~style
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+2.8652)x345.0
+....\hbox(9.27464+2.8652)x345.0, glue set 224.26138fil
+.....\OT1/cmr/m/sl/10.53937 2
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 包
+.....\JY2/zhrm/m/it/10.53937 含
+.....\glue 3.51312 plus 1.75656 minus 1.17104
+.....\mathon
+.....\hbox(0.0+10.00012)x10.55559, shifted -7.6349
+......\OMX/cmex/m/n/5 P
+.....\vbox(11.0418+0.0)x13.45433, shifted 2.8652
+......\hbox(3.01389+0.0)x5.44333
+.......\OML/cmm/m/it/7 n
+......\kern3.39598
+......\hbox(4.63193+0.0)x13.45433
+.......\OML/cmm/m/it/7 i
+.......\OT1/cmr/m/n/7 =
+.......\OT1/cmr/m/n/7 1
+.....\glue(\thinmuskip) 1.75653
+.....\OML/cmm/m/it/10.53937 i
+.....\mathoff
+.....\glue 3.51312 plus 1.75656 minus 1.17104
+.....\JY2/zhrm/m/it/10.53937 的
+.....\JY2/zhrm/m/it/10.53937 节
+.....\JY2/zhrm/m/it/10.53937 标
+.....\JY2/zhrm/m/it/10.53937 题
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 2
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 508.55313fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(13.24948+4.0327)x345.0, glue set 90.13765fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 2
+.....\glue 16.93826
+....\JY2/zhrm/bx/n/15.05624 包
+....\JY2/zhrm/bx/n/15.05624 含
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\mathon
+....\hbox(0.0+10.00012)x10.55559, shifted -8.76411
+.....\OMX/cmex/m/n/5 P
+....\vbox(14.68253+0.0)x19.59344, shifted 4.0327
+.....\hbox(5.18604+0.0)x7.5401
+......\OML/cmm/m/it/12.045 n
+.....\kern1.59991
+.....\hbox(7.89658+0.0)x19.59344
+......\OML/cmm/m/it/12.045 i
+......\OT1/cmr/m/n/12.045 =
+......\OT1/cmr/m/n/12.045 1
+....\glue(\thinmuskip) 2.50937
+....\OML/cmm/m/it/15.05624 i
+....\mathoff
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\JY2/zhrm/bx/n/15.05624 的
+....\JY2/zhrm/bx/n/15.05624 节
+....\JY2/zhrm/bx/n/15.05624 标
+....\penalty 500(for \jcharwidowpenalty)
+....\glue(\kanjiskip) 0.0 plus 1.44095
+....\JY2/zhrm/bx/n/15.05624 题
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{2\hskip 1em\relax 包含 $\sum _{i=1}^{n} i$ 的节标题}}}
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{2\hskip 1em\relax 包含 $\sum _{i=1}^{n} i$ 的节标题}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {2}包含 $\sum _{i=1}^{n} i$ 的节标题}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 3.13411
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 3: section~with~mixed~CJK~and~math
+============================================================
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line ....
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line ....
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [3]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 202.3786fil
+.....\OT1/cmr/m/sl/10.53937 3
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 方
+.....\JY2/zhrm/m/it/10.53937 程
+.....\glue 3.51312 plus 1.75656 minus 1.17104
+.....\mathon
+.....\OML/cmm/m/it/10.53937 E
+.....\kern0.60747
+.....\glue(\thickmuskip) 2.92755 plus 2.92755
+.....\OT1/cmr/m/n/10.53937 =
+.....\glue(\thickmuskip) 2.92755 plus 2.92755
+.....\OML/cmm/m/it/10.53937 m
+.....\OML/cmm/m/it/10.53937 c
+.....\hbox(4.51111+0.0)x4.48613, shifted -3.82465
+......\OT1/cmr/m/n/7 2
+.....\mathoff
+.....\glue 3.51312 plus 1.75656 minus 1.17104
+.....\JY2/zhrm/m/it/10.53937 与
+.....\JY2/zhrm/m/it/10.53937 中
+.....\JY2/zhrm/m/it/10.53937 文
+.....\JY2/zhrm/m/it/10.53937 排
+.....\JY2/zhrm/m/it/10.53937 版
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 3
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 451.77307fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(13.24948+1.80675)x345.0, glue set 72.82158fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 3
+.....\glue 16.93826
+....\JY2/zhrm/bx/n/15.05624 方
+....\JY2/zhrm/bx/n/15.05624 程
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\mathon
+....\OML/cmm/m/it/15.05624 E
+....\kern0.88264
+....\glue(\thickmuskip) 4.18228 plus 4.18228
+....\OT1/cmr/m/n/15.05624 =
+....\penalty 500
+....\glue(\thickmuskip) 4.18228 plus 4.18228
+....\OML/cmm/m/it/15.05624 m
+....\OML/cmm/m/it/15.05624 c
+....\hbox(7.76233+0.0)x6.39696, shifted -5.46379
+.....\OT1/cmr/m/n/12.045 2
+....\mathoff
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\JY2/zhrm/bx/n/15.05624 与
+....\JY2/zhrm/bx/n/15.05624 中
+....\JY2/zhrm/bx/n/15.05624 文
+....\JY2/zhrm/bx/n/15.05624 排
+....\penalty 500(for \jcharwidowpenalty)
+....\glue(\kanjiskip) 0.0 plus 1.44095
+....\JY2/zhrm/bx/n/15.05624 版
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {5}{\MakeUppercase    []{3\hskip 1em\relax 方程 $E=mc^2$ 与中文排版}}}
+...\marks3{\__mark_value:nn {6}{\MakeUppercase    []{3\hskip 1em\relax 方程 $E=mc^2$ 与中文排版}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {3}方程 $E=mc^2$ 与中文排版}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.36006
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 14.74779 plus 4.53778 minus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.92592
+...\hbox(10.5996+2.34207)x345.0, glue set 244.05243fil
+....\hbox(7.76233+0.0)x30.86526
+.....\OT1/cmr/bx/n/12.045 3
+.....\OT1/cmr/bx/n/12.045 .
+.....\OT1/cmr/bx/n/12.045 1
+.....\glue 13.55061
+....\JY2/zhrm/bx/n/12.045 子
+....\JY2/zhrm/bx/n/12.045 小
+....\JY2/zhrm/bx/n/12.045 节
+....\glue 4.51686 plus 2.25842 minus 1.50562
+....\mathon
+....\OML/cmm/m/it/12.045 ^^K
+....\kern0.07668
+....\glue(\medmuskip) 2.67664 plus 1.33832 minus 2.67664
+....\OT1/cmr/m/n/12.045 +
+....\penalty 700
+....\glue(\medmuskip) 2.67664 plus 1.33832 minus 2.67664
+....\OML/cmm/m/it/12.045 ^^L
+....\kern0.66777
+....\mathoff
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline {3.1}子小节 $\alpha +\beta $}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 6.80667 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.82474
+...\hbox(9.27464+1.26471)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

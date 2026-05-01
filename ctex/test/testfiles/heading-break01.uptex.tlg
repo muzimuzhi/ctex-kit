@@ -1,0 +1,347 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: section~with~break~newpage
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 538.67775fil
+...\write-{}
+...\glue(\topskip) 0.72536
+...\hbox(9.27464+1.26471)x345.0, glue set 265.95474fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 第
+....\JY2/zhrm/m/n/10.53937 一
+....\JY2/zhrm/m/n/10.53937 段
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 271.22438fil
+.....\OT1/cmr/m/sl/10.53937 1
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 分
+.....\JY2/zhrm/m/it/10.53937 页
+.....\JY2/zhrm/m/it/10.53937 后
+.....\JY2/zhrm/m/it/10.53937 的
+.....\JY2/zhrm/m/it/10.53937 节
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 2
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 508.55313fil
+...\glue(\topskip) 0.0
+...\hbox(13.24948+1.80675)x345.0, glue set 122.1557fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 1
+.....\glue 16.93826
+....\JY2/zhrm/bx/n/15.05624 分
+....\JY2/zhrm/bx/n/15.05624 页
+....\JY2/zhrm/bx/n/15.05624 后
+....\JY2/zhrm/bx/n/15.05624 的
+....\JY2/zhrm/bx/n/15.05624 节
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{1\hskip 1em\relax 分页后的节}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{1\hskip 1em\relax 分页后的节}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}分页后的节}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.36006
+...\hbox(9.27464+1.26471)x345.0, glue set 265.95474fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 第
+....\JY2/zhrm/m/n/10.53937 二
+....\JY2/zhrm/m/n/10.53937 段
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 2: section~with~break~clear
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [3]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 271.22438fil
+.....\OT1/cmr/m/sl/10.53937 1
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 分
+.....\JY2/zhrm/m/it/10.53937 页
+.....\JY2/zhrm/m/it/10.53937 后
+.....\JY2/zhrm/m/it/10.53937 的
+.....\JY2/zhrm/m/it/10.53937 节
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 3
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 538.67775fil
+...\write-{}
+...\glue(\topskip) 0.72536
+...\hbox(9.27464+1.26471)x345.0, glue set 265.95474fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 第
+....\JY2/zhrm/m/n/10.53937 三
+....\JY2/zhrm/m/n/10.53937 段
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [4]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 223.2848fil
+.....\OT1/cmr/m/sl/10.53937 2
+.....\glue 10.53938
+.....\OT1/cmr/m/sl/10.53937 C
+.....\OT1/cmr/m/sl/10.53937 L
+.....\OT1/cmr/m/sl/10.53937 E
+.....\OT1/cmr/m/sl/10.53937 A
+.....\OT1/cmr/m/sl/10.53937 R
+.....\OT1/cmr/m/sl/10.53937 P
+.....\kern-0.8783
+.....\OT1/cmr/m/sl/10.53937 A
+.....\kern-0.29277
+.....\OT1/cmr/m/sl/10.53937 G
+.....\OT1/cmr/m/sl/10.53937 E
+.....\glue(\xkanjiskip) 2.63484 plus 1.0 minus 1.0
+.....\JY2/zhrm/m/it/10.53937 后
+.....\JY2/zhrm/m/it/10.53937 的
+.....\JY2/zhrm/m/it/10.53937 节
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 4
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 508.55313fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(13.24948+2.92758)x345.0, glue set 100.85219fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 2
+.....\glue 16.93826
+....\OT1/cmr/bx/n/15.05624 c
+....\OT1/cmr/bx/n/15.05624 l
+....\OT1/cmr/bx/n/15.05624 e
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 r
+....\OT1/cmr/bx/n/15.05624 p
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 g
+....\OT1/cmr/bx/n/15.05624 e
+....\glue(\xkanjiskip) 3.76405 plus 1.0 minus 1.0
+....\JY2/zhrm/bx/n/15.05624 后
+....\JY2/zhrm/bx/n/15.05624 的
+....\penalty 500(for \jcharwidowpenalty)
+....\glue(\kanjiskip) 0.0 plus 1.44095
+....\JY2/zhrm/bx/n/15.05624 节
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{2\hskip 1em\relax clearpage后的节}}}
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{2\hskip 1em\relax clearpage后的节}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {2}clearpage后的节}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.23923
+...\hbox(9.27464+1.26471)x345.0, glue set 265.95474fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 第
+....\JY2/zhrm/m/n/10.53937 四
+....\JY2/zhrm/m/n/10.53937 段
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================
+============================================================
+TEST 3: section~break~reset
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [5]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 248.53539fil
+.....\OT1/cmr/m/sl/10.53937 3
+.....\glue 10.53938
+.....\JY2/zhrm/m/it/10.53937 无
+.....\glue(\xkanjiskip) 2.63484 plus 1.0 minus 1.0
+.....\OT1/cmr/m/sl/10.53937 B
+.....\OT1/cmr/m/sl/10.53937 R
+.....\OT1/cmr/m/sl/10.53937 E
+.....\OT1/cmr/m/sl/10.53937 A
+.....\OT1/cmr/m/sl/10.53937 K
+.....\glue(\xkanjiskip) 2.63484 plus 1.0 minus 1.0
+.....\JY2/zhrm/m/it/10.53937 的
+.....\JY2/zhrm/m/it/10.53937 节
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 5
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 472.43646fil
+...\write-{}
+...\glue(\topskip) 0.72536
+...\hbox(9.27464+1.26471)x345.0, glue set 276.49411fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 连
+....\JY2/zhrm/m/n/10.53937 续
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 15.88223 plus 4.53778 minus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 8.97359
+...\hbox(13.24948+1.80675)x345.0, glue set 112.8327fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x25.4074
+.....\OT1/cmr/bx/n/15.05624 3
+.....\glue 16.93826
+....\JY2/zhrm/bx/n/15.05624 无
+....\glue(\xkanjiskip) 3.76405 plus 1.0 minus 1.0
+....\OT1/cmr/bx/n/15.05624 b
+....\OT1/cmr/bx/n/15.05624 r
+....\OT1/cmr/bx/n/15.05624 e
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 k
+....\glue(\xkanjiskip) 3.76405 plus 1.0 minus 1.0
+....\JY2/zhrm/bx/n/15.05624 的
+....\penalty 500(for \jcharwidowpenalty)
+....\glue(\kanjiskip) 0.0 plus 1.44095
+....\JY2/zhrm/bx/n/15.05624 节
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {5}{\MakeUppercase    []{3\hskip 1em\relax 无break的节}}}
+...\marks3{\__mark_value:nn {6}{\MakeUppercase    []{3\hskip 1em\relax 无break的节}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {3}无break的节}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.36006
+...\hbox(9.27464+1.26471)x345.0, glue set 265.95474fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 紧
+....\JY2/zhrm/m/n/10.53937 接
+....\JY2/zhrm/m/n/10.53937 的
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

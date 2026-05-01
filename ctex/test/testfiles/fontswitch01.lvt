@@ -1,0 +1,69 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{songti~font~switch}{
+  \group_begin:
+    \songti
+    \hbox_set:Nn \l_tmpa_box { 字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\TEST{heiti~font~switch}{
+  \group_begin:
+    \heiti
+    \hbox_set:Nn \l_tmpa_box { 字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\TEST{kaishu~font~switch}{
+  \group_begin:
+    \kaishu
+    \hbox_set:Nn \l_tmpa_box { 字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\TEST{fangsong~font~switch}{
+  \group_begin:
+    \fangsong
+    \hbox_set:Nn \l_tmpa_box { 字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\TEST{CJKfamily~switch}{
+  \group_begin:
+    \CJKfamily{zhkai}
+    \hbox_set:Nn \l_tmpa_box { 字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\TEST{font~switch~scoped}{
+  \hbox_set:Nn \l_tmpa_box { 字 }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_begin:
+    \heiti
+    \hbox_set:Nn \l_tmpa_box { 字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+  \hbox_set:Nn \l_tmpa_box { 字 }
+  \dim_log:n { \box_wd:N \l_tmpa_box }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

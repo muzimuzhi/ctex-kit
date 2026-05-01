@@ -1,0 +1,37 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{section~fixskip~true}{
+  \ctexset{section/fixskip = true}
+  \bool_log:c { CTEX@section@fixskip }
+}
+
+\TEST{section~fixskip~false}{
+  \ctexset{section/fixskip = false}
+  \bool_log:c { CTEX@section@fixskip }
+}
+
+\TEST{fixskip~scoped}{
+  \ctexset{section/fixskip = true}
+  \bool_log:c { CTEX@section@fixskip }
+  \group_begin:
+    \ctexset{section/fixskip = false}
+    \bool_log:c { CTEX@section@fixskip }
+  \group_end:
+  \bool_log:c { CTEX@section@fixskip }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

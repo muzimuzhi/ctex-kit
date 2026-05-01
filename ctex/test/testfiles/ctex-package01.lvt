@@ -1,0 +1,43 @@
+\input{regression-test}
+
+\documentclass{article}
+\usepackage[fontset=fandol]{ctex}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{ctex~package~with~article~parindent}{
+  \dim_log:n { \parindent }
+  \dim_log:N \ccwd
+}
+
+\TEST{ctex~package~section~format}{
+  \cs_log:c { CTEX@section@format }
+}
+
+\TEST{ctex~package~font~commands}{
+  \group_begin:
+    \songti
+    \hbox_set:Nn \l_tmpa_box { 字 }
+    \dim_log:n { \box_wd:N \l_tmpa_box }
+  \group_end:
+}
+
+\TEST{ctex~package~zihao~works}{
+  \dim_log:N \ccwd
+  \group_begin:
+    \zihao{3}
+    \dim_log:N \ccwd
+  \group_end:
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

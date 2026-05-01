@@ -1,0 +1,16 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: invalid punct option
+============================================================
+Package CJKpunct Warning: Punctstyle invalid_value is not defined. on input line ....
+============================================================
+============================================================
+TEST 2: invalid today option
+============================================================
+! Class ctexart Error: Today format `nonexistent' is undefined.
+For immediate help type H <return>.
+ ...                                              
+l. ...}
+Available today formats are `old', `small', and `big'.

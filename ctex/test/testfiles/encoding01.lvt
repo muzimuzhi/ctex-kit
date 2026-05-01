@@ -1,0 +1,27 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~encodingsetup}{
+  \cs_if_exist:cTF { CTEX@encodingsetup }
+    { \cs_log:c { CTEX@encodingsetup } }
+    { \TYPE { no~encodingsetup } }
+}
+
+\TEST{fontset~is~fandol}{
+  \tl_log:x { \g__ctex_fontset_tl }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

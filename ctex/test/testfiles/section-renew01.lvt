@@ -1,0 +1,33 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{renewcommand~section~format}{
+  \renewcommand{\thesection}{\Alph{section}}
+  \loggingoutput
+  \section{字母编号}
+  文字
+  \clearpage
+}
+
+\TEST{ctexset~overrides~renewcommand}{
+  \ctexset{section/number = \arabic{section}}
+  \loggingoutput
+  \section{阿拉伯数字}
+  文字
+  \clearpage
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

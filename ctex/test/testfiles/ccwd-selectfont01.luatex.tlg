@@ -1,0 +1,38 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: ccwd updates with selectfont
+============================================================
+> \ccwd=10.53937pt.
+> \ccwd=15.05624pt.
+> \ccwd=10.53937pt.
+============================================================
+============================================================
+TEST 2: parindent updates with selectfont
+============================================================
+> \parindent =21.07874pt.
+> \parindent =30.11249pt.
+> \parindent =21.07874pt.
+============================================================
+============================================================
+TEST 3: ccwd consistent with actual char width
+============================================================
+> \ccwd=10.53937pt.
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 4: ccwd after font family switch
+============================================================
+> \ccwd=10.53937pt.
+(load cache: extra_fandolhei-regular.luc)(load cache: extra_fandolhei-bold.luc)
+Package fontspec Info: 
+(fontspec)             Font family 'FandolHei-Regular(0)' created for font 'FandolHei-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.otf},BoldFont={FandolHei-Bold},LTJFONTUID=5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolHei-Regular.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[FandolHei-Bold.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+> \ccwd=10.53937pt.
+> \ccwd=10.53937pt.
+============================================================

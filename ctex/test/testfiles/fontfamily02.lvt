@@ -1,0 +1,41 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{setmainfont~equivalent~songti}{
+  \cs_log:c { CTEX@family@zhsong }
+}
+
+\TEST{setsansfont~equivalent~heiti}{
+  \cs_log:c { CTEX@family@zhhei }
+}
+
+\TEST{setmonofont~equivalent~fangsong}{
+  \cs_log:c { CTEX@family@zhfs }
+}
+
+\TEST{kaiti~family}{
+  \cs_log:c { CTEX@family@zhkai }
+}
+
+\TEST{CJKfamily~switch}{
+  \group_begin:
+    \CJKfamily{zhkai}
+    \tl_log:x { \f@family }
+  \group_end:
+  \tl_log:x { \f@family }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

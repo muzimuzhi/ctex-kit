@@ -1,0 +1,80 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: ctex package no heading section format
+============================================================
+> \CTEX@section@format=undefined.
+> \CTEX@subsection@format=undefined.
+============================================================
+============================================================
+TEST 2: ctex package no heading parindent
+============================================================
+> \parindent =21.07874pt.
+> \ccwd=10.53937pt.
+============================================================
+============================================================
+TEST 3: ctex package no heading afterindent
+============================================================
+afterindent not defined
+============================================================
+============================================================
+TEST 4: ctex~package~no~heading~output
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 512.54686fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(10.50926+0.18066)x345.0, glue set 194.33217fil
+....\hbox(9.87689+0.0)x23.53291
+.....\glue 0.0
+.....\TU/lmr/bx/n/15.05624 1
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 15.05624
+....\TU/lmr/bx/n/15.05624 Standard
+....\glue 5.64609 plus 2.82304 minus 1.88202
+....\TU/lmr/bx/n/15.05624 Section
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}Standard Section}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.44768 plus 0.90848
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 8.15602
+...\hbox(8.10477+1.84438)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\TU/FandolSong-Regular(0)/m/n/10.53937 文
+....\glue 0.0 plus 0.60931
+....\TU/FandolSong-Regular(0)/m/n/10.53937 字
+....\kern -0.00018
+....\kern 0.00018
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.84438
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 22.98077
+..\hbox(7.01923+0.0)x345.0
+...\hbox(7.01923+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10.53937 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================

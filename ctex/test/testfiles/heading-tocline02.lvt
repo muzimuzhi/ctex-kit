@@ -1,0 +1,39 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~section~tocline}{
+  \cs_log:c { CTEX@section@tocline }
+}
+
+\TEST{custom~section~tocline}{
+  \ctexset{
+    section/tocline = \CTEXnumberline{#1}#2,
+  }
+  \cs_log:c { CTEX@section@tocline }
+}
+
+\TEST{tocline~affects~toc}{
+  \loggingoutput
+  \section{第一节测试}
+  文字
+  \section{第二节测试}
+  文字
+  \clearpage
+  \tableofcontents
+  \clearpage
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

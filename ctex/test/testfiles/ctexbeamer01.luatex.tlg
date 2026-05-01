@@ -1,0 +1,1199 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: ctexbeamer~frame~with~CJK~title
+============================================================
+(load cache: extra_lmsans12-regular.luc)
+Completed box being shipped out [1]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\whatsit4=[]
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\whatsit4=[]
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\whatsit4=[]
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\whatsit4=[]
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\whatsit4=[]
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\whatsit4=[]
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\whatsit4=[]
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\whatsit4=[]
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation1} xyz
+...\penalty 10000
+...\pdfdest name{page.1} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\whatsit4=[]
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\whatsit4=[]
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\whatsit4=[]
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\whatsit4=[]
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\whatsit4=[]
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\whatsit4=[]
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\whatsit4=[]
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\hbox(273.14662+0.0)x364.19536, shifted 273.14662, direction TLT
+..........\whatsit4=[]
+..........\hbox(273.14662+0.0)x364.19536, direction TLT
+...........\whatsit4=[]
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 push {1 g 1 G}
+...........\rule(273.14662+*)x364.19536
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\whatsit4=[]
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\whatsit4=[]
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\whatsit4=[]
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\whatsit4=[]
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\whatsit4=[]
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\whatsit4=[]
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\whatsit4=[]
+.............\pdfcolorstack 0 push {0 g 0 G}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\whatsit4=[]
+............\pdfcolorstack 0 push {0 g 0 G}
+............\pdfcolorstack 0 push {0 g 0 G}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\whatsit4=[]
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\whatsit4=[]
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\whatsit4=[]
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\whatsit4=[]
+.............\pdfcolorstack 0 push {0 g 0 G}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 261.6466fill, direction TLT
+............\whatsit4=[]
+............\pdfcolorstack 0 push {0 g 0 G}
+............\pdfcolorstack 0 push {0 g 0 G}
+............\glue 0.0 plus 1.0fill
+............\hbox(0.0+0.0)x0.0, glue set - 2.84544fil, direction TLT
+.............\whatsit4=[]
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfcolorstack 0 push {0.15 0.15 0.525 rg 0.15 0.15 0.525 RG}
+.............\pdfcolorstack 0 pop
+.............\glue 2.84544
+............\glue 2.0
+............\glue(\lineskip) 0.0
+............\hbox(7.5+0.0)x0.0, glue set - 129.92545fil, direction TLT
+.............\whatsit4=[]
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfcolorstack 0 push {0 g 0 G}
+.............\pdfcolorstack 0 push {0.68 0.68 0.88 rg 0.68 0.68 0.88 RG}
+.............\hbox(7.5+0.0)x127.08, direction TLT
+..............\whatsit4=[]
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 8.26909 0.79701 3.38733 2.39105 re S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 push {0.84 0.84 0.94 rg 0.84 0.84 0.94 RG}
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l f 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 pop
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern6.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[1 0 0]} action user{/Subtype/Link/A<</S/Named/N/GoToPage>>}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern8.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern6.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 6.97394 0.0 3.38733 2.39105 re 7.80008 2.40001 m 7.80008 3.20003 l 11.20012 3.20003 l 11.20012 0.8 l 10.4001 0.8 l 8.6001 3.20003 m 8.6001 4.00005 l 12.00015 4.00005 l 12.00015 1.60002 l 11.20012 1.60002 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 push {0.84 0.84 0.94 rg 0.84 0.84 0.94 RG}
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 pop
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 0.59776 w 9.00009 3.00003 m 12.00015 3.00003 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 push {0.84 0.84 0.94 rg 0.84 0.84 0.94 RG}
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 2.00002 m 12.00015 2.00002 l 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 pop
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 3.00003 m 12.00015 3.00003 l 9.00009 2.00002 m 12.00015 2.00002 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 push {0.84 0.84 0.94 rg 0.84 0.84 0.94 RG}
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f 0.59776 w 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 pop
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 3.00003 m 12.00015 3.00003 l 9.00009 2.00002 m 12.00015 2.00002 l 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+..................\pdfliteral origin{Q }
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern9.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern11.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 0.59776 w 10.4001 1.60002 m 12.00015 0.0 l S 0.3985 w 10.66016 2.49069 m 10.66016 3.15096 10.1249 3.68622 9.46463 3.68622 c 8.80435 3.68622 8.26909 3.15096 8.26909 2.49069 c 8.26909 1.83041 8.80435 1.29515 9.46463 1.29515 c 10.1249 1.29515 10.66016 1.83041 10.66016 2.49069 c h 9.46463 2.49069 m S 1 J 4.00005 0.0 m 5.08101 0.0 6.00006 0.9 6.00006 2.00002 c 6.00006 3.10002 5.10005 4.00005 4.00005 4.00005 c 2.90001 4.00005 2.00002 3.10002 2.00002 2.00002 c 3.20003 2.60002 m 2.00002 1.60002 l 0.8 2.60002 l 16.0002 0.0 m 14.90016 0.0 14.00017 0.9 14.00017 2.00002 c 14.00017 3.10002 14.90016 4.00005 16.0002 4.00005 c 17.1002 4.00005 18.00021 3.10002 18.00021 2.00002 c 19.20023 2.60002 m 18.00021 1.60002 l 16.8002 2.60002 l S Q }
+..................\pdfliteral origin{Q }
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[1 0 0]} action user{/Subtype/Link/A<</S/Named/N/GoBack>>}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern7.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[1 0 0]} action user{/Subtype/Link/A<</S/Named/N/Find>>}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern6.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[1 0 0]} action user{/Subtype/Link/A<</S/Named/N/GoForward>>}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern7.0
+...............\pdfendlink
+.............\pdfcolorstack 0 pop
+.............\pdfcolorstack 0 pop
+.............\glue 2.84544
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 2.0
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\whatsit4=[]
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\whatsit4=[]
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\whatsit4=[]
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\whatsit4=[]
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\whatsit4=[]
+....\pdfcolorstack 0 push {0 g 0 G}
+....\write-{}
+....\pdfdest name{Doc-Start} xyz
+....\pdfcolorstack 0 push {0 g 0 G}
+....\pdfcolorstack 0 push {0 g 0 G}
+....\pdfcolorstack 0 push {0 g 0 G}
+....\pdfcolorstack 0 push {0 g 0 G}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 92.53856fill, direction TLT
+.....\whatsit4=[]
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\whatsit4=[]
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\whatsit4=[]
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.....\glue(\lineskip) 1.0
+.....\hbox(19.14876+0.0)x307.28987, glue set - 1.0, direction TLT
+......\whatsit4=[]
+......\glue 0.0 minus 28.45274
+......\hbox(19.14876+0.0)x364.19536, direction TLT
+.......\whatsit4=[]
+.......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.......\vbox(19.14876+0.0)x364.19536, direction TLT
+........\whatsit4=[]
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12354fill, direction TLT
+.........\whatsit4=[]
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\whatsit4=[]
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -6.3936
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 5.328
+........\hbox(12.672+5.40005)x364.19536, glue set 246.3236fill, direction TLT
+.........\whatsit4=[]
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(12.59995+5.40005)x0.0
+.........\penalty 0
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 中
+.........\glue 0.0 plus 0.8085
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 文
+.........\glue 0.0 plus 0.8085
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 幻
+.........\glue 0.0 plus 0.8085
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 灯
+.........\glue 0.0 plus 0.8085
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 片
+.........\glue 0.0 plus 0.8085
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 标
+.........\penalty 500
+.........\glue 0.0 plus 0.8085
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 题
+.........\penalty 0
+.........\rule(12.59995+5.40005)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -6.3936
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\whatsit4=[]
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.964
+.....\hbox(9.636+1.314)x307.28987, glue set 131.74493fil, direction TLT
+......\whatsit4=[]
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 中
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 文
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 内
+......\penalty 500
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 容
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1}{1/1}{}{0}}}}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {1}{1}}}}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\whatsit4=[]
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\whatsit4=[]
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\whatsit4=[]
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\whatsit4=[]
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\whatsit4=[]
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\whatsit4=[]
+..........\pdfcolorstack 0 push {0 g 0 G}
+..........\pdfcolorstack 0 push {0 g 0 G}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\whatsit4=[]
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+.\kern0.0
+============================================================
+============================================================
+TEST 2: ctexbeamer~section~and~frame
+============================================================
+Completed box being shipped out [2]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\whatsit4=[]
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\whatsit4=[]
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\whatsit4=[]
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\whatsit4=[]
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\whatsit4=[]
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\whatsit4=[]
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\whatsit4=[]
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation2} xyz
+...\penalty 10000
+...\pdfdest name{page.2} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\whatsit4=[]
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\whatsit4=[]
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\whatsit4=[]
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\whatsit4=[]
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\whatsit4=[]
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\whatsit4=[]
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\whatsit4=[]
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\hbox(273.14662+0.0)x364.19536, shifted 273.14662, direction TLT
+..........\whatsit4=[]
+..........\hbox(273.14662+0.0)x364.19536, direction TLT
+...........\whatsit4=[]
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 push {1 g 1 G}
+...........\rule(273.14662+*)x364.19536
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\whatsit4=[]
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\whatsit4=[]
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\whatsit4=[]
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\whatsit4=[]
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\whatsit4=[]
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\whatsit4=[]
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\whatsit4=[]
+.............\pdfcolorstack 0 push {0 g 0 G}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\whatsit4=[]
+............\pdfcolorstack 0 push {0 g 0 G}
+............\pdfcolorstack 0 push {0 g 0 G}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\whatsit4=[]
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\whatsit4=[]
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\whatsit4=[]
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\whatsit4=[]
+.............\pdfcolorstack 0 push {0 g 0 G}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 261.6466fill, direction TLT
+............\whatsit4=[]
+............\pdfcolorstack 0 push {0 g 0 G}
+............\pdfcolorstack 0 push {0 g 0 G}
+............\glue 0.0 plus 1.0fill
+............\hbox(0.0+0.0)x0.0, glue set - 2.84544fil, direction TLT
+.............\whatsit4=[]
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfcolorstack 0 push {0.15 0.15 0.525 rg 0.15 0.15 0.525 RG}
+.............\pdfcolorstack 0 pop
+.............\glue 2.84544
+............\glue 2.0
+............\glue(\lineskip) 0.0
+............\hbox(7.5+0.0)x0.0, glue set - 129.92545fil, direction TLT
+.............\whatsit4=[]
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfcolorstack 0 push {0 g 0 G}
+.............\pdfcolorstack 0 push {0.68 0.68 0.88 rg 0.68 0.68 0.88 RG}
+.............\hbox(7.5+0.0)x127.08, direction TLT
+..............\whatsit4=[]
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 8.26909 0.79701 3.38733 2.39105 re S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 push {0.84 0.84 0.94 rg 0.84 0.84 0.94 RG}
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l f 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 pop
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern6.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[1 0 0]} action user{/Subtype/Link/A<</S/Named/N/GoToPage>>}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern8.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern6.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 6.97394 0.0 3.38733 2.39105 re 7.80008 2.40001 m 7.80008 3.20003 l 11.20012 3.20003 l 11.20012 0.8 l 10.4001 0.8 l 8.6001 3.20003 m 8.6001 4.00005 l 12.00015 4.00005 l 12.00015 1.60002 l 11.20012 1.60002 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 push {0.84 0.84 0.94 rg 0.84 0.84 0.94 RG}
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 pop
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 0.59776 w 9.00009 3.00003 m 12.00015 3.00003 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 push {0.84 0.84 0.94 rg 0.84 0.84 0.94 RG}
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 2.00002 m 12.00015 2.00002 l 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 pop
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 3.00003 m 12.00015 3.00003 l 9.00009 2.00002 m 12.00015 2.00002 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 push {0.84 0.84 0.94 rg 0.84 0.84 0.94 RG}
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 4.00005 0.49998 m 2.00002 2.00002 l 4.00005 3.50003 l 16.0002 0.49998 m 18.00021 2.00002 l 16.0002 3.50003 l f 0.59776 w 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+..................\pdfliteral origin{Q }
+..................\pdfcolorstack 0 pop
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern5.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 0.59776 w 8.00009 4.00005 m 11.00012 4.00005 l 9.00009 3.00003 m 12.00015 3.00003 l 9.00009 2.00002 m 12.00015 2.00002 l 8.00009 1.0 m 11.00012 1.0 l 9.00009 0.0 m 12.00015 0.0 l S Q }
+..................\pdfliteral origin{Q }
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern9.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[.5 .5 .5]} action goto name{Navigation1}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern11.0
+...............\pdfendlink
+..............\glue(\spaceskip) 1.416 plus 0.708 minus 0.472
+..............\hbox(7.5+0.0)x20.0, direction TLT
+...............\whatsit4=[]
+...............\hbox(7.0+0.0)x20.0, direction TLT
+................\whatsit4=[]
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, shifted -1.5, direction TLT
+.................\whatsit4=[]
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0.68 0.68 0.88 RG }
+.................\pdfliteral origin{0.68 0.68 0.88 rg }
+.................\pdfliteral origin{0.3985 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\whatsit4=[]
+..................\glue(\spaceskip) 0.0
+..................\pdfliteral origin{q }
+..................\pdfliteral origin{q 0.59776 w 10.4001 1.60002 m 12.00015 0.0 l S 0.3985 w 10.66016 2.49069 m 10.66016 3.15096 10.1249 3.68622 9.46463 3.68622 c 8.80435 3.68622 8.26909 3.15096 8.26909 2.49069 c 8.26909 1.83041 8.80435 1.29515 9.46463 1.29515 c 10.1249 1.29515 10.66016 1.83041 10.66016 2.49069 c h 9.46463 2.49069 m S 1 J 4.00005 0.0 m 5.08101 0.0 6.00006 0.9 6.00006 2.00002 c 6.00006 3.10002 5.10005 4.00005 4.00005 4.00005 c 2.90001 4.00005 2.00002 3.10002 2.00002 2.00002 c 3.20003 2.60002 m 2.00002 1.60002 l 0.8 2.60002 l 16.0002 0.0 m 14.90016 0.0 14.00017 0.9 14.00017 2.00002 c 14.00017 3.10002 14.90016 4.00005 16.0002 4.00005 c 17.1002 4.00005 18.00021 3.10002 18.00021 2.00002 c 19.20023 2.60002 m 18.00021 1.60002 l 16.8002 2.60002 l S Q }
+..................\pdfliteral origin{Q }
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\kern-20.0
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[1 0 0]} action user{/Subtype/Link/A<</S/Named/N/GoBack>>}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern7.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[1 0 0]} action user{/Subtype/Link/A<</S/Named/N/Find>>}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern6.0
+...............\pdfendlink
+...............\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/N/C[1 0 0]} action user{/Subtype/Link/A<</S/Named/N/GoForward>>}
+...............\vbox(7.5+0.0)x0.0, direction TLT
+................\whatsit4=[]
+...............\kern7.0
+...............\pdfendlink
+.............\pdfcolorstack 0 pop
+.............\pdfcolorstack 0 pop
+.............\glue 2.84544
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 2.0
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\whatsit4=[]
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\whatsit4=[]
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\whatsit4=[]
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 push {0 g 0 G}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\whatsit4=[]
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\whatsit4=[]
+....\write-{}
+....\write-{}
+....\write1{\@writefile{toc}{\protect \beamer@sectionintoc {1}{中文节}{2}{0}{1}}}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@sectionpages {1}{1}}}}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@subsectionpages {1}{1}}}}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \sectionentry {1}{中文节}{2}{中文节}{0}}}}
+....\write5{\protect \BOOKMARK [2][]{Outline0.1}{\376\377\116\055\145\207\202\202}{}% 1}
+....\pdfdest name{Outline0.1} xyz
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 92.53856fill, direction TLT
+.....\whatsit4=[]
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\whatsit4=[]
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\whatsit4=[]
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.....\glue(\lineskip) 1.0
+.....\hbox(19.14876+0.0)x307.28987, glue set - 1.0, direction TLT
+......\whatsit4=[]
+......\glue 0.0 minus 28.45274
+......\hbox(19.14876+0.0)x364.19536, direction TLT
+.......\whatsit4=[]
+.......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.......\vbox(19.14876+0.0)x364.19536, direction TLT
+........\whatsit4=[]
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12354fill, direction TLT
+.........\whatsit4=[]
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\whatsit4=[]
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -6.3936
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 5.328
+........\hbox(12.672+5.40005)x364.19536, glue set 303.92358fill, direction TLT
+.........\whatsit4=[]
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(12.59995+5.40005)x0.0
+.........\penalty 0
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 节
+.........\glue 0.0 plus 0.8085
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 内
+.........\penalty 500
+.........\glue 0.0 plus 0.8085
+.........\hbox(12.672+1.728)x14.4, direction TLT
+..........\LTJY3/FandolHei-Regular(0)/m/n/14.4 帧
+.........\penalty 0
+.........\rule(12.59995+5.40005)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -6.3936
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\whatsit4=[]
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.964
+.....\hbox(9.636+1.314)x307.28987, glue set 115.31995fil, direction TLT
+......\whatsit4=[]
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 节
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 标
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 题
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 中
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 文
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 内
+......\penalty 500
+......\glue 0.0 plus 0.4477
+......\hbox(9.636+1.314)x10.95, direction TLT
+.......\LTJY3/FandolHei-Regular(0)/m/n/10.95 容
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {1}{0}{1}{2/2}{}{0}}}}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {2}{2}}}}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\whatsit4=[]
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\whatsit4=[]
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\whatsit4=[]
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\whatsit4=[]
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\whatsit4=[]
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\whatsit4=[]
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\whatsit4=[]
+..........\pdfcolorstack 0 push {0 g 0 G}
+..........\pdfcolorstack 0 push {0 g 0 G}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\whatsit4=[]
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+============================================================

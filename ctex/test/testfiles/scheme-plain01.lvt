@@ -1,0 +1,34 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol, scheme=plain]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{scheme~plain~parindent}{
+  \dim_log:n { \parindent }
+}
+
+\TEST{scheme~plain~afterindent~default~false}{
+  \bool_log:c { CTEX@section@afterindent }
+}
+
+\TEST{scheme~plain~section~format}{
+  \cs_log:c { CTEX@section@format }
+}
+
+\TEST{scheme~plain~no~chinese~names}{
+  \tl_log:x { \contentsname }
+  \tl_log:x { \figurename }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

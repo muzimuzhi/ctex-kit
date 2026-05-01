@@ -1,0 +1,38 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{frontmatter~headings}{
+  \frontmatter
+  \chapter{前言}
+  文字
+  \clearpage
+}
+
+\TEST{mainmatter~headings}{
+  \mainmatter
+  \chapter{正文第一章}
+  文字
+  \section{第一节}
+  文字
+  \clearpage
+}
+
+\TEST{backmatter~headings}{
+  \backmatter
+  \chapter{附录材料}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

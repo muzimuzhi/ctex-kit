@@ -1,0 +1,142 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: scheme plain parindent and baselineskip
+============================================================
+> \parindent =15.0pt.
+> \ccwd=10.0pt.
+> \baselineskip =12.0pt.
+============================================================
+============================================================
+TEST 2: scheme plain section afterindent is false
+============================================================
+> \CTEX@section@afterindent=false.
+> \CTEX@subsection@afterindent=false.
+============================================================
+============================================================
+TEST 3: scheme plain section format
+============================================================
+> \CTEX@section@format=macro:->\Large \bfseries .
+> \CTEX@subsection@format=macro:->\large \bfseries .
+============================================================
+============================================================
+TEST 4: scheme~plain~heading~output
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 471.59555fil
+...\write-{}
+...\glue(\topskip) 0.00002
+...\hbox(9.99998+0.0)x345.0, glue set 229.85017fil
+....\hbox(9.27998+0.0)x24.29997
+.....\OT1/cmr/bx/n/14.4 1
+.....\glue 16.19998
+....\OT1/cmr/bx/n/14.4 S
+....\OT1/cmr/bx/n/14.4 e
+....\OT1/cmr/bx/n/14.4 c
+....\OT1/cmr/bx/n/14.4 t
+....\OT1/cmr/bx/n/14.4 i
+....\OT1/cmr/bx/n/14.4 o
+....\OT1/cmr/bx/n/14.4 n
+....\glue 5.4 plus 2.7 minus 1.79999
+....\OT1/cmr/bx/n/14.4 T
+....\OT1/cmr/bx/n/14.4 i
+....\OT1/cmr/bx/n/14.4 t
+....\OT1/cmr/bx/n/14.4 l
+....\OT1/cmr/bx/n/14.4 e
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}Section Title}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 9.90276 plus 0.86108
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.16669
+...\hbox(6.83331+0.0)x345.0, glue set 324.99997fil
+....\OT1/cmr/m/n/10 T
+....\kern-0.83334
+....\OT1/cmr/m/n/10 e
+....\OT1/cmr/m/n/10 x
+....\OT1/cmr/m/n/10 t
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 13.99301 plus 4.30554 minus 0.86108
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.66669
+...\hbox(8.33331+0.0)x345.0, glue set 218.21669fil
+....\hbox(7.73332+0.0)x30.75
+.....\OT1/cmr/bx/n/12 1
+.....\OT1/cmr/bx/n/12 .
+.....\OT1/cmr/bx/n/12 1
+.....\glue 13.5
+....\OT1/cmr/bx/n/12 S
+....\OT1/cmr/bx/n/12 u
+....\OT1/cmr/bx/n/12 b
+....\OT1/cmr/bx/n/12 s
+....\OT1/cmr/bx/n/12 e
+....\OT1/cmr/bx/n/12 c
+....\OT1/cmr/bx/n/12 t
+....\OT1/cmr/bx/n/12 i
+....\OT1/cmr/bx/n/12 o
+....\OT1/cmr/bx/n/12 n
+....\glue 4.5 plus 2.25 minus 1.5
+....\OT1/cmr/bx/n/12 T
+....\OT1/cmr/bx/n/12 i
+....\OT1/cmr/bx/n/12 t
+....\OT1/cmr/bx/n/12 l
+....\OT1/cmr/bx/n/12 e
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline {1.1}Subsection Title}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 6.45831 plus 0.86108
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.16669
+...\hbox(6.83331+0.0)x345.0, glue set 324.99997fil
+....\OT1/cmr/m/n/10 T
+....\kern-0.83334
+....\OT1/cmr/m/n/10 e
+....\OT1/cmr/m/n/10 x
+....\OT1/cmr/m/n/10 t
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.55556
+..\hbox(6.44444+0.0)x345.0
+...\hbox(6.44444+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10 1
+....\glue 0.0 plus 1.0fil
+.\kern 0.0
+============================================================

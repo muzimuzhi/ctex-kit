@@ -1,0 +1,331 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: amsmath~equation~in~ctex
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+rm on input line ....
+(c70rm.fd)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line ....
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line ....
+(ctex-zhmap-fandol.tex)
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline gbk@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbksong@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbkkai@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline gbkhei@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline gbkfs@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline cyberb@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unisong@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unikai@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline unihei@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline unifs@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline gbksongsl@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline gbkkaisl@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline gbkheisl@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline gbkfssl@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+..\special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline unikaisl@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline uniheisl@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline unifssl@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 501.06358fil
+...\write-{}
+...\glue(\topskip) 1.56851
+...\hbox(8.43149+1.05394)x345.0, glue set 271.22443fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/4e K
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/52 M
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\glue(\abovedisplayshortskip) 0.0 plus 3.0
+...\glue(\baselineskip) 6.52478
+...\hbox(8.86273+2.63484)x200.02365, shifted 144.97635
+....\hbox(8.86273+0.87828)x55.0473, display
+.....\hbox(0.0+0.0)x0.0
+.....\OML/cmm/m/it/10.53937 a
+.....\hbox(4.51111+0.0)x4.48613, shifted -4.35162
+......\OT1/cmr/m/n/7 2
+.....\glue(\medmuskip) 2.34204 plus 1.17102 minus 2.34204
+.....\OT1/cmr/m/n/10.53937 +
+.....\glue(\medmuskip) 2.34204 plus 1.17102 minus 2.34204
+.....\OML/cmm/m/it/10.53937 b
+.....\hbox(4.51111+0.0)x4.48613, shifted -4.35162
+......\OT1/cmr/m/n/7 2
+.....\glue(\thickmuskip) 2.92755 plus 2.92755
+.....\OT1/cmr/m/n/10.53937 =
+.....\glue(\thickmuskip) 2.92755 plus 2.92755
+.....\OML/cmm/m/it/10.53937 c
+.....\hbox(4.51111+0.0)x4.48613, shifted -4.35162
+......\OT1/cmr/m/n/7 2
+....\kern131.50935
+....\hbox(7.90453+2.63484)x13.467, display
+.....\hbox(7.90453+2.63484)x13.467
+......\OT1/cmr/m/n/10.53937 (
+......\OT1/cmr/m/n/10.53937 1
+......\kern 0.0
+......\OT1/cmr/m/n/10.53937 )
+...\penalty 0
+...\glue(\belowdisplayshortskip) 6.0 plus 3.0 minus 3.0
+...\glue(\baselineskip) 5.37512
+...\hbox(8.43149+1.05394)x345.0, glue set 292.30316fil
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/4e K
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/54 ^^N
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 2: amsmath~align~in~ctex
+============================================================
+Completed box being shipped out [2]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 5.20798fil
+...\glue 0.0 plus 1.0fil
+...\hbox(6.79202+0.0)x345.0
+....\hbox(6.79202+0.0)x345.0, glue set 339.7303fil
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 2
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 467.6257fil
+...\write-{}
+...\glue(\topskip) 1.56851
+...\hbox(8.43149+1.05394)x345.0, glue set 250.14569fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/5b ^^f9
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/9f P
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/73 ^^af
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/58 ^^83
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/6d K
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/8b ^^d5
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\glue(\abovedisplayskip) 10.0 plus 2.0 minus 5.0
+...\glue -3.0
+...\glue 0.0
+...\glue(\baselineskip) 6.87856
+...\hbox(11.50896+4.93248)x345.0, display
+....\glue(\tabskip) 150.56621
+....\hbox(11.50896+4.93248)x6.02354
+.....\glue 0.0 plus 1.0fil
+.....\hbox(11.50896+4.93248)x0.0
+......\vbox(11.50896+4.93248)x0.0
+.......\kern 0.0
+.......\hbox(11.50896+4.93248)x0.0
+........\rule(11.50896+4.93248)x0.0
+.....\hbox(4.53778+0.0)x6.02354
+......\mathon
+......\OML/cmm/m/it/10.53937 x
+......\mathoff
+....\glue(\tabskip) 0.0
+....\hbox(11.50896+4.93248)x37.84404
+.....\hbox(6.14796+2.04932)x37.84404
+......\mathon
+......\hbox(6.14796+2.04932)x37.84404
+.......\hbox(0.0+0.0)x0.0
+.......\glue(\thickmuskip) 2.92755 plus 2.92755
+.......\OT1/cmr/m/n/10.53937 =
+.......\glue(\thickmuskip) 2.92755 plus 2.92755
+.......\OML/cmm/m/it/10.53937 y
+.......\kern0.37814
+.......\glue(\medmuskip) 2.34204 plus 1.17102 minus 2.34204
+.......\OT1/cmr/m/n/10.53937 +
+.......\glue(\medmuskip) 2.34204 plus 1.17102 minus 2.34204
+.......\OML/cmm/m/it/10.53937 z
+.......\kern0.46352
+......\mathoff
+.....\glue 0.0 plus 1.0fil
+....\glue(\tabskip) 150.56621
+....\hbox(11.50896+4.93248)x0.0
+.....\kern -150.56621
+.....\kern 150.56621
+.....\hbox(11.50896+4.93248)x0.0, glue set - 13.467fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(11.50896+4.93248)x13.467
+.......\hbox(11.50896+4.93248)x0.0
+........\vbox(11.50896+4.93248)x0.0
+.........\kern 0.0
+.........\hbox(11.50896+4.93248)x0.0
+..........\rule(11.50896+4.93248)x0.0
+.......\hbox(7.90453+2.63484)x13.467
+........\OT1/cmr/m/n/10.53937 (
+........\OT1/cmr/m/n/10.53937 2
+........\kern 0.0
+........\OT1/cmr/m/n/10.53937 )
+....\glue(\tabskip) 0.0
+...\penalty 10000
+...\glue 0.0
+...\glue(\baselineskip) 3.00002
+...\hbox(11.50896+4.93248)x345.0, display
+....\glue(\tabskip) 150.56621
+....\hbox(11.50896+4.93248)x6.02354, glue set 0.45255fil
+.....\glue 0.0 plus 1.0fil
+.....\hbox(11.50896+4.93248)x0.0
+......\vbox(11.50896+4.93248)x0.0
+.......\kern 0.0
+.......\hbox(11.50896+4.93248)x0.0
+........\rule(11.50896+4.93248)x0.0
+.....\hbox(4.53778+0.0)x5.571
+......\mathon
+......\OML/cmm/m/it/10.53937 a
+......\mathoff
+....\glue(\tabskip) 0.0
+....\hbox(11.50896+4.93248)x37.84404, glue set 1.82613fil
+.....\hbox(7.319+0.87828)x36.01791
+......\mathon
+......\hbox(7.319+0.87828)x36.01791
+.......\hbox(0.0+0.0)x0.0
+.......\glue(\thickmuskip) 2.92755 plus 2.92755
+.......\OT1/cmr/m/n/10.53937 =
+.......\glue(\thickmuskip) 2.92755 plus 2.92755
+.......\OML/cmm/m/it/10.53937 b
+.......\glue(\medmuskip) 2.34204 plus 1.17102 minus 2.34204
+.......\OT1/cmr/m/n/10.53937 +
+.......\glue(\medmuskip) 2.34204 plus 1.17102 minus 2.34204
+.......\OML/cmm/m/it/10.53937 c
+......\mathoff
+.....\glue 0.0 plus 1.0fil
+....\glue(\tabskip) 150.56621
+....\hbox(11.50896+4.93248)x0.0
+.....\kern -150.56621
+.....\kern 150.56621
+.....\hbox(11.50896+4.93248)x0.0, glue set - 13.467fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(11.50896+4.93248)x13.467
+.......\hbox(11.50896+4.93248)x0.0
+........\vbox(11.50896+4.93248)x0.0
+.........\kern 0.0
+.........\hbox(11.50896+4.93248)x0.0
+..........\rule(11.50896+4.93248)x0.0
+.......\hbox(7.90453+2.63484)x13.467
+........\OT1/cmr/m/n/10.53937 (
+........\OT1/cmr/m/n/10.53937 3
+........\kern 0.0
+........\OT1/cmr/m/n/10.53937 )
+....\glue(\tabskip) 0.0
+...\penalty 10000
+...\glue 0.0
+...\penalty 0
+...\glue(\belowdisplayskip) 10.0 plus 2.0 minus 5.0
+...\glue(\baselineskip) 3.07748
+...\hbox(8.43149+1.05394)x345.0, glue set 302.84253fil
+....\C70/rm/m/n/10.53937/5b ^^f9
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/9f P
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/54 ^^N
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+============================================================

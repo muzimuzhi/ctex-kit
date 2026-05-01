@@ -1,0 +1,50 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\OMIT
+\begingroup \fontsize{15}{18}\selectfont \leavevmode \endgroup
+\TIMO
+
+\TEST{linespread~default~1.3}{
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{linespread~2.0~effect}{
+  \group_begin:
+    \linespread{2.0}\selectfont
+    \dim_log:n { \baselineskip }
+  \group_end:
+}
+
+\TEST{linespread~scoped}{
+  \dim_log:n { \baselineskip }
+  \group_begin:
+    \linespread{1.0}\selectfont
+    \dim_log:n { \baselineskip }
+  \group_end:
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{linespread~with~fontsize~change}{
+  \group_begin:
+    \fontsize{15}{18}\selectfont
+    \dim_log:n { \baselineskip }
+    \linespread{2.0}\selectfont
+    \dim_log:n { \baselineskip }
+  \group_end:
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

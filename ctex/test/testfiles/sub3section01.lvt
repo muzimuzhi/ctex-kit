@@ -1,0 +1,29 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol, sub3section]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{sub3section~depth}{
+  \section{第一节}
+  文字
+  \subsection{小节}
+  文字
+  \subsubsection{子小节}
+  文字
+  \paragraph{段落编号}
+  文字
+  \subparagraph{子段落编号}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

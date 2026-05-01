@@ -1,0 +1,34 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~CJKfamilydefault}{
+  \tl_log:x { \CJKfamilydefault }
+}
+
+\TEST{CJKfamilydefault~after~change}{
+  \renewcommand\CJKfamilydefault{zhkai}
+  \tl_log:x { \CJKfamilydefault }
+}
+
+\TEST{CJKfamilydefault~scoped}{
+  \group_begin:
+    \renewcommand\CJKfamilydefault{zhfs}
+    \tl_log:x { \CJKfamilydefault }
+  \group_end:
+  \tl_log:x { \CJKfamilydefault }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

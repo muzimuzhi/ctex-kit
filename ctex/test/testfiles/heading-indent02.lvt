@@ -1,0 +1,39 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{section~indent~default}{
+  \cs_log:c { CTEX@section@indent }
+}
+
+\TEST{section~indent~custom}{
+  \ctexset{section/indent = 2em}
+  \cs_log:c { CTEX@section@indent }
+}
+
+\TEST{subsection~indent~custom}{
+  \ctexset{subsection/indent = 1em}
+  \cs_log:c { CTEX@subsection@indent }
+}
+
+\TEST{indent~scoped}{
+  \group_begin:
+    \ctexset{section/indent = 3em}
+    \cs_log:c { CTEX@section@indent }
+  \group_end:
+  \cs_log:c { CTEX@section@indent }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\OMIT
+\begingroup \Large\bfseries\leavevmode \endgroup
+\begingroup \large\bfseries\leavevmode \endgroup
+\TIMO
+
+\TEST{section~thesection~format}{
+  \section{A}
+  \tl_log:x { \thesection }
+  \section{B}
+  \tl_log:x { \thesection }
+}
+
+\TEST{subsection~thesubsection~format}{
+  \subsection{C}
+  \tl_log:x { \thesubsection }
+}
+
+\TEST{custom~thesection}{
+  \ctexset{section/number = \Roman{section}}
+  \section{D}
+  \cs_log:c { CTEX@section@number }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

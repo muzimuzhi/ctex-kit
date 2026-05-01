@@ -1,0 +1,34 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~section~numbering}{
+  \cs_log:c { CTEX@section@numbering }
+}
+
+\TEST{section~counter~increments~with~numbering~false}{
+  \ctexset{section/numbering = false}
+  \loggingoutput
+  \section{无编号A}
+  \section{无编号B}
+  文字。
+  \clearpage
+}
+
+\TEST{counter~still~works~after~numbering~false}{
+  \int_log:c { c@section }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

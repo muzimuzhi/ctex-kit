@@ -1,0 +1,42 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{CJKfamilydefault~is~rm}{
+  \tl_log:x { \CJKfamilydefault }
+}
+
+\TEST{rmfamily~switches~CJK}{
+  \group_begin:
+    \rmfamily
+    \cs_log:c { f@family }
+  \group_end:
+}
+
+\TEST{sffamily~switches~CJK}{
+  \group_begin:
+    \sffamily
+    \cs_log:c { f@family }
+  \group_end:
+}
+
+\TEST{ttfamily~switches~CJK}{
+  \group_begin:
+    \ttfamily
+    \cs_log:c { f@family }
+  \group_end:
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

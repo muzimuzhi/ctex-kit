@@ -1,0 +1,18 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: invalid punct option
+============================================================
+! Package xeCJK Error: Punctuation style "invalid_value" is unknown.
+(xeCJK)                
+(xeCJK)                The available styles are listed as follow.
+(xeCJK)                
+(xeCJK)                "plain, quanjiao, hangmobanjiao, banjiao, kaiming, and CCT".
+(xeCJK)                
+Type <return> to continue.
+ ...                                              
+l. ...}
+LaTeX does not know anything more about this error, sorry.
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.

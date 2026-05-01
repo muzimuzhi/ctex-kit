@@ -1,0 +1,149 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: default section numbering
+============================================================
+> \CTEX@section@numbering=\char"1.
+============================================================
+============================================================
+TEST 2: section counter increments with numbering false
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+rm on input line ....
+(c70rm.fd)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line ....
+(ctex-zhmap-fandol.tex)
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline gbk@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbksong@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbkkai@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline gbkhei@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline gbkfs@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline cyberb@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unisong@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unikai@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline unihei@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline unifs@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline gbksongsl@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline gbkkaisl@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline gbkheisl@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline gbkfssl@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+..\special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline unikaisl@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline uniheisl@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline unifssl@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 3.56851fil
+...\glue 0.0 plus 1.0fil
+...\hbox(8.43149+1.05394)x345.0
+....\hbox(8.43149+1.05394)x345.0, glue set 300.20766fil
+.....\C70/rm/m/sl/10.53937/65 ^^e0
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/7f ^^V
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/53 ^^f7
+.....\kern -0.00002
+.....\kern 0.00002
+.....\OT1/cmr/m/sl/10.53937 A
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 477.10101fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(12.04498+1.50562)x345.0, glue set 143.52022fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\C70/rm/bx/n/15.05624/65 ^^e0
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/7f ^^V
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/53 ^^f7
+....\kern -0.00002
+....\kern 0.00002
+....\OT1/cmr/bx/n/15.05624 A
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{^^e6^^97^^a0^^e7^^bc^^96^^e5^^8f^^b7A}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{^^e6^^97^^a0^^e7^^bc^^96^^e5^^8f^^b7A}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{^^e6^^97^^a0^^e7^^bc^^96^^e5^^8f^^b7A}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.93718
+...\hbox(12.04498+1.50562)x345.0, glue set 143.89488fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\C70/rm/bx/n/15.05624/65 ^^e0
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/7f ^^V
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/53 ^^f7
+....\kern -0.00002
+....\kern 0.00002
+....\OT1/cmr/bx/n/15.05624 B
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{^^e6^^97^^a0^^e7^^bc^^96^^e5^^8f^^b7B}}}
+...\penalty 10000
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{^^e6^^97^^a0^^e7^^bc^^96^^e5^^8f^^b7B}}}
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {section}{^^e6^^97^^a0^^e7^^bc^^96^^e5^^8f^^b7B}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.50435
+...\hbox(8.43149+1.05394)x345.0, glue set 292.30316fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\rule(0.0+0.0)x0.0
+....\C70/rm/m/n/10.53937/30 ^^B
+....\rule(0.0+0.0)x-5.16434
+....\glue 5.16434 plus 1.054 minus 1.054
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 3: counter still works after numbering false
+============================================================
+> \c@section=0.
+============================================================

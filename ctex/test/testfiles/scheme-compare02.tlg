@@ -1,0 +1,106 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: scheme plain parindent and baselineskip
+============================================================
+> \parindent =15.0pt.
+> \ccwd=10.0pt.
+> \baselineskip =12.0pt.
+============================================================
+============================================================
+TEST 2: scheme plain section afterindent is false
+============================================================
+> \CTEX@section@afterindent=false.
+> \CTEX@subsection@afterindent=false.
+============================================================
+============================================================
+TEST 3: scheme plain section format
+============================================================
+> \CTEX@section@format=macro:->\Large \bfseries .
+> \CTEX@subsection@format=macro:->\large \bfseries .
+============================================================
+============================================================
+TEST 4: scheme~plain~heading~output
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 471.51295fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(10.0512+0.17279)x345.0, glue set 231.61446fil
+....\hbox(9.4464+0.0)x22.50719
+.....\TU/lmr/bx/n/14.4 1
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 14.4
+....\TU/lmr/bx/n/14.4 Section
+....\glue 5.4 plus 2.7 minus 1.79999
+....\TU/lmr/bx/n/14.4 Title
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}Section Title}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 9.913 plus 0.86198
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.0572
+...\hbox(6.77+0.10999)x345.0, glue set 325.0fil
+....\TU/lmr/m/n/10 Text
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 14.00749 plus 4.31 minus 0.86198
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.514
+...\hbox(8.376+0.14398)x345.0, glue set 219.672fil
+....\hbox(7.872+0.0)x29.268
+.....\TU/lmr/bx/n/12 1.1
+.....\kern -0.0002
+.....\kern 0.0002
+.....\glue 12.0
+....\TU/lmr/bx/n/12 Subsection
+....\glue 4.5 plus 2.25 minus 1.5
+....\TU/lmr/bx/n/12 Title
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline {1.1}Subsection Title}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 6.465 plus 0.86198
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.08601
+...\hbox(6.77+0.10999)x345.0, glue set 325.0fil
+....\TU/lmr/m/n/10 Text
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -0.10999
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 1
+....\kern -0.0002
+....\kern 0.0002
+....\glue 0.0 plus 1.0fil
+============================================================

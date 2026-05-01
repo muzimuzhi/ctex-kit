@@ -1,0 +1,46 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{chapter~pagestyle~empty}{
+  \ctexset{chapter/pagestyle = empty}
+  \chapter{测试章}
+  文字
+  \clearpage
+}
+
+\TEST{chapter~pagestyle~plain}{
+  \ctexset{chapter/pagestyle = plain}
+  \chapter{测试章二}
+  文字
+  \clearpage
+}
+
+\TEST{chapter~lofskip}{
+  \ctexset{chapter/lofskip = 2em}
+  \chapter{第一章}
+  \begin{figure}[h]
+    \caption{图一}
+  \end{figure}
+  文字
+  \chapter{第二章}
+  \begin{figure}[h]
+    \caption{图二}
+  \end{figure}
+  文字
+  \clearpage
+  \listoffigures
+  \clearpage
+}
+
+\END
+
+\end{document}

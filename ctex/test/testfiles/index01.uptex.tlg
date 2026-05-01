@@ -1,0 +1,133 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: theindex~heading
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0
+...\vbox(21.37537+0.0)x345.0
+....\vbox(21.37537+0.0)x345.0
+.....\penalty -300
+.....\glue 15.88223 plus 4.53778 minus 0.90753
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\hbox(13.24948+1.80675)x345.0, glue set 157.44376fil
+......\glue(\leftskip) 0.0 plus 1.0fil
+......\hbox(0.0+0.0)x0.0
+......\JY2/zhrm/bx/n/15.05624 索
+......\JY2/zhrm/bx/n/15.05624 引
+......\penalty 10000
+......\glue(\parfillskip) 0.0
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 10000
+.....\glue 10.4369 plus 0.90753
+.....\glue -20.0 plus -2.0 minus -4.0
+...\glue 12.0 plus 2.0 minus 2.0
+...\glue -12.0 plus -2.0 minus -2.0
+...\glue 20.0 plus 2.0 minus 4.0
+...\hbox(508.62463+0.0)x345.0, glue set 5.0fil
+....\hbox(508.62463+0.0)x167.5
+.....\vbox(508.62463+0.0)x167.5, glue set 463.64288fil
+......\write-{}
+......\write-{}
+......\marks1{\__mark_value:nn {1}{\MakeUppercase    []{索引}}}
+......\marks2{\__mark_value:nn {2}{\MakeUppercase    []{索引}}}
+......\marks3{\__mark_value:nn {3}{\MakeUppercase    []{索引}}}
+......\glue(\topskip) 0.72536
+......\hbox(9.27464+2.04932)x167.5, glue set 103.09274fil
+.......\hbox(0.0+0.0)x0.0
+.......\JY2/zhrm/m/n/10.53937 测
+.......\JY2/zhrm/m/n/10.53937 试
+.......\JY2/zhrm/m/n/10.53937 条
+.......\JY2/zhrm/m/n/10.53937 目
+.......\JY2/zhrm/m/n/10.53937 一
+.......\penalty 10000(for kinsoku)
+.......\OT1/cmr/m/n/10.53937 ,
+.......\glue 3.51312 plus 2.1957 minus 0.93683
+.......\OT1/cmr/m/n/10.53937 1
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+......\glue(\parskip) 0.0 plus 0.3
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 5.1175
+......\hbox(9.27464+2.04932)x167.5, glue set 103.09274fil
+.......\hbox(0.0+0.0)x0.0
+.......\JY2/zhrm/m/n/10.53937 测
+.......\JY2/zhrm/m/n/10.53937 试
+.......\JY2/zhrm/m/n/10.53937 条
+.......\JY2/zhrm/m/n/10.53937 目
+.......\JY2/zhrm/m/n/10.53937 二
+.......\penalty 10000(for kinsoku)
+.......\OT1/cmr/m/n/10.53937 ,
+.......\glue 3.51312 plus 2.1957 minus 0.93683
+.......\OT1/cmr/m/n/10.53937 2
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+......\glue(\parskip) 0.0 plus 0.3
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 5.1175
+......\hbox(9.27464+2.04932)x167.5, glue set 104.17148fil
+.......\hbox(0.0+0.0)x0.0
+.......\rule(*+*)x0.0
+.......\penalty 10000
+.......\glue 20.0
+.......\glue 0.0
+.......\JY2/zhrm/m/n/10.53937 子
+.......\JY2/zhrm/m/n/10.53937 条
+.......\JY2/zhrm/m/n/10.53937 目
+.......\penalty 10000(for kinsoku)
+.......\OT1/cmr/m/n/10.53937 ,
+.......\glue 3.51312 plus 2.1957 minus 0.93683
+.......\OT1/cmr/m/n/10.53937 3
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+......\glue 0.0 plus 1.0fil
+......\glue 0.0
+......\glue 0.0 plus 0.0001fil
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil
+....\rule(*+*)x0.0
+....\glue 0.0 plus 1.0fil
+....\hbox(508.62463+0.0)x167.5, glue set 167.5fil
+.....\vbox(508.62463+0.0)x0.0, glue set 498.57138fil
+......\write-{}
+......\glue(\topskip) 10.0
+......\vbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil
+......\glue 0.0
+......\glue 0.0 plus 0.0001fil
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue(\baselineskip) 23.20798
+..\hbox(6.79202+0.0)x345.0
+...\hbox(6.79202+0.0)x345.0, glue set 169.86516fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10.53937 1
+....\glue 0.0 plus 1.0fil
+.\kern 0.0
+============================================================

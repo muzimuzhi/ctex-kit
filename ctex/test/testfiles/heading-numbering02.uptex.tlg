@@ -1,0 +1,110 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: default section numbering
+============================================================
+> \CTEX@section@numbering=\char"1.
+============================================================
+============================================================
+TEST 2: section counter increments with numbering false
+============================================================
+LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
+(Font)              using `JY2/zhrm/m/it' instead on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V FandolSong-Regular.otf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H FandolSong-Bold.otf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V FandolSong-Bold.otf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V FandolKai-Regular.otf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V FandolHei-Regular.otf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H FandolHei-Bold.otf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V FandolHei-Bold.otf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V FandolFang-Regular.otf}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 2.72536fil
+...\glue 0.0 plus 1.0fil
+...\hbox(9.27464+1.26471)x345.0
+....\hbox(9.27464+1.26471)x345.0, glue set 297.57281fil
+.....\JY2/zhrm/m/it/10.53937 无
+.....\JY2/zhrm/m/it/10.53937 编
+.....\JY2/zhrm/m/it/10.53937 号
+.....\glue(\xkanjiskip) 2.63484 plus 1.0 minus 1.0
+.....\OT1/cmr/m/sl/10.53937 A
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 474.63208fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(13.24948+1.80675)x345.0, glue set 141.63818fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\JY2/zhrm/bx/n/15.05624 无
+....\JY2/zhrm/bx/n/15.05624 编
+....\JY2/zhrm/bx/n/15.05624 号
+....\glue(\xkanjiskip) 3.76405 plus 1.0 minus 1.0
+....\OT1/cmr/bx/n/15.05624 A
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{无编号A}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{无编号A}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{无编号A}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 8.43155
+...\hbox(13.24948+1.80675)x345.0, glue set 142.01285fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x0.0
+....\JY2/zhrm/bx/n/15.05624 无
+....\JY2/zhrm/bx/n/15.05624 编
+....\JY2/zhrm/bx/n/15.05624 号
+....\glue(\xkanjiskip) 3.76405 plus 1.0 minus 1.0
+....\OT1/cmr/bx/n/15.05624 B
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {3}{\MakeUppercase    []{无编号B}}}
+...\penalty 10000
+...\marks3{\__mark_value:nn {4}{\MakeUppercase    []{无编号B}}}
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {section}{无编号B}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.36006
+...\hbox(9.27464+1.26471)x345.0, glue set 297.57285fil
+....\hbox(0.0+0.0)x21.07874
+....\JY2/zhrm/m/n/10.53937 文
+....\JY2/zhrm/m/n/10.53937 字
+....\penalty 10000(for kinsoku)
+....\glue(\kanjiskip) 0.0 plus 0.60931
+....\JY2/zhrm/m/n/10.53937 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 3: counter still works after numbering false
+============================================================
+> \c@section=0.
+============================================================

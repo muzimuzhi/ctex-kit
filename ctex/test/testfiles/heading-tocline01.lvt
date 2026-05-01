@@ -1,0 +1,37 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{chapter~tocline~custom}{
+  \ctexset{
+    chapter/tocline = \CTEXnumberline{#1}#2
+  }
+  \chapter{自定义目录行}
+  文字
+  \clearpage
+  \tableofcontents
+  \clearpage
+}
+
+\TEST{section~tocline~custom}{
+  \ctexset{
+    section/tocline = {#1\quad #2}
+  }
+  \section{自定义节目录行}
+  文字
+  \clearpage
+  \tableofcontents
+  \clearpage
+}
+
+\END
+
+\end{document}

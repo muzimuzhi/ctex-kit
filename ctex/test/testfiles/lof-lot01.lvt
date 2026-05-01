@@ -1,0 +1,38 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{listoffigures~chinese~name}{
+  \chapter{第一章}
+  \begin{figure}[h]
+    \caption{测试图一}
+  \end{figure}
+  \begin{figure}[h]
+    \caption{测试图二}
+  \end{figure}
+  \clearpage
+  \listoffigures
+  \clearpage
+}
+
+\TEST{listoftables~chinese~name}{
+  \chapter{第二章}
+  \begin{table}[h]
+    \caption{测试表一}
+  \end{table}
+  \clearpage
+  \listoftables
+  \clearpage
+}
+
+\END
+
+\end{document}

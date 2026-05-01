@@ -1,0 +1,55 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\OMIT
+\begingroup \zihao{3} \leavevmode \endgroup
+\TIMO
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{ziju~increases~ccwd}{
+  \dim_log:N \ccwd
+  \ziju{1}
+  \dim_log:N \ccwd
+}
+
+\TEST{ziju~scoped~in~group}{
+  \dim_log:N \ccwd
+  \group_begin:
+    \ziju{2}
+    \dim_log:N \ccwd
+  \group_end:
+  \dim_log:N \ccwd
+}
+
+\TEST{ziju~zero~restores}{
+  \ziju{1}
+  \dim_log:N \ccwd
+  \ziju{0}
+  \dim_log:N \ccwd
+}
+
+\TEST{ziju~with~zihao}{
+  \ziju{1}
+  \dim_log:N \ccwd
+  \group_begin:
+    \zihao{3}
+    \dim_log:N \ccwd
+    \ziju{1}
+    \dim_log:N \ccwd
+  \group_end:
+  \dim_log:N \ccwd
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

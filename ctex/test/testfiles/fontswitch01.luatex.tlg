@@ -1,0 +1,63 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: songti font switch
+============================================================
+Package fontspec Info: 
+(fontspec)             Font family 'FandolSong-Regular(1)' created for font 'FandolSong-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.otf},BoldFont={FandolSong-Bold},LTJFONTUID=4].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolSong-Regular.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[FandolSong-Bold.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 2: heiti font switch
+============================================================
+(load cache: extra_fandolhei-regular.luc)(load cache: extra_fandolhei-bold.luc)
+Package fontspec Info: 
+(fontspec)             Font family 'FandolHei-Regular(0)' created for font 'FandolHei-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.otf},BoldFont={FandolHei-Bold},LTJFONTUID=5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolHei-Regular.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[FandolHei-Bold.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 3: kaishu font switch
+============================================================
+Package fontspec Info: 
+(fontspec)             Font family 'FandolKai-Regular(0)' created for font 'FandolKai-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.otf},LTJFONTUID=7].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolKai-Regular.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 4: fangsong font switch
+============================================================
+(load cache: extra_fandolfang-regular.luc)
+Package fontspec Info: 
+(fontspec)             Font family 'FandolFang-Regular(0)' created for font 'FandolFang-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.otf},LTJFONTUID=6].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolFang-Regular.otf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 5: CJKfamily switch
+============================================================
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================
+============================================================
+TEST 6: font switch scoped
+============================================================
+> \box_wd:N \l_tmpa_box =10.53937pt.
+> \box_wd:N \l_tmpa_box =10.53937pt.
+> \box_wd:N \l_tmpa_box =10.53937pt.
+============================================================

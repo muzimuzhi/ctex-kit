@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+\usepackage{color}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{format~plus~appends}{
+  \ctexset{section/format += \color{red}}
+  \section{追加格式}
+  文字
+  \clearpage
+}
+
+\TEST{aftername~plus~appends}{
+  \ctexset{section/aftername += \quad EXTRA}
+  \section{追加aftername}
+  文字
+  \clearpage
+}
+
+\TEST{multiple~plus~accumulates}{
+  \ctexset{
+    subsection/format += \itshape,
+    subsection/format += \color{blue}
+  }
+  \subsection{多次追加}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

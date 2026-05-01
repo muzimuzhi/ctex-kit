@@ -1,0 +1,223 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: section hangindent true
+============================================================
+LaTeX Font Info:    Trying to load font information for C70+rm on input line ....
+(c70rm.fd) (ctex-zhmap-fandol.tex)
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline gbk@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbksong@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline gbkkai@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline gbkhei@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline gbkfs@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline cyberb@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unisong@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf}
+..\special{pdf:mapline unikai@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf}
+..\special{pdf:mapline unihei@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf}
+..\special{pdf:mapline unifs@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf}
+..\special{pdf:mapline gbksongsl@UGBK@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline gbkkaisl@UGBK@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline gbkheisl@UGBK@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline gbkfssl@UGBK@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+..\special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H FandolSong-Regular.otf -s .167}
+..\special{pdf:mapline unikaisl@Unicode@ UniGB-UTF16-H FandolKai-Regular.otf -s .167}
+..\special{pdf:mapline uniheisl@Unicode@ UniGB-UTF16-H FandolHei-Regular.otf -s .167}
+..\special{pdf:mapline unifssl@Unicode@ UniGB-UTF16-H FandolFang-Regular.otf -s .167}
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 3.56851fil
+...\glue 0.0 plus 1.0fil
+...\hbox(8.43149+1.05394)x345.0
+....\hbox(8.43149+1.05394)x345.0, glue set 103.69225fil
+.....\OT1/cmr/m/sl/10.53937 1
+.....\glue 10.53938
+.....\C70/rm/m/sl/10.53937/6d K
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/8b ^^d5
+.....\kern -0.00002
+.....\kern 0.00002
+.....\OT1/cmr/m/sl/10.53937 H
+.....\OT1/cmr/m/sl/10.53937 A
+.....\OT1/cmr/m/sl/10.53937 N
+.....\OT1/cmr/m/sl/10.53937 G
+.....\C70/rm/m/sl/10.53937/4e :
+.....\kern -0.00002
+.....\kern 0.00002
+.....\OT1/cmr/m/sl/10.53937 T
+.....\OT1/cmr/m/sl/10.53937 R
+.....\kern-0.29277
+.....\OT1/cmr/m/sl/10.53937 U
+.....\OT1/cmr/m/sl/10.53937 E
+.....\C70/rm/m/sl/10.53937/65 ^^f6
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/76 ^^84
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/68 ^^G
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/98 ^^98
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/63 ^^92
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/72 H
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/65 H
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/67 ^^9c
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/5b ^^f9
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/9f P
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/88 L
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 0.60931
+.....\C70/rm/m/sl/10.53937/4e :
+.....\kern -0.00002
+.....\kern 0.00002
+.....\glue 0.0 plus 1.0fil
+.....\OT1/cmr/m/n/10.53937 1
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 487.5368fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(12.04498+2.92758)x345.0, glue set 4.38072fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\hbox(9.70291+0.0)x59.28392
+.....\hbox(0.0+0.0)x33.87653
+.....\OT1/cmr/bx/n/15.05624 1
+.....\glue 16.93826
+....\C70/rm/bx/n/15.05624/6d K
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/8b ^^d5
+....\kern -0.00002
+....\kern 0.00002
+....\OT1/cmr/bx/n/15.05624 h
+....\OT1/cmr/bx/n/15.05624 a
+....\OT1/cmr/bx/n/15.05624 n
+....\OT1/cmr/bx/n/15.05624 g
+....\C70/rm/bx/n/15.05624/4e :
+....\kern -0.00002
+....\kern 0.00002
+....\OT1/cmr/bx/n/15.05624 t
+....\OT1/cmr/bx/n/15.05624 r
+....\OT1/cmr/bx/n/15.05624 u
+....\OT1/cmr/bx/n/15.05624 e
+....\C70/rm/bx/n/15.05624/65 ^^f6
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/76 ^^84
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/68 ^^G
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/98 ^^98
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/63 ^^92
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/72 H
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/65 H
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/67 ^^9c
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/5b ^^f9
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/9f P
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 1.44095
+....\C70/rm/bx/n/15.05624/88 L
+....\kern -0.00002
+....\kern 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty 10300
+...\glue(\baselineskip) 8.51521
+...\hbox(12.04498+1.50562)x285.71608, glue set 135.32993fil, shifted 59.28392
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\C70/rm/bx/n/15.05624/4e :
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\marks2{\__mark_value:nn {1}{\MakeUppercase    []{1\hskip 1em\relax ^^e6^^b5^^8b^^e8^^af^^95hang^^e4^^b8^^batrue^^e6^^97^^b6^^e7^^9a^^84^^e6^^a0^^87^^e9^^a2^^98^^e6^^8e^^92^^e7^^89^^88^^e6^^95^^88^^e6^^9e^^9c^^e5^^af^^b9^^e9^^bd^^90^^e8^^a1^^8c^^e4^^b8^^ba}}}
+...\marks3{\__mark_value:nn {2}{\MakeUppercase    []{1\hskip 1em\relax ^^e6^^b5^^8b^^e8^^af^^95hang^^e4^^b8^^batrue^^e6^^97^^b6^^e7^^9a^^84^^e6^^a0^^87^^e9^^a2^^98^^e6^^8e^^92^^e7^^89^^88^^e6^^95^^88^^e6^^9e^^9c^^e5^^af^^b9^^e9^^bd^^90^^e8^^a1^^8c^^e4^^b8^^ba}}}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}^^e6^^b5^^8b^^e8^^af^^95hang^^e4^^b8^^batrue^^e6^^97^^b6^^e7^^9a^^84^^e6^^a0^^87^^e9^^a2^^98^^e6^^8e^^92^^e7^^89^^88^^e6^^95^^88^^e6^^9e^^9c^^e5^^af^^b9^^e9^^bd^^90^^e8^^a1^^8c^^e4^^b8^^ba}{\thepage }{}\protected@file@percent }}
+...\penalty 10000
+...\glue 10.4369 plus 0.90753
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.50435
+...\hbox(8.43149+1.05394)x345.0, glue set 302.84253fil
+....\hbox(0.0+0.0)x21.07874
+....\C70/rm/m/n/10.53937/65 ^^87
+....\kern -0.00002
+....\kern 0.00002
+....\glue 0.0 plus 0.60931
+....\C70/rm/m/n/10.53937/5b W
+....\kern -0.00002
+....\kern 0.00002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.05394
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\hbox(0.0+0.0)x345.0
+.\kern 0.0
+============================================================
+============================================================
+TEST 2: section hangindent false
+============================================================
+[2
+]
+============================================================

@@ -1,0 +1,30 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{textwidth~and~ccwd~relation}{
+  \dim_log:n { \textwidth }
+  \dim_log:N \ccwd
+}
+
+\TEST{textheight~standard}{
+  \dim_log:n { \textheight }
+}
+
+\TEST{marginpar~width}{
+  \dim_log:n { \marginparwidth }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

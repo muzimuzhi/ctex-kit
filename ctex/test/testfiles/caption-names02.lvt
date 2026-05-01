@@ -1,0 +1,40 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~bibname}{
+  \tl_log:x { \bibname }
+}
+
+\TEST{default~contentsname}{
+  \tl_log:x { \contentsname }
+}
+
+\TEST{ctexset~bibname}{
+  \ctexset{bibname = 参考资料}
+  \tl_log:x { \bibname }
+}
+
+\TEST{ctexset~contentsname}{
+  \ctexset{contentsname = 章节目录}
+  \tl_log:x { \contentsname }
+}
+
+\TEST{ctexset~appendixname}{
+  \ctexset{appendixname = 附件}
+  \tl_log:x { \appendixname }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

@@ -1,0 +1,23 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Author: Liam Huang
+============================================================
+TEST 1: default caption names ctexart
+============================================================
+> \CTEX@char@nnn {231}{155}{174}\CTEX@char@nnn {229}{189}{149}.
+> \CTEX@char@nnn {230}{143}{146}\CTEX@char@nnn {229}{155}{190}.
+> \CTEX@char@nnn {232}{161}{168}\CTEX@char@nnn {230}{160}{188}.
+> \CTEX@char@nnn {230}{145}{152}\CTEX@char@nnn {232}{166}{129}.
+> \CTEX@char@nnn {229}{143}{130}\CTEX@char@nnn {232}{128}{131}\CTEX@char@nnn {230}{150}{135}\CTEX@char@nnn {231}{140}{174}.
+> \CTEX@char@nnn {231}{180}{162}\CTEX@char@nnn {229}{188}{149}.
+> \CTEX@char@nnn {229}{155}{190}.
+> \CTEX@char@nnn {232}{161}{168}.
+> \CTEX@char@nnn {233}{153}{132}\CTEX@char@nnn {229}{189}{149}.
+============================================================
+============================================================
+TEST 2: caption names after ctexset
+============================================================
+> \CTEX@char@nnn {230}{150}{135}\CTEX@char@nnn {231}{171}{160}\CTEX@char@nnn {231}{155}{174}\CTEX@char@nnn {229}{189}{149}.
+> \CTEX@char@nnn {230}{143}{146}\CTEX@char@nnn {229}{155}{190}.
+> \CTEX@char@nnn {232}{161}{168}\CTEX@char@nnn {230}{160}{188}.
+============================================================

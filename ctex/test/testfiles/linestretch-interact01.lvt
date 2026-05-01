@@ -1,0 +1,46 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol, linespread=1.5]{ctexart}
+
+\begin{document}
+
+\OMIT
+\begingroup \zihao{3} \leavevmode \endgroup
+\TIMO
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{linespread~1.5~baselineskip}{
+  \dim_log:n { \baselineskip }
+  \dim_log:N \ccwd
+}
+
+\TEST{linestretch~overrides~linespread}{
+  \ctexset{linestretch = \ccwd}
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{linestretch~maxdimen~disables}{
+  \ctexset{linestretch = \maxdimen}
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{linestretch~with~zihao~change}{
+  \ctexset{linestretch = \ccwd}
+  \dim_log:n { \baselineskip }
+  \group_begin:
+    \zihao{3}
+    \dim_log:n { \baselineskip }
+  \group_end:
+  \dim_log:n { \baselineskip }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

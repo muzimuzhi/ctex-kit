@@ -1,0 +1,34 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol, 12pt]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{12pt~base~font~size}{
+  \dim_log:n { 1em }
+}
+
+\TEST{12pt~ccwd}{
+  \dim_log:N \ccwd
+}
+
+\TEST{12pt~parindent}{
+  \dim_log:n { \parindent }
+  \dim_log:n { 2\ccwd }
+}
+
+\TEST{12pt~baselineskip}{
+  \dim_log:n { \baselineskip }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

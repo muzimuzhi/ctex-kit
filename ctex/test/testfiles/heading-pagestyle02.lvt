@@ -1,0 +1,42 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexbook}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\TEST{default~chapter~pagestyle}{
+  \cs_if_exist:cTF { CTEX@chapter@pagestyle }
+    { \cs_log:c { CTEX@chapter@pagestyle } }
+    { \TYPE { chapter~pagestyle~key:~ not~stored } }
+}
+
+\TEST{chapter~lofskip~default}{
+  \cs_if_exist:cTF { CTEX@chapter@lofskip }
+    { \cs_log:c { CTEX@chapter@lofskip } }
+    { \TYPE { chapter~lofskip~key:~ not~stored } }
+}
+
+\TEST{chapter~lotskip~default}{
+  \cs_if_exist:cTF { CTEX@chapter@lotskip }
+    { \cs_log:c { CTEX@chapter@lotskip } }
+    { \TYPE { chapter~lotskip~key:~ not~stored } }
+}
+
+\TEST{set~chapter~pagestyle}{
+  \ctexset{chapter/pagestyle = empty}
+  \cs_if_exist:cTF { CTEX@chapter@pagestyle }
+    { \cs_log:c { CTEX@chapter@pagestyle } }
+    { \TYPE { chapter~pagestyle~key:~ still~not~stored } }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

@@ -1,0 +1,42 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\loggingoutput
+
+\TEST{section~indent~nonzero}{
+  \ctexset{section/indent = 2em}
+  \section{缩进节标题}
+  文字
+  \clearpage
+}
+
+\TEST{subsection~indent~with~hang~true}{
+  \ctexset{
+    subsection/indent = 1em,
+    subsection/hang = true
+  }
+  \subsection{缩进且悬挂的小节标题，标题很长很长很长很长很长很长很长很长}
+  文字
+  \clearpage
+}
+
+\TEST{subsection~indent~with~hang~false}{
+  \ctexset{
+    subsection/indent = 1em,
+    subsection/hang = false
+  }
+  \subsection{缩进不悬挂的小节标题，标题很长很长很长很长很长很长很长很长}
+  文字
+  \clearpage
+}
+
+\END
+
+\end{document}

@@ -1,0 +1,57 @@
+\input{regression-test}
+
+\documentclass[fontset=fandol]{ctexart}
+
+\usepackage{ctexsize}
+
+\begin{document}
+
+\START
+
+\AUTHOR{Liam Huang}
+
+\ExplSyntaxOn
+
+\OMIT
+\begingroup \zihao{8} \leavevmode \endgroup
+\begingroup \zihao{7} \leavevmode \endgroup
+\begingroup \zihao{-3} \leavevmode \endgroup
+\begingroup \zihao{-0} \leavevmode \endgroup
+\begingroup \zihao{0} \leavevmode \endgroup
+\TIMO
+
+\TEST{zihao~tiny}{
+  \zihao{8}
+  \dim_log:n { 1em }
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{zihao~scriptsize}{
+  \zihao{7}
+  \dim_log:n { 1em }
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{zihao~large}{
+  \zihao{-3}
+  \dim_log:n { 1em }
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{zihao~huge}{
+  \zihao{-0}
+  \dim_log:n { 1em }
+  \dim_log:n { \baselineskip }
+}
+
+\TEST{zihao~largest}{
+  \zihao{0}
+  \dim_log:n { 1em }
+  \dim_log:n { \baselineskip }
+}
+
+\ExplSyntaxOff
+
+\END
+
+\end{document}

@@ -11,7 +11,7 @@
 
 ## reference
 
-- `llmdoc/reference/build-and-test.md` — `l3build`、共享构建配置、测试框架、CI/CD、CTAN 发布与版本管理参考。
+- `llmdoc/reference/build-and-test.md` — `l3build`、共享构建配置、`ctex` 180 个主回归测试的覆盖簇、多引擎基线策略、LuaTeX 预热与 CI/CD 参考。
 - `llmdoc/reference/coding-conventions.md` — expl3 命名、`@@` 私有空间、作用域语义、docstrip 标签、`\CTEX@` 遗留接口与文档排版基础设施。
 - `llmdoc/reference/ctex-fontset-mac.md` — `ctex` 中 `fontset=mac` / `macnew` / `macold` 的选择逻辑、macOS 15+ 检测后备、XeTeX/LuaTeX 字体探测差异与回退语义。
 
