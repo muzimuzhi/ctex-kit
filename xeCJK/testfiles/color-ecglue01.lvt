@@ -1,0 +1,45 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\usepackage{xeCJK}
+\usepackage{xcolor}
+\setCJKmainfont{FandolSong-Regular.otf}
+
+\begin{document}
+
+\START
+
+\TEST{no~spurious~ecglue~at~first~textcolor~after~punct}{
+  \setbox0=\hbox{桑之未落，其叶沃若。}
+  \setbox1=\hbox{桑之未落，\textcolor{red}{其}叶沃若。}
+  \ifdim\wd0=\wd1
+    \TYPE{PASS:~no~extra~glue}
+  \else
+    \TYPE{FAIL:~\the\wd0\space vs~\the\wd1}
+  \fi
+}
+
+\TEST{no~spurious~ecglue~at~paragraph-start~textcolor}{
+  \setbox0=\hbox{桑之落矣}
+  \setbox1=\hbox{\textcolor{blue}{桑}之落矣}
+  \ifdim\wd0=\wd1
+    \TYPE{PASS:~no~extra~glue~at~start}
+  \else
+    \TYPE{FAIL:~\the\wd0\space vs~\the\wd1}
+  \fi
+}
+
+\TEST{ecglue~preserved~across~color~at~CJK-Latin~boundary}{
+  \setbox0=\hbox{汉字test汉字}
+  \setbox1=\hbox{汉字\textcolor{red}{test}汉字}
+  \ifdim\wd0=\wd1
+    \TYPE{PASS:~ecglue~preserved}
+  \else
+    \TYPE{FAIL:~\the\wd0\space vs~\the\wd1}
+  \fi
+}
+
+\END
+
+\end{document}

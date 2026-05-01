@@ -9328,6 +9328,9 @@ Copyright and Licence
 % \changes{v3.10.0}{2026/04/30}{为 \pkg{color}/\pkg{xcolor} 添加兼容补丁，
 %   在颜色切换 whatsit 后重放 xeCJK 节点标记，修复 \cs{textcolor}
 %   后 \texttt{CJKecglue} 丢失的问题（\#315, \#803）。}
+% \changes{v3.10.0}{2026/05/01}{修复 \cs{set@color} 补丁在无真实节点标记时
+%   未清除全局状态，导致首次 \cs{textcolor} 在标点或段首后插入虚假
+%   \texttt{ecglue} 的问题（\#807）。}
 %
 % \pkg{color}/\pkg{xcolor} 的颜色切换通过 \cs{set@color} 插入 \cs{special}
 % 节点（whatsit），会遮蔽 xeCJK 的标记 kern，导致后续的 \texttt{CJKecglue}
@@ -9345,7 +9348,7 @@ Copyright and Licence
                 \@@_orig_set_color:
                 \exp_args:No \xeCJK_make_node:n { \g_@@_last_node_tl }
               }
-              { \@@_orig_set_color: }
+              { \tl_gclear:N \g_@@_last_node_tl \@@_orig_set_color: }
           }
       }
   }
