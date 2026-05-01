@@ -128,7 +128,7 @@ PR #791 对 #315 的修复曾把这条恢复链泛化为“只要上一节点是
 
 - `\@@_check_for_ecglue:` 的最后回退分支不再调用 `\@@_recover_ecglue_whatsit:`；也就是说，xeCJK 不再因为“上一节点是任意 whatsit”就恢复前侧 ecglue。
 - `\g_@@_last_node_tl` 仍然保留，用于记录最近一次 `\xeCJK_make_node:n` 创建的 xeCJK 内部标记类型；但这份状态不再被 `\@@_check_for_ecglue:` 当作全局后备。
-- 真正需要跨 whatsit 续接边界语义的场景，目前只对 `color` / `xcolor` 的 `\set@color` 做定点补丁：在颜色切换 whatsit 插入后，如果 `\g_@@_last_node_tl` 非空，就立即重放对应的 xeCJK 标记节点。
+- 真正需要跨 whatsit 续接边界语义的场景，目前只对 `color` / `xcolor` 的 `\set@color` 做定点补丁：在颜色切换 whatsit 插入后，如果 `\g_@@_last_node_tl` 非空，就立即重放对应的 xeCJK 标记节点；而在 no-node 分支则必须先清空 `\g_@@_last_node_tl`，避免把初始化阶段或前序调用残留的 `default` 送进后续 whatsit 恢复链。
 - 这等价于把“跨 whatsit 恢复 glue”改写成“在已知安全的 whatsit 之后补回 xeCJK 自己的标记 kern”，让后续 `\lastkern` 检测继续工作，而不是让恢复函数去猜测任意 whatsit 后面应不应该补 glue。
 
 这一变化把 Issue #315 与 #803 统一到同一条更精确的心智模型里：并不是所有 whatsit 都代表“合法的边界中断”，只有 xeCJK 明确认识、并能在其后立即重建内部标记的 whatsit 才能参与边界恢复。当前已知的安全场景是 `color` / `xcolor` 的 `\set@color`；而 `hyperref` PDF 注解、`\raise\hbox` 包裹内容内部的 whatsit 等场景，都不能再使用通用恢复逻辑。

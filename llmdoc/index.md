@@ -42,3 +42,4 @@
 - `llmdoc/memory/reflections/800-char-let-xint-compat.md` — 反思: xeCJK #800 中 `\char` 重定义必须延迟到 `\AtBeginDocument`，避免破坏 xint 等包在加载期 `\let` 保存原语的假设。
 - `llmdoc/memory/reflections/315-252-476-xecjk-ecglue-fixes.md` — 反思: xeCJK #252/#476 的 ecglue 字体度量问题与 #315 一样属于 interchar 边界恢复链，应在正确 CJK 字体上下文中缓存前侧 ecglue，并提前按 CI 依赖链完整验证基线影响。
 - `llmdoc/memory/reflections/756-802-spa-unicode17-baseline.md` — 反思: #756 XeTeX 字体查找语法陷阱、#802 Unicode 区块同步流程、xeCJK→ctex 跨包基线联动模式。
+- `llmdoc/memory/reflections/807-set-color-stale-state.md` — 反思: xeCJK #807 中 `\set@color` 无节点分支未清空 `\g_@@_last_node_tl`，导致首次 `\textcolor` 把初始化阶段残留的 `default` 误送入 whatsit 恢复链并错误插入 ecglue。
