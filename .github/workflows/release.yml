@@ -6,6 +6,7 @@ on:
       - 'ctex-v*'
       - 'xeCJK-v*'
       - 'CJKpunct-v*'
+      - 'zhnumber-v*'
 
 permissions:
   contents: write
@@ -51,6 +52,13 @@ jobs:
             echo "module=cjkpunct"    >> "$GITHUB_OUTPUT"
             echo "dtx=CJKpunct.dtx"   >> "$GITHUB_OUTPUT"
             echo "ver=${TAG#CJKpunct-v}" >> "$GITHUB_OUTPUT"
+            ;;
+          zhnumber-v*)
+            echo "pkg=zhnumber"       >> "$GITHUB_OUTPUT"
+            echo "dir=zhnumber"       >> "$GITHUB_OUTPUT"
+            echo "module=zhnumber"    >> "$GITHUB_OUTPUT"
+            echo "dtx=zhnumber.dtx"   >> "$GITHUB_OUTPUT"
+            echo "ver=${TAG#zhnumber-v}" >> "$GITHUB_OUTPUT"
             ;;
           *)
             echo "::error::Unknown tag format: ${TAG}"

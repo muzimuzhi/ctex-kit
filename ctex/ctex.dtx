@@ -3636,11 +3636,13 @@ Copyright and Licence
 % \end{variable}
 %
 % 对无效选项给出警告。
+% \changes{v2.6.0}{2026/05/02}{使用 \cs{l_keys_key_str} 和
+%   \cs{l_keys_choice_str} 替代已废弃的 \texttt{\_tl} 版本（\#806）。}
 %    \begin{macrocode}
 \msg_new:nnn { ctex } { invalid-option }
-  { Option~`\l_keys_key_tl'~is~invalid~in~current~mode. }
+  { Option~`\l_keys_key_str'~is~invalid~in~current~mode. }
 \msg_new:nnn { ctex } { invalid-value }
-  { Value~`#1'~is~invalid~for~the~key~`\l_keys_key_tl'. }
+  { Value~`#1'~is~invalid~for~the~key~`\l_keys_key_str'. }
 %    \end{macrocode}
 %
 % \begin{macro}[int]{\ctex_deprecated_option:nn,
@@ -3660,7 +3662,7 @@ Copyright and Licence
       { \token_to_str:N #1 } { \exp_not:n {#2} }
   }
 \msg_new:nnn { ctex } { deprecated-option }
-  { Option~`\l_keys_key_tl'~is~deprecated.\\ #1 }
+  { Option~`\l_keys_key_str'~is~deprecated.\\ #1 }
 \msg_new:nnn { ctex } { deprecated-command }
   { Command~`#1'~is~deprecated.\\ #2 }
 %    \end{macrocode}
@@ -3863,7 +3865,7 @@ Copyright and Licence
       { true , auto , false }
       {
         \exp_args:Ne \ctex_at_end:n
-          { \ctex_set:n { space = \l_keys_choice_tl } }
+          { \ctex_set:n { space = \l_keys_choice_str } }
       } ,
     space  .default:n = { true } ,
     nospace   .code:n = { \ctex_deprecated_option:nn { space = false } } ,

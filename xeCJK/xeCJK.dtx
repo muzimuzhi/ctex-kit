@@ -6628,7 +6628,7 @@ Copyright and Licence
 \keys_define:nn { xeCJK / options }
   {
     AutoFakeBold .choices:nn = { true , false }
-      { \use:c { bool_gset_ \l_keys_choice_tl :N } \g_@@_auto_fake_bold_bool } ,
+      { \use:c { bool_gset_ \l_keys_choice_str :N } \g_@@_auto_fake_bold_bool } ,
     AutoFakeBold / unknown .code:n =
       {
         \bool_gset_true:N  \g_@@_auto_fake_bold_bool
@@ -6636,7 +6636,7 @@ Copyright and Licence
       } ,
     AutoFakeBold  .default:n  = { true } ,
     AutoFakeSlant .choices:nn = { true , false }
-      { \use:c { bool_gset_ \l_keys_choice_tl :N } \g_@@_auto_fake_slant_bool } ,
+      { \use:c { bool_gset_ \l_keys_choice_str :N } \g_@@_auto_fake_slant_bool } ,
     AutoFakeSlant / unknown  .code:n =
       {
         \bool_gset_true:N  \g_@@_auto_fake_slant_bool
@@ -8383,11 +8383,11 @@ Copyright and Licence
 \keys_define:nn { xeCJK / options }
   {
     CJKnumber         .code:n =
-      { \@@_warning:nxx { option-deprecated } { \l_keys_key_tl } { CJKnumb } } ,
+      { \@@_warning:nxx { option-deprecated } { \l_keys_key_str } { CJKnumb } } ,
     indentfirst       .code:n =
-      { \@@_warning:nxx { option-deprecated } { \l_keys_key_tl } { indentfirst } } ,
+      { \@@_warning:nxx { option-deprecated } { \l_keys_key_str } { indentfirst } } ,
     normalindentfirst .code:n =
-      { \@@_warning:nxx { option-deprecated } { \l_keys_key_tl } { } }
+      { \@@_warning:nxx { option-deprecated } { \l_keys_key_str } { } }
   }
 \@@_msg_new:nn { option-deprecated }
   {
@@ -8421,8 +8421,8 @@ Copyright and Licence
     unknown .code:n =
       {
         \xeCJK_if_package_loaded:nTF { fontspec }
-          { \@@_error:nx { key-unknown } { \l_keys_key_tl } }
-          { \PassOptionsToPackage { \l_keys_key_tl } { fontspec } }
+          { \@@_error:nx { key-unknown } { \l_keys_key_str } }
+          { \PassOptionsToPackage { \l_keys_key_str } { fontspec } }
       }
   }
 \@@_msg_new:nn { key-unknown }
@@ -8509,7 +8509,7 @@ Copyright and Licence
 \keys_define:nn { xeCJK / options }
   {
     LocalConfig .code:n =
-      { \@@_warning:nx { option-invalid } { \l_keys_key_tl } }
+      { \@@_warning:nx { option-invalid } { \l_keys_key_str } }
   }
 \@@_msg_new:nn { option-invalid }
   {
@@ -9331,6 +9331,8 @@ Copyright and Licence
 % \changes{v3.10.0}{2026/05/01}{修复 \cs{set@color} 补丁在无真实节点标记时
 %   未清除全局状态，导致首次 \cs{textcolor} 在标点或段首后插入虚假
 %   \texttt{ecglue} 的问题（\#807）。}
+% \changes{v3.10.0}{2026/05/02}{使用 \cs{l_keys_key_str} 和
+%   \cs{l_keys_choice_str} 替代已废弃的 \texttt{\_tl} 版本（\#806）。}
 %
 % \pkg{color}/\pkg{xcolor} 的颜色切换通过 \cs{set@color} 插入 \cs{special}
 % 节点（whatsit），会遮蔽 xeCJK 的标记 kern，导致后续的 \texttt{CJKecglue}
